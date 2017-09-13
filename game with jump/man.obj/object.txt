@@ -1,0 +1,24 @@
+[type]
+creature
+endr
+
+[hit]
+bmp=a.bmp b.bmp
+die
+endr
+
+[stun]
+freeze 5
+bmp=fa.bmp fa2.bmp
+endr
+
+[d]
+bmp=wr.bmp
+speed=4
+endr
+
+[a]
+bmp=wl.bmp
+speed=4
+endr
+

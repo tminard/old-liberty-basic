@@ -1,0 +1,26 @@
+[readme]
+Hello! Welcome to my Program!
+end
+
+[cheats2]
+Sorry! No cheating!
+end
+
+[help]
+No!
+end
+
+[about]
+Program by Tyler Minard
+Copyright (C) 2006 by Tyler Minard
+-------------------------
+Readme v1.0
+
+   To run my program, type 'run'
+end
+
+[run]
+notice=Thank you for using this program!
+run=tknsys.exe myprog.tkn
+comm=end
+end

@@ -1,0 +1,13 @@
+gamename=3DO's Army Men Game
+moddir=[DATA]\[GAMES]\Army Men\
+gameexe=Armymen.exe
+sound=[DATA]\[SOUND]\Army Men\
+TYPES
+type=.mod,All Files
+type=.map.mod,Map Files
+type=.wep.mod,Weapon File
+type=.total.mod,Total Remake
+type=.patch.mod,Game Patch
+type=.addon.mod,Add on
+ENDTYPES
+EOF

@@ -1,0 +1,12 @@
+name=Jvbots v1
+type=mod
+moddir=[DATA]\[GAMES]\MOHAA\JVBOT
+addfile=jvbot_1.pk3,main\jvbot_1.pk3
+addfile=jvbot_1PATCH.pk3,main\jvbot_1PATCH.pk3
+starttext
+This file adds bot support to all MP maps in Medal of Honor
+Allied Assault. Mod by JV_Map.
+endtext
+uninst=main\jvbot_1.pk3
+uninst=main\jvbot_1PATCH.pk3
+EOF

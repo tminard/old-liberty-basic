@@ -1,0 +1,6 @@
+bmp=man.bmp
+movenbmp=moveNman1.bmp moveNman2.bmp
+movesbmp=moveSman1.bmp moveSman2.bmp
+moveebmp=moveEman1.bmp moveEman2.bmp
+movewbmp=moveWman1.bmp moveWman2.bmp
+EOF

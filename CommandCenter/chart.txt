@@ -1,0 +1,22 @@
+[main]
+Hello!
+end
+ 
+[notice]
+notice=hello! What is your name? Never mind!
+end
+
+[run]
+comm=main
+end
+
+
+[rekman]
+openout=C:\save.txt=blue,white,Tyler Minard,YCPWF
+end
+[libertyBASIC]
+Black
+blue
+green
+purple
+end

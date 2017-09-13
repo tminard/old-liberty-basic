@@ -1,0 +1,174 @@
+
+
+Error log timestamp Wednesday 07/19/06 10:55:50 AM
+
+Runtime error: The parameter is incorrect. ( OS error 16r57 )
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The parameter is inc...'> 
+BasicDialogTopPane(Object)>>osError: <87> 
+BasicDialogTopPane(Object)>>osError
+BasicDialogTopPane(Window)>>releaseDC: <aDeviceContext> 
+RecordingPen(GraphicsTool)>>release
+RecordingPen>>release
+RecordingPen(GraphicsTool)>>destroy
+BasicDialogTopPane(Window)>>close
+BasicDialogTopPane(ApplicationWindow)>>closeViewOverride
+BasicDialogTopPane(TopPane)>>closeOverride
+BasicDialogTopPane>>closeOverride
+BasicDialogBox>>close
+[] in BasicProgram>>closeAllSilently
+LinearHashTable>>elementsDo: <aBlockClosure> 
+Set(HashedCollection)>>do: <aBlockClosure> 
+BasicProgram>>closeAllSilently
+BasicProgram>>terminateApp
+BasicTextWindow>>close: <anUndefinedObject> 
+Message>>perform
+Message>>evaluate
+TopPane(Object)>>triggerEvent: <#aboutToClose> 
+TopPane>>isOkToClose
+TopPane>>close
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 07/19/06 10:55:53 AM
+
+Runtime error: The parameter is incorrect. ( OS error 16r57 )
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The parameter is inc...'> 
+BasicDialogTopPane(Object)>>osError: <87> 
+BasicDialogTopPane(Object)>>osError
+BasicDialogTopPane(Window)>>releaseDC: <aDeviceContext> 
+RecordingPen(GraphicsTool)>>release
+RecordingPen>>release
+RecordingPen(GraphicsTool)>>destroy
+BasicDialogTopPane(Window)>>close
+BasicDialogTopPane(ApplicationWindow)>>closeViewOverride
+BasicDialogTopPane(TopPane)>>closeOverride
+BasicDialogTopPane>>closeOverride
+BasicDialogBox>>close
+[] in BasicProgram>>closeAllSilently
+LinearHashTable>>elementsDo: <aBlockClosure> 
+Set(HashedCollection)>>do: <aBlockClosure> 
+BasicProgram>>closeAllSilently
+BasicProgram>>terminateApp
+BasicTextWindow>>close: <anUndefinedObject> 
+Message>>perform
+Message>>evaluate
+TopPane(Object)>>triggerEvent: <#aboutToClose> 
+TopPane>>isOkToClose
+TopPane>>close
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 07/19/06 10:55:56 AM
+
+Runtime error: The parameter is incorrect. ( OS error 16r57 )
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The parameter is inc...'> 
+BasicDialogTopPane(Object)>>osError: <87> 
+BasicDialogTopPane(Object)>>osError
+BasicDialogTopPane(Window)>>releaseDC: <aDeviceContext> 
+RecordingPen(GraphicsTool)>>release
+RecordingPen>>release
+RecordingPen(GraphicsTool)>>destroy
+BasicDialogTopPane(Window)>>close
+BasicDialogTopPane(ApplicationWindow)>>closeViewOverride
+BasicDialogTopPane(TopPane)>>closeOverride
+BasicDialogTopPane>>closeOverride
+BasicDialogBox>>close
+[] in BasicProgram>>closeAllSilently
+LinearHashTable>>elementsDo: <aBlockClosure> 
+Set(HashedCollection)>>do: <aBlockClosure> 
+BasicProgram>>closeAllSilently
+BasicProgram>>terminateApp
+BasicTextWindow>>close: <anUndefinedObject> 
+Message>>perform
+Message>>evaluate
+TopPane(Object)>>triggerEvent: <#aboutToClose> 
+TopPane>>isOkToClose
+TopPane>>close
+[] in NotificationManager>>closeAllWindows
+[] in Dictionary>>do:
+LinearHashTable>>elementsDo: <aBlockClosure> 
+Dictionary(HashedCollection)>>do: <aBlockClosure> 
+Dictionary>>do: <aBlockClosure> 
+NotificationManager>>closeAllWindows
+SessionModel>>exitWindowSystem1
+SessionModel>>exitSession
+SystemDictionary>>exit
+BasicSourceTopPane>>close
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 07/19/06 10:56:02 AM
+
+Runtime error: The parameter is incorrect. ( OS error 16r57 )
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The parameter is inc...'> 
+BasicDialogTopPane(Object)>>osError: <87> 
+BasicDialogTopPane(Object)>>osError
+BasicDialogTopPane(Window)>>releaseDC: <aDeviceContext> 
+RecordingPen(GraphicsTool)>>release
+RecordingPen>>release
+RecordingPen(GraphicsTool)>>destroy
+BasicDialogTopPane(Window)>>close
+BasicDialogTopPane(ApplicationWindow)>>closeViewOverride
+BasicDialogTopPane(TopPane)>>closeOverride
+BasicDialogTopPane>>closeOverride
+BasicDialogBox>>close
+[] in BasicProgram>>closeAllSilently
+LinearHashTable>>elementsDo: <aBlockClosure> 
+Set(HashedCollection)>>do: <aBlockClosure> 
+BasicProgram>>closeAllSilently
+BasicProgram>>terminateApp
+BasicTextWindow>>close: <anUndefinedObject> 
+Message>>perform
+Message>>evaluate
+TopPane(Object)>>triggerEvent: <#aboutToClose> 
+TopPane>>isOkToClose
+TopPane>>close
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 

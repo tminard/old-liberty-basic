@@ -1,0 +1,38 @@
+object dirt
+name=dirt
+damage=0
+hp=-1
+walk=5
+bmp=dirt.bmp
+end object
+
+object man
+name=man
+damage=0
+hp=10
+walk=-5
+speed=5
+exec loadman.txt
+end object
+
+object badguy
+name=badguy
+damage=1
+hp=2
+walk=-10
+speed=2
+exec loadbadguy.txt
+end object
+
+object sword
+name=sword
+damage=2
+hp=-1
+walk=-1
+speed=20
+bmp=sword.bmp
+actionbmp=usesword.bmp
+end object
+
+END FILE
+

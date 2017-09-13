@@ -1,0 +1,25 @@
+man
+endob
+0 15
+map data file. Here is where you load ALL bitmaps.
+grass1
+\bmps\grass\standstill\
+24 24
+grass3
+\bmps\grass\standstill\
+46 24
+grass4
+\bmps\grass\standstill\
+57 24
+grass2
+\bmps\grass\standstill\
+35 24
+rock1
+\bmps\rock\standstill\
+0 24
+finish
+\bmps\rock\standstill\
+69 69
+endob  
+        
+  

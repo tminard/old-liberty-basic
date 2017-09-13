@@ -1,0 +1,56 @@
+
+
+Error log timestamp Friday 02/15/08 02:55:35 PM
+
+Runtime error: Subscript out of range: 11, list1$()
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Subscript out of ran...'> 
+BasicProgram(Object)>>error: <'Subscript out of ran...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Subscript out of ran...'> 
+BasicProgram(Object)>>error: <'Subscript out of ran...'> 
+BasicProgram>>runError: <'Subscript out of ran...'> 
+BasicStringArray(BasicArray)>>boundsError: <11> 
+BasicStringArray>>at: <11> 
+[] in BasicArray>>using:
+BasicSingleParameterContextHolder>>value
+[] in BasicExpression>>makeBlockOf:
+BasicDoubleParameterContextHolder>>value
+BasicNumericContext(BasicContextWrapper)>>value
+[] in IfCommand>>block:label:
+BasicDoubleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[Click.List1]'> 
+BasicProgram>>handlerName: <'[Click.List1]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[Click.List1]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>button1Up: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 

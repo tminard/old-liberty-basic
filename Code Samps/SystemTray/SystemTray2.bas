@@ -1,0 +1,107 @@
+
+    'SystemTray.bas - A Liberty BASIC Example to Send an aplication to the system tray
+
+    NOMAINWIN
+    struct Tray,_
+        cbsize as long,_
+        hwnd as long,_
+        ID as long,_
+        Flags as long,_
+        CallbackMessage as long,_
+        hIcon as long,_
+        Tip as char[64] 'length of tip
+    dim Msg(0)
+
+    WindowWidth = 216 : WindowHeight = 122
+    UpperLeftX = INT((DisplayWidth-WindowWidth)/2)
+    UpperLeftY = INT((DisplayHeight-WindowHeight)/2)
+
+    button      #main.button1, "Send To System Tray",[tray.sendToTray],UL, 5, 5, 200, 25
+    button      #main.button2, "&Quit",[quit],UL, 5, 65, 200, 25
+
+    Open "System Tray Example" for window_nf as #main
+    open "WMLiberty.dll" For DLL As #wmliberty
+    print #main,"trapclose [quit]"
+    hwnd = hwnd(#main)
+
+    WM.TRAYMSG = _WM_USER + 1
+    hIcon = LoadImage("tray.ico",16,16) 'Load the icon
+    Tray.cbsize.struct = 88
+    Tray.hwnd.struct = hwnd 'The window handle
+    Tray.Flags.struct = 7
+    Tray.CallbackMessage.struct = _WM_USER + 1
+    Tray.hIcon.struct = hIcon 'the icon handle
+    Tray.Tip.struct = "Right click here for a menu" 'the tool tip
+
+    Callback TrayMsgCallback, TrayMsg( long, long, long, long ), long
+
+    CallDLL #wmliberty, "SetWMHandler",_
+        hwnd As long,_
+        WM.TRAYMSG As long, _
+        TrayMsgCallback As long,_
+        ret As long
+
+[tray.inputLoop]
+scan
+    If Msg(0) = 1 then 'The left button is up
+        Msg(0) = 0
+        goto [removeFromTray]
+    end if
+
+    If Msg(0) = 2 then 'The right button is up
+        Msg(0) = 0
+        popupmenu "&Show", [tray.removeFromTray] , | , "E&xit",[quit]
+    end if
+goto [tray.inputLoop]
+
+[quit]
+    calldll #shell32,"Shell_NotifyIconA",_
+        2 as long,_
+        Tray as struct,_
+        inTray as long
+
+    close #main
+    close #wmliberty
+    end
+
+[tray.sendToTray] 'Send the aplication to the system tray
+    calldll #user32,"ShowWindow",_
+        hwnd as long,_
+        _SW_HIDE as long,_
+        ret as boolean
+    calldll #shell32,"Shell_NotifyIconA",_
+        0 as long,_
+        Tray as struct,_
+        inTray as long
+goto [tray.inputLoop]
+
+[tray.removeFromTray] 'Remove the aplication from the system tray
+    calldll #user32,"ShowWindow",_
+        hwnd as long,_
+        _SW_SHOW as long,_
+        ret as boolean
+    calldll #shell32,"Shell_NotifyIconA",_
+        2 as long,_
+        Tray as struct,_
+        inTray as long
+goto [tray.inputLoop]
+
+Function LoadImage(imagePath$,width,height)
+    calldll #user32, "LoadImageA",_
+        0 as long,_
+        imagePath$ as ptr,_
+        1 as long,_
+        width as long,_
+        height as long,_
+        16 as long,_
+        LoadImage as long
+End Function
+
+Function TrayMsg( hWnd, uMsg, wParam, lParam )
+    Msg(0) = 0
+    if uMsg = _WM_USER + 1 then
+        if lParam = _WM_LBUTTONUP then Msg(0) = 1
+        if lParam = _WM_RBUTTONUP then Msg(0) = 2
+    end if
+End Function
+

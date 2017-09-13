@@ -1,0 +1,18 @@
+
+name=Installing Jv_map's bot support files for MOHAA...
+uptext=Installs mod support for bots in Medal of Honor
+version=1.6 // 'type' was added in 1.6
+type=mod // Tell program what its installing: mod or game (maps go under mod because this is only used to tell the program to restart or not. Mods are loaded each time program refreshes, not games.)
+
+data=jvbots231.BIN //contains .pk3 files and .mod file. .mod file will be put in DATA\GAMES folder
+required=[DATA]\[GAMES]\medalofhonorAA.mgm //this file MUST be found to install this patch
+
+//Now for file operations. all extracted files are in a tmp folder: DATA\TMP\{rnd#}\ 
+// not yet, but when I add z-zip they will be!!
+
+INSTALL
+mkdir=[DATA]\[GAMES]\MOHAA\JVBOT
+cpfile=jvbot1.pk3,[DATA]\[GAMES]\MOHAA\JVBOT
+cpfile=jvbotupdate.pk3,[DATA]\[GAMES]\MOHAA\JVBOT
+ENDINSTALL
+EOF

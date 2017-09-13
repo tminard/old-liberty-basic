@@ -1,0 +1,79 @@
+Multi-Coloured Text Input Boxes using a DLL
+by Ray Fisher
+
+Following a short article in the November Newsletter,
+I have been asked if there was any other way to assign
+colours to the DLL, other than with HEX values. I have
+developed another function which will accept RED, GREEN
+and BLUE values. This function has been added to v02 of
+the DLL. The two functions are now called:
+
+	  InputBoxHEX()
+	  InputBoxRGB()
+
+The syntax is:
+
+open "rmfDLLv02.dll" for dll as #rmfdll
+
+calldll #rmfdll, "InputBoxHEX", _
+  handle    as long, _ ' handle of parent window
+  inkHex$   as ptr, _  ' ink colour
+  paperHex$ as ptr, _  ' paper colour
+  x         as long, _ ' x co-ord
+  y         as long, _ ' y co-ord
+  w         as long, _ ' width
+  h         as long, _ ' height
+  max       as long, _ ' max chars
+  hTB       as long    ' returns a handle to the new control
+
+
+calldll #rmfdll, "InputBoxRGB", _
+  h      as long, _ ' handle of parent window
+  inkR   as long, _ ' ink red
+  inkG   as long, _ ' ink green
+  inkB   as long, _ ' ink blue
+  paperR as long, _ ' paper red
+  paperG as long, _ ' paper green
+  paperB as long, _ ' paper blue
+  x      as long, _ ' x co-ord
+  y      as long, _ ' y co-ord
+  w      as long, _ ' width
+  h      as long, _ ' height
+  max    as long, _ ' max chars
+  hTB    as long    ' returns a handle to the new control
+
+close #rmfdll
+
+The HEX strings can be any valid HEX value
+as shown in the test programme.
+The ink and paper parameters can be any
+value between 0 and 255.
+
+I have also been asked if there is a list of hex numbers
+and corresponding color names. Liberty BASIC only recognises
+sixteen predefined colour names that can be used with the
+three COLOR commands. Most browsers recognise a total of
+140 predefined colour names. To help use these 140 colour
+names from within Liberty BASIC, I have developed a small
+LB utility that will display all thes colours. Any colours
+that are required in an LB programme can then be defined
+within that programme and used in the same way as RED,
+GREEN and BLUE numerical values are already be used.
+
+The files that I have included are:
+	rmfDLLv02.dll		- DLL
+	rmfDLLv02.c		- DLL source code
+	aboutrmfDLLv02.txt	- Explanation file
+	testDLLv02.bas		- Tests the DLL
+	colours.bas		- Utility to show all 140 colour
+				- names and their HEX and R/G/B values
+	colour_names_demo.bas	- Shows how to use the colour names
+	colour_data.txt		- Any colour name and its R/G/B value
+				- can easily be copied from here to
+				- an LB programme.
+
+These files can be copied and modified at will.
+
+rmfisher@talk21.com
+rmfisher@btinternet.com
+***********************

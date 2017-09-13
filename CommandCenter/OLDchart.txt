@@ -1,0 +1,28 @@
+
+
+[names]
+Tyler
+Danielle
+Ryan
+end
+
+[parts]
+3
+end
+
+[part1]
+Dump Cage's out AND Clean bowls
+end
+
+[part2]
+Rinse cage out AND clean up mess in room
+end
+
+[part3]
+Dry and fill THEN sweep front porch
+end
+
+
+[people]
+3
+end

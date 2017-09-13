@@ -1,0 +1,177 @@
+
+
+Error log timestamp Friday 09/22/06 11:24:49 AM
+
+OS Warning: Invalid menu handle.
+
+Error log timestamp Friday 09/22/06 11:24:55 AM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+KeyboardInterrupt(Exception)>>activateHandler: <anUndefinedObject> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+Array(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+InputEvent>>nullEventWin
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 09/22/06 11:26:49 AM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+KeyboardInterrupt(Exception)>>activateHandler: <anUndefinedObject> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+Array(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+InputEvent>>nullEventWin
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Saturday 09/23/06 05:41:28 PM
+
+OS Warning: Invalid menu handle.
+
+Error log timestamp Saturday 09/23/06 05:41:34 PM
+
+OS Warning: Invalid menu handle.
+
+Error log timestamp Saturday 09/23/06 05:41:36 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+KeyboardInterrupt(Exception)>>activateHandler: <anUndefinedObject> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+Array(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+InputEvent>>nullEventWin
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Saturday 09/23/06 05:42:10 PM
+
+OS Warning: Invalid menu handle.
+
+Error log timestamp Saturday 09/23/06 05:42:16 PM
+
+OS Warning: Invalid menu handle.
+
+Error log timestamp Saturday 09/23/06 05:42:19 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+KeyboardInterrupt(Exception)>>activateHandler: <anUndefinedObject> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+Array(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+InputEvent>>nullEventWin
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Saturday 09/23/06 05:42:22 PM
+
+OS Warning: Invalid menu handle.
+
+Error log timestamp Saturday 09/23/06 05:42:57 PM
+
+OS Warning: Invalid menu handle.
+
+Error log timestamp Saturday 09/23/06 05:43:03 PM
+
+OS Warning: Invalid menu handle.
+
+Error log timestamp Saturday 09/23/06 05:43:06 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+KeyboardInterrupt(Exception)>>activateHandler: <anUndefinedObject> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+Array(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+InputEvent>>nullEventWin
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Saturday 09/23/06 05:44:02 PM
+
+OS Warning: Invalid menu handle.
+
+Error log timestamp Saturday 09/23/06 05:44:13 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+KeyboardInterrupt(Exception)>>activateHandler: <anUndefinedObject> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+Array(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+InputEvent>>nullEventWin
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Saturday 09/23/06 05:44:14 PM
+
+OS Warning: Invalid menu handle.
+
+Error log timestamp Saturday 09/23/06 05:44:20 PM
+
+OS Warning: Invalid menu handle.
+
+Error log timestamp Saturday 09/23/06 05:44:50 PM
+
+OS Warning: Invalid menu handle.
+
+Error log timestamp Saturday 09/23/06 05:45:33 PM
+
+OS Warning: Invalid menu handle.
+
+Error log timestamp Saturday 09/23/06 05:45:39 PM
+
+OS Warning: Invalid menu handle.

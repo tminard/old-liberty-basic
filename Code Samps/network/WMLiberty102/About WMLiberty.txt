@@ -1,0 +1,269 @@
+  WMLiberty: A Windows message (WM) filtering library for 32-bit Liberty BASIC
+================================================================================
+
+1. Abstract
+2. Interface Guide
+3. Contact Information
+
+================================================================================
+1. Abstract
+--------------------------------------------------------------------------------
+
+WMLiberty is a free and open-source project maintained by a small group of dedi-
+cated Liberty BASIC programmers. WMLiberty takes advantage of Liberty BASIC's
+advanced callback functionality.
+
+WMLiberty was created in response to demands by advanced users of Liberty BASIC
+to allow access to the more advanced features of the Microsoft Windows operating
+system. Before Liberty BASIC 3 introduced callback functions (functions called
+by functions in other programs or libraries), WMLiberty was an impossibility.
+
+When Liberty BASIC became 32-bit, it experienced a tremendous boost in execution
+speed. With this speed and callback functionality, many users assumed it was
+possible to go the route of a C program: registering a window class with a
+pointer to a window procedure, creating a window, and using the WindowProc to
+peocess the messages Windows sends. This scheme would allow Liberty BASIC prog-
+rams to do "cool" things like dynamically-created custom controls and the
+Multiple Document Interface (MDI).
+
+However, it was quickly learned that these were not entirely possible. Test pro-
+grams did not process many messages properly. The root of the problem may be the
+volume of window messages that Windows normally sends to any window. If the vol-
+ume could be turned down to a bare minimum, these problems should go away.
+
+This theory drove the creation of WMLiberty. WMLiberty is able to take over a
+window's message processing, a technique known as subclassing. WMLiberty is
+given a window to subclass, a window message (or a range of messages), a pointer
+to a Liberty BASIC callback function, and a number that that message defines as
+success. WMLiberty stores all pertinent information within itself. Whenever a
+message registered with WMLiberty is sent to a window it subclasses, WMLiberty
+calls the associated Liberty BASIC callback function. All other messages are
+forwarded to the original window procedure for default processing.
+
+Version 1.01 of WMLiberty adds Multiple Document Interface (MDI) support. MDI
+applications use a different kind of window procedure from normal windows.
+WMLiberty provides its own procedures for Liberty BASIC programs to use in-
+directly. Programs using this functionality must register window classes for
+the frame (main) window and each type of child (document) window. WMLiberty pro-
+vides functions to create the frame and MDI client. These function should be
+called instead of the standard Windows API functions because WMLiberty does some
+behind-the-scenes operations that make these calls interdependent. Child windows
+are created through Windows APIs.
+
+Future possibilities for WMLiberty may include support for concepts like Object
+Linking and Embedding (OLE), the Common Object Model (COM), and ActiveX. If you
+have questions, suggestions, or want to help make WMLiberty better, refer to the
+contact information at the end of this document.
+
+================================================================================
+2. Interface Guide
+--------------------------------------------------------------------------------
+
+Version 1.0 Functions
+--------------------------------------------------------------------------------
+
+* SetWMHandler subclasses a window and sets up a callback function to receive a
+  single window message.
+
+  CallDLL #WMLiberty, "SetWMHandler", _
+      hWnd As long, _
+      uMsg As long, _
+      lpfnCallback As long, _
+      lSuccess As long, _
+      lResult As long
+
+  + hWnd is a handle to a window, usually a top-level window.
+  + uMsg is a window message, usually starting with _WM_. The most used messages
+    are _WM_COMMAND and _WM_NOTIFY.
+  + lpfnCallback is a pointer to a callback function. The callback should be
+    defined like this:
+
+    Callback lpfnCallback, Handler( long, long, long, long ), long
+
+    The handler function usually looks like this:
+
+    Function Handler( hWnd, uMsg, wParam, lParam )
+
+    - hWnd is the same as the hWnd passed to SetWMHandler.
+    - uMsg is the same as the uMsg passed to SetWMHandler.
+    - wParam, lParam have different meanings for different messages. Refer to
+      the documentation for the message for details.
+
+  + lSuccess is a value that the message handler returns to denote succesful
+    handling of the message.
+  + lResult is returned. If the call is successful, it returns zero. If it
+    returns one, the hWnd is bad, and so on for each parameter.
+
+* SetWMRangeHandler is very similar to SetWMHandler. It sets up a handler for a
+  range of window messages. Although this need is rare, it can save typing.
+
+  CallDLL #WMLiberty, "SetWMHandler", _
+      hWnd As long, _
+      uMsgLow As long, _
+      uMsgHigh As long, _
+      lpfnCallback As long, _
+      lSuccess As long, _
+      lResult As long
+
+  + hWnd: See description under SetWMHandler.
+  + uMsgLow is the lower limit of a range of window messages. See uMsg under
+    SetWMHandler.
+  + uMsgHigh is the upper limit of a range of window messages. See uMsg under
+    SetWMHandler.
+  + lpfnCallback: See description under SetWMHandler.
+  + lSuccess: See description under SetWMHandler.
+  + lResult: See description under SetWMHandler.
+
+* WMLibertyVersion returns the version of WMLiberty installed on a user's
+  computer.
+
+  CallDLL #WMLiberty, "WMLibertyVersion", _
+      lVersion As long
+
+  + lVersion is returned: 100 for version 1.0, and 101 for version 1.01.
+
+Version 1.01 Functions
+--------------------------------------------------------------------------------
+
+* CreateMDIClient creates a MDI Client window.
+
+  CallDLL #WMLiberty, "CreateMDIClient", _
+      dwStyle As long, _
+      x As long, _
+      y As long, _
+      nWidth As long, _
+      nHeight As long, _
+      hWndFrame As long, _
+      id As long, _
+      hInstance As long, _
+      hWindowMenu As long, _
+      idFirstChild As long, _
+      hWndMDIClient As long
+
+  + dwStyle specifies the style of the MDI Client window to be created. Usually
+    the only styles needed are "_WS_CHILD Or _WS_CLIPCHILDREN Or _WS_VISIBLE."
+  + x, y is the coordinate (in pixels) of the upper-left corner of the MDI Cli-
+    ent window relative to the upper-left corner of the parent (frame) window's
+    client area.
+  + nWidth, nHeight are the width and height (in pixels), respectively, of the
+    MDIClient window to be created. If either parameter is -1, that parameter
+    will be interpreted as the same as the parent window's client width or
+    height, respectively.
+  + hWndFrame is a handle to a window created with a class registered by the
+    RegisterMDIFrameClass function (See below.).
+  + id is a number that should uniquely identify the MDI Client window in a
+    program.
+  + hInstance identifies the instance of a program that is associated with the
+    window being created.
+  + hWindowMenu is the handle of a menu, usually on the main menu bar, that has
+    the list of MDI document windows appended to it.
+  + idFirstChild specifies the command identifier of the first menu item append-
+    ed to the Window menu. The MDI system adds up to ten items with sequential
+    id's.
+  + hWndMDIClient is returned. If it is nonzero, It represents a handle to the
+    MDI Client window. If the function call fails to create a window, it returns
+    zero.
+
+* CreateMDIClientEx, similar to CreateMDIClient, creates a MDI Client window
+  with an extended style.
+
+  CallDLL #WMLiberty, "CreateMDIClientEx", _
+      dwExStyle As long, _
+      dwStyle As long, _
+      x As long, _
+      y As long, _
+      nWidth As long, _
+      nHeight As long, _
+      hWndFrame As long, _
+      id As long, _
+      hInstance As long, _
+      hWindowMenu As long, _
+      idFirstChild As long, _
+      hWndMDIClient As long
+
+  + dwExStyle specifies the extended style of a MDI Client window.
+  + dwStyle: See description under CreateMDIClient.
+  + x, y: See description under CreateMDIClient.
+  + nWidth, nHeight: See description under CreateMDIClient.
+  + hWndFrame: See description under CreateMDIClient.
+  + id: See description under CreateMDIClient.
+  + hInstance: See description under CreateMDIClient.
+  + hWindowMenu: See description under CreateMDIClient.
+  + idFirstChild: See description under CreateMDIClient.
+  + hWndMDIClient: See description under CreateMDIClient.
+
+* RegisterMDIChildClass registers a class name that can be used to create MDI
+  child (document) windows. After all windows of the class are destroyed, a pro-
+  gram should call UnregisterClassA (User32) before exiting.
+
+  CallDLL #WMLiberty, "RegisterMDIChildClass", _
+      lpClassName$ As long, _
+      style As long, _
+      cbClsExtra As long, _
+      cbWndExtra As long, _
+      hInstance As long, _
+      hIcon As long, _
+      hCursor As long, _
+      hbrBackground As long, _
+      atomClass As long
+
+  + lpClassName$ specifies the class name of a MDI child (document) window to be
+    created with a call to CreateMDIWindowA or SendMessageA with the
+    _WM_MDICREATE window message.
+  + style specifies the style of the class being created. See WNDCLASS in the
+    Win32 SDK for a list of styles and their descriptions.
+  + cbClsExtra specifies the amount of extra memory (in bytes) to allocate for
+    this class. This storage is accessed using the GetClassLongA and
+    SetClassLongA (User32) functions.
+  + cbWndExtra specifies the amount of extra memory (in bytes) to allocate for
+    each window of the class. This storage is accessed using the GetWindowLongA
+    and SetWindowLongA (User32) functions.
+  + hInstance identifies the instance of a program associated with the class
+    being registered.
+  + hIcon specifies the handle of an icon for the class. Each document type an
+    application can display should have its own icon. If hIcon is zero, the
+    window procedure draws a default icon. See also LoadIconA and LoadImageA
+    (User32).
+  + hCursor specifies the handle of a cursor for the class. If zero is passed,
+    the program must set the cursor or let the window procedure do so. See also
+    LoadCursorA (User32).
+  + hbrBackground specifies either a valid handle to a window brush object or a
+    _COLOR_ constant. Some valid colors include _COLOR_BTNFACE, _COLOR_WINDOW,
+    and _COLOR_MENU.
+  + atomClass is returned: Nonzero if the call succeded; zero if it failed.
+
+* RegisterMDIFrameClass, similar to RegisterMDIChildClass, registers a frame
+  (main) window class that can be used to create an application window that con-
+  tains a MDI Client and document windows. After the main window is destroyed, a
+  program should call UnregisterClassA before exiting.
+
+  CallDLL #WMLiberty, "RegisterMDIFrameClass", _
+      lpClassName$ As long, _
+      style As long, _
+      cbClsExtra As long, _
+      cbWndExtra As long, _
+      hInstance As long, _
+      hIcon As long, _
+      hCursor As long, _
+      hbrBackground As long, _
+      atomClass As long
+
+  + lpClassName$ specifies the class name of a window to be created with a call
+    to CreateWindowExA (User32).
+  + style: See description under RegisterMDIChildClass.
+  + cbClsExtra: See description under RegisterMDIChildClass.
+  + cbWndExtra: See description under RegisterMDIChildClass. WMLiberty allocates
+    four bytes starting at index zero to store the hWnd of the contained MDI
+    Client window. Any additional space a program allocates should start at
+    index four (GetWindowLong(hWndFrame, 4)).
+  + hInstance: See description under RegisterMDIChildClass.
+  + hIcon: See description under RegisterMDIChildClass.
+  + hCursor: See description under RegisterMDIChildClass.
+  + hbrBackground: See description under RegisterMDIChildClass.
+  + atomClass is returned: Nonzero if the call succeded; zero if it failed.
+
+================================================================================
+3. Contact Information
+--------------------------------------------------------------------------------
+
+Brent Thorn <lbgui@aol.com>

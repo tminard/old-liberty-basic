@@ -1,0 +1,16 @@
+name=Jv_maps bot support
+uptext=This update will install bot support!
+version=1.6
+data=MOHjvbot.BIN\
+required=[DATA]\[GAMES]\MOHAA.mgm,Medal of Honor Allied Assault
+INSTALL
+mkdir=[DATA]\[GAMES]\MOHAA\JVBOT
+cpfile=jv_bot01.pk3,[DATA]\[GAMES]\MOHAA\JVBOT\jvbot_01.pk3
+cpfile=jv_bot01_update1.pk3,[DATA]\[GAMES]\MOHAA\JVBOT\jvbot_01_update1.pk3
+cpfile=jvbot.mod,[DATA]\[GAMES]\MOHAA\jvbot.addon.mod
+cpfile=bitmap.bmp,[DATA]\[BITMAPS]\jvbot.bmp
+cpfile=jvreadme.txt,[DATA]\[READMES]\jvreadme.txt
+cpfile=zzz_cheechbots.pk3,[DATA]\[GAMES]\MOHAA\jvbot\zzz_cheechbots.pk3
+ENDINSTALL
+endnotice=More updates by JV_Map can be found at filefront.com
+EOF

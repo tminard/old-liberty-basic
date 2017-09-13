@@ -1,0 +1,10 @@
+336 231
+Klinshon
+man=Conover,0
+man=Sarge,18
+man=Conover,32
+man=US,71
+man=Mex,3
+man=Viet,1
+man=US,-5
+man=Mex,1

@@ -1,0 +1,102 @@
+'Form created with the help of Freeform 3 v03-27-03
+'Generated on Sep 27, 2006 at 12:11:16
+
+
+[setup.main.Window]
+
+    '-----Begin code for #main
+
+    nomainwin
+    WindowWidth = 535
+    WindowHeight = 620
+    UpperLeftX=int((DisplayWidth-WindowWidth)/2)
+    UpperLeftY=int((DisplayHeight-WindowHeight)/2)
+
+
+    '-----Begin GUI objects code
+   ' loadbmp "background", "back.bmp"
+   ' graphicbox #main.graphicbox15,   0,   7, 525, 560
+    TexteditorColor$ = "white"
+    texteditor #main.textedit11,  10, 452, 515, 100
+    groupbox #main.groupbox5, "List of Mods and Addons",   0,  17, 175, 415
+    groupbox #main.groupbox6, "Options", 185,  12, 125, 180
+    groupbox #main.groupbox12, "Discription",   5, 437, 520, 130
+    groupbox #main.groupbox13, "Installed", 320,  17, 195, 415
+    statictext #main.statictext2, "Filter:",   5,  42,  32,  20
+    ComboboxColor$ = "white"
+    combobox #main.combobox3, array$(, [combobox3DoubleClick],   45,  37, 115, 295
+    ListboxColor$ = "white"
+    listbox #main.listbox4, array$(, [listbox4DoubleClick],   10,  67, 150, 345
+    button #main.button7,"Install",[button7Click], UL, 200,  37,  85,  25
+    button #main.button8,"Uninstall",[button8Click], UL, 200,  72,  85,  25
+    button #main.button9,"Delete from List",[button9Click], UL, 195, 132, 102,  25
+    statictext #main.statictext10, "{selected}", 195, 167, 105,  20
+    listbox #main.listbox14, array$(, [listbox14DoubleClick],  330,  37, 175, 385
+
+    '-----End GUI objects code
+
+    '-----Begin menu code
+
+    menu #main, "Edit"  ' <-- Texteditor menu.
+
+
+    '-----End menu code
+
+    open "Game: {gamename}" for window as #main
+  '  print #main.graphicbox15, "cls"
+    print #main, "font ms_sans_serif 10"
+    print #main, "trapclose [quit.main]"
+  ' print #main.graphicbox15, "drawbmp background 0 0"
+  '  print #main.graphicbox15, "flush"
+
+
+[main.inputLoop]   'wait here for input event
+    wait
+
+
+
+[combobox3DoubleClick]   'Perform action for the combobox named 'combobox3'
+
+    'Insert your own code here
+
+    wait
+
+
+[listbox4DoubleClick]   'Perform action for the listbox named 'listbox4'
+
+    'Insert your own code here
+
+    wait
+
+
+[button7Click]   'Perform action for the button named 'button7'
+
+    'Insert your own code here
+
+    wait
+
+
+[button8Click]   'Perform action for the button named 'button8'
+
+    'Insert your own code here
+
+    wait
+
+
+[button9Click]   'Perform action for the button named 'button9'
+
+    'Insert your own code here
+
+    wait
+
+
+[listbox14DoubleClick]   'Perform action for the listbox named 'listbox14'
+
+    'Insert your own code here
+
+    wait
+
+[quit.main] 'End the program
+    close #main
+    end
+

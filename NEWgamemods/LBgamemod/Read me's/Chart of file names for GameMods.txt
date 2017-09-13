@@ -1,0 +1,9 @@
+.mut = update file for GameMods (new games, mods, tkn updates, etc)
+.mod = mod file info (see sampmod.txt)
+.mgm = game file (info on dir. to find mod files in, game name, etc. see sampmgm.txt)
+.BIN = update data files
+.mlt = Mod List file (Lists mut=jv.mut or mod=jvbot.mod or unmod=jvbot.mod. )
+
+
+NOTICE! This program was created using Just Basic! www.justbasic.com. Not Liberty BASIC!
+Code will run in Liberty but tkn file will not!

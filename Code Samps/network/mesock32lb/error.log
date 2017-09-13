@@ -1,0 +1,1058 @@
+
+
+Error log timestamp Thursday 07/06/06 03:26:56 PM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[doGo]'> 
+BasicProgram>>handlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <590506> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <590506> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <590506> 
+Message>>perform
+NotificationManager>>empty
+
+
+Error log timestamp Thursday 07/06/06 03:29:17 PM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[doGo]'> 
+BasicProgram>>handlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <2818842> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <2818842> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <2818842> 
+Message>>perform
+NotificationManager>>empty
+
+
+Error log timestamp Friday 07/07/06 10:46:57 AM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[doGo]'> 
+BasicProgram>>handlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <852718> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <852718> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <852718> 
+Message>>perform
+NotificationManager>>empty
+
+
+Error log timestamp Friday 07/07/06 04:53:14 PM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[doGo]'> 
+BasicProgram>>handlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <1377174> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <1377174> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <1377174> 
+Message>>perform
+NotificationManager>>empty
+
+
+Error log timestamp Friday 07/07/06 05:00:14 PM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''** 3/29/2003 10:24:...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 07/07/06 05:00:25 PM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''** 3/29/2003 10:24:...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 07/07/06 05:08:48 PM
+
+Runtime error: "isEmpty" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicProgram>>terminateRun: <aMessageNotUnderstood> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aMessageNotUnderstood> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aMessageNotUnderstood> 
+ExceptionHandler>>findHandler: <aMessageNotUnderstood> 
+MessageNotUnderstood(Exception)>>activateHandler: <anExceptionHandler> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+DynamicLinkLibrary(Object)>>doesNotUnderstand: <aMessage> 
+BasicDLL(BasicFile)>>cr
+BasicDLL(BasicFile)>>writeItemCr: <'OpenA(ipAddress:STRI...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#me'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''** 3/29/2003 10:24:...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 07/07/06 05:13:45 PM
+
+Runtime error: The specified module could not be found. ( OS error 16r7E )
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The specified module...'> 
+BasicProgram(Object)>>error: <'The specified module...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The specified module...'> 
+DynamicLinkLibrary class(Object)>>osError: <126> 
+DynamicLinkLibrary class(Object)>>osError
+DynamicLinkLibrary class>>open: <'WMLiberty.dll'> 
+BasicDLL>>from: <'WMLiberty.dll'> mode: <'DLL'> handle: <'#wmlib'> 
+BasicDLL class(BasicFile class)>>from: <'WMLiberty.dll'> mode: <'DLL'> handle: <'#wmlib'> owner: <aBasicProgram> length: <anUndefinedObject> 
+[] in OpenCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <' ''Dragndrop.bas - a ...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Saturday 11/11/06 08:50:18 AM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[doGo]'> 
+BasicProgram>>handlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <3081278> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <3081278> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <3081278> 
+Message>>perform
+NotificationManager>>empty
+
+
+Error log timestamp Sunday 03/04/07 01:32:37 PM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[doGo]'> 
+BasicProgram>>handlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <2492106> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <2492106> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <2492106> 
+Message>>perform
+NotificationManager>>empty
+
+
+Error log timestamp Friday 02/01/08 03:27:48 PM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[doGo]'> 
+BasicProgram>>handlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <3081044> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <3081044> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <3081044> 
+Message>>perform
+NotificationManager>>empty
+
+
+Error log timestamp Friday 02/01/08 03:28:01 PM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[doGo]'> 
+BasicProgram>>handlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <7078650> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <7078650> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <7078650> 
+Message>>perform
+NotificationManager>>empty
+
+
+Error log timestamp Friday 02/01/08 03:28:42 PM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[doGo]'> 
+BasicProgram>>handlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <6095662> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <6095662> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <6095662> 
+Message>>perform
+NotificationManager>>empty
+
+
+Error log timestamp Friday 02/01/08 03:29:02 PM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[doGo]'> 
+BasicProgram>>handlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <7340904> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <7340904> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <7340904> 
+Message>>perform
+NotificationManager>>empty
+
+
+Error log timestamp Friday 02/01/08 03:31:41 PM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[doGo]'> 
+BasicProgram>>handlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <7144238> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <7144238> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <7144238> 
+Message>>perform
+NotificationManager>>empty
+
+
+Error log timestamp Friday 02/01/08 03:36:23 PM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[doGo]'> 
+BasicProgram>>handlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <6816432> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <6816432> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+
+
+Error log timestamp Friday 02/01/08 03:37:11 PM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[doGo]'> 
+BasicProgram>>handlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <8127278> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <8127278> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+
+
+Error log timestamp Friday 02/01/08 03:39:07 PM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[doGo]'> 
+BasicProgram>>handlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <12190572> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <12190572> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+
+
+Error log timestamp Friday 02/01/08 03:41:10 PM
+
+Runtime error: system primitive failed
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+BasicProgram(Object)>>error: <'system primitive fai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'system primitive fai...'> 
+ExternalAddress(Object)>>error: <'system primitive fai...'> 
+ExternalAddress(Object)>>primitiveFailed
+ExternalAddress>>atAddr: <0> 
+ExternalAddress>>at: <1> 
+String class>>fromAddress: <anExternalAddress> 
+[] in BasicWinString class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[doGo]'> 
+BasicProgram>>handlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[doGo]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <5833410> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <5833410> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents

@@ -1,0 +1,111 @@
+
+
+Error log timestamp Friday 06/22/07 01:45:08 PM
+
+Runtime error: BlockClosure expects 1766 arguments, not 0
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'BlockClosure expects...'> 
+BlockClosure(Object)>>error: <'BlockClosure expects...'> 
+BlockClosure>>invalidArgumentCount: <0> 
+BlockClosure>>value
+LinearIdentityHashTable(LinearInlineHashTable)>>lookUpValue: <#helpManager> for: <anIdentityDictionary> ifAbsent: <aBlockClosure> 
+IdentityDictionary(Dictionary)>>at: <#helpManager> ifAbsent: <aBlockClosure> 
+TopPane(Window)>>propertyAt: <#helpManager> 
+TopPane(Window)>>helpManager
+BasicTextPane(SubPane)>>helpManager
+BasicTextPane(Window)>>wmSetcursor: <984752> with: <33554433> 
+NotificationManager>>notify: <aWinMessage> 
+NotificationManager>>notifyRecursive
+NotificationManager>>recursiveMessage
+SystemDictionary>>recursiveMessage
+SystemDictionary>>launch
+NotificationManager>>peek: <aTrue> 
+NotificationManager>>readWinQueue
+Process class>>osEventInterruptGui
+Process class>>osEventInterrupt
+SystemDictionary(Object)>>vmInterrupt: <#osEventInterrupt> 
+SystemDictionary(Dictionary)>>includesKey: <#RuntimeDebugger> 
+Process>>runTimeError: <'BlockClosure expects...'> resume: <1> 
+Process class>>queueWalkback: <'BlockClosure expects...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'BlockClosure expects...'> 
+BlockClosure(Object)>>error: <'BlockClosure expects...'> 
+BlockClosure>>invalidArgumentCount: <0> 
+BlockClosure>>value
+LinearIdentityHashTable(LinearInlineHashTable)>>lookUpValue: <#handlingCloseEvent> for: <anIdentityDictionary> ifAbsent: <aBlockClosure> 
+IdentityDictionary(Dictionary)>>at: <#handlingCloseEvent> ifAbsent: <aBlockClosure> 
+TimerTopPane(Window)>>propertyAt: <#handlingCloseEvent> ifAbsent: <aBlockClosure> 
+TimerTopPane(TopPane)>>close
+[] in ViewManager>>close
+OrderedCollection>>do: <aBlockClosure> 
+TimerWindow(ViewManager)>>close
+BasicProgram>>closeTimerWindow
+BasicProgram>>closeAll
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+
+
+Error log timestamp 6/22/2007 13:45:8
+
+The registers were:
+EIP =  0x0365f1ad
+ESP =  0x0013c638
+EBP =  0x0013c640
+EAX =  0x00f70584
+EBX =  0xfffff507
+ECX =  0x00e50a55
+EDX =  0x00000001
+EDI =  0x00f701b0
+ESI =  0x00f70584
+CS  =  0x0000001b
+DS  =  0x00000023
+ES  =  0x00000023
+SS  =  0x00000023
+End Registers 
+
+
+
+Error log timestamp 6/22/2007 13:45:08
+Message 1001: 
+a non-continuable protection violation has occurred. Check ERROR.LOG file.
+
+
+Error log timestamp 6/22/2007 13:45:56
+
+The registers were:
+EIP =  0x1001564c
+ESP =  0x0013fbc8
+EBP =  0x0013fbf0
+EAX =  0x75636f44
+EBX =  0xfffff9ef
+ECX =  0x00000008
+EDX =  0x073a1da0
+EDI =  0x00000004
+ESI =  0x073d8934
+CS  =  0x0000001b
+DS  =  0x00000023
+ES  =  0x00000023
+SS  =  0x00000023
+End Registers 
+
+
+
+Error log timestamp 6/22/2007 13:45:56
+Message 1001: 
+a non-continuable protection violation has occurred. Check ERROR.LOG file.
+
+
+Error log timestamp 6/22/2007 13:46:21
+Message 3005: 
+Virtual machine stack overflow.

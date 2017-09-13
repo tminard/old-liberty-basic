@@ -1,0 +1,24 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\tkn_auto_file]
+@="Liberty BASIC code files"
+"EditFlags"=hex:00,00,00,00
+
+[HKEY_CLASSES_ROOT\tkn_auto_file\shell]
+@=""
+
+[HKEY_CLASSES_ROOT\tkn_auto_file\shell\open]
+@=""
+
+[HKEY_CLASSES_ROOT\tkn_auto_file\shell\open\command]
+@="\"C:\\My Documents\\Liberty BASIC v4.02\\run402.exe\" %1"
+
+[HKEY_CLASSES_ROOT\tkn_auto_file\shell\Decode...]
+"EditFlags"=hex:01,00,00,00
+
+[HKEY_CLASSES_ROOT\tkn_auto_file\shell\Decode...\command]
+@="\"D:\\TYLER\\LibertyB\\TylerM\\TKN Disler\\decode.exe\" \"D:\\TYLER\\LibertyB\\TylerM\\TKN Disler\\decode.tkn\" *%1 "
+
+[HKEY_CLASSES_ROOT\tkn_auto_file\DefaultIcon]
+@="C:\\WINDOWS\\SYSTEM\\SHELL32.DLL,66"
+

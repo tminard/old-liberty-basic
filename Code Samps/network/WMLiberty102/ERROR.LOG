@@ -1,0 +1,3979 @@
+
+
+Error log timestamp 7/19/2006 9:07:04
+ERROR.LOG
+GPF has occurred
+
+START
+API method: KernelDLL >> exitProcess:
+1 arguments.
+1: Smalltalk integer 0 (0x00000000)
+
+Stack frames:
+SessionModel (SessionModel) >> quit
+SessionModel (SessionModel) >> exitBase
+SessionModel (SessionModel) >> exitSession
+SystemDictionary (SystemDictionary) >> exit
+BasicSourceTopPane (BasicSourceTopPane) >> close
+Message (Message) >> perform
+NotificationManager (NotificationManager) >> empty
+NotificationManager (NotificationManager) >> runPendingEvents
+NotificationManager (NotificationManager) >> cleanUpAllMessages
+BasicProgram (BasicProgram) >> begin
+ExceptionHandler (ExceptionHandler) >> evaluateProtectedBlock:
+ExceptionHandler (ExceptionHandler) >> activateDuring:
+ProtectedFrameMarker (BlockClosure) >> setUnwind:
+BlockClosure (BlockClosure) >> invisibleEnsure:
+ExceptionHandler (ExceptionHandler) >> activateDuring:
+ () >> handle:with:during:
+BlockClosure (BlockClosure) >> on:do:
+BasicProgram (BasicProgram) >> begin
+BasicProgram (BasicProgram) >> run
+BasicSourcePane (BasicSourcePane) >> run
+ () >> compileFromString:notify:ifSuccess:
+BasicSourcePane (BasicSourcePane) >> run
+BasicSourceWindow (BasicSourceWindow) >> run
+BasicEditorModel (BasicEditorModel) >> run:
+BasicEditorModel (Object) >> perform:with:
+ToolbarButton (ToolbarButton) >> triggerClickedEvent
+Message (Message) >> perform
+NotificationManager (NotificationManager) >> runPendingEvents
+NotificationManager (NotificationManager) >> runEventLoop
+Message (Message) >> perform
+Message (Message) >> evaluate
+Process (Process) >> safelyEvaluate:
+Process (Process) >> evaluate:
+SystemDictionary (SystemDictionary) >> launch
+End of stack dump
+
+The registers were:
+EIP =  0x07a11046
+ESP =  0x0012e8ac
+EBP =  0x0012e8d4
+EAX =  0x00000001
+EBX =  0x77d4b933
+ECX =  0x07b42da8
+EDX =  0x00000000
+EDI =  0x77d4d60d
+ESI =  0x00000000
+CS  =  0x0000001b
+DS  =  0x00000023
+ES  =  0x00000023
+SS  =  0x00000023
+End Registers 
+
+
+
+Error log timestamp Wednesday 07/19/06 09:07:05 AM
+
+Runtime error: Protection Violation
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Protection Violation'> 
+BasicProgram(Object)>>error: <'Protection Violation'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Protection Violation'> 
+Process class(Object)>>error: <'Protection Violation'> 
+Process class>>protectionViolationInterrupt
+Process class(Object)>>perform: <'protectionViolationI...'> 
+KernelDLL(Object)>>vmInterrupt: <'protectionViolationI...'> 
+KernelDLL(DynamicLinkLibrary)>>invalidArgument
+KernelDLL>>exitProcess: <0> 
+SessionModel>>quit
+SessionModel>>exitBase
+SessionModel>>exitSession
+SystemDictionary>>exit
+BasicSourceTopPane>>close
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>cleanUpAllMessages
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''SystemTray.bas - A ...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+
+
+Error log timestamp Wednesday 07/19/06 09:07:06 AM
+
+Runtime error: The parameter is incorrect. ( OS error 16r57 )
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The parameter is inc...'> 
+Bitmap class(Object)>>osError: <87> 
+Bitmap class(Object)>>osError
+Bitmap class>>deleteMemoryDC
+Bitmap class>>exit
+SessionModel>>exitWindowSystem2
+SessionModel>>exitSession
+SystemDictionary>>exit
+Process class>>queueWalkback: <'Protection Violation'> makeUserIF: <aTrue> resumable: <1> 
+
+
+Error log timestamp Wednesday 07/19/06 09:07:06 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'The parameter is inc...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The parameter is inc...'> 
+Bitmap class(Object)>>osError: <87> 
+Bitmap class(Object)>>osError
+Bitmap class>>deleteMemoryDC
+Bitmap class>>exit
+SessionModel>>exitWindowSystem2
+SessionModel>>exitSession
+SystemDictionary>>exit
+Process class>>queueWalkback: <'Protection Violation'> makeUserIF: <aTrue> resumable: <1> 
+
+
+Error log timestamp Wednesday 07/19/06 09:07:08 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'The parameter is inc...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The parameter is inc...'> 
+Bitmap class(Object)>>osError: <87> 
+Bitmap class(Object)>>osError
+Bitmap class>>deleteMemoryDC
+Bitmap class>>exit
+SessionModel>>exitWindowSystem2
+SessionModel>>exitSession
+SystemDictionary>>exit
+Process class>>queueWalkback: <'Protection Violation'> makeUserIF: <aTrue> resumable: <1> 
+
+
+Error log timestamp Wednesday 07/19/06 09:07:09 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'The parameter is inc...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The parameter is inc...'> 
+Bitmap class(Object)>>osError: <87> 
+Bitmap class(Object)>>osError
+Bitmap class>>deleteMemoryDC
+Bitmap class>>exit
+SessionModel>>exitWindowSystem2
+SessionModel>>exitSession
+SystemDictionary>>exit
+Process class>>queueWalkback: <'Protection Violation'> makeUserIF: <aTrue> resumable: <1> 
+
+
+Error log timestamp Wednesday 07/19/06 09:07:10 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'The parameter is inc...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The parameter is inc...'> 
+Bitmap class(Object)>>osError: <87> 
+
+
+Error log timestamp Wednesday 07/19/06 09:07:10 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:07:11 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:14 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:15 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:16 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:16 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:17 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:18 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:19 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:19 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:19 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:20 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:20 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:21 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:22 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:24 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:25 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:26 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:27 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:28 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:28 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:29 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:29 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:29 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:29 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:29 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:30 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:30 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:30 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:30 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:31 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:31 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:31 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:32 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:32 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:32 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:32 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:33 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:36 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:36 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:37 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:37 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:37 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:37 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:37 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:37 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:38 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:38 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:38 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:38 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:38 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:39 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:39 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:39 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:39 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:39 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:40 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:40 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:40 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:40 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:40 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:40 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:45 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 09:08:50 AM
+
+Runtime error: attempt to exit from the same method more than once
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+Process(Object)>>cantReturn
+Process>>terminateWhileActive
+Process class>>terminateActive
+Process class(Object)>>vmInterrupt: <#terminateActive> 
+Process class>>queueWalkback: <'attempt to exit from...'> makeUserIF: <aTrue> resumable: <1> 
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'attempt to exit from...'> 
+Process(Object)>>error: <'attempt to exit from...'> 
+
+
+Error log timestamp Wednesday 07/19/06 10:45:17 AM
+
+Runtime error: No DLL for #WMLiberty
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No DLL for #WMLibert...'> 
+BasicProgram(Object)>>error: <'No DLL for #WMLibert...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No DLL for #WMLibert...'> 
+BasicProgram(Object)>>error: <'No DLL for #WMLibert...'> 
+BasicProgram>>runError: <'No DLL for #WMLibert...'> 
+[] in CalldllCommand>>initializeCachedParams
+CalldllCommand>>deviceAt: <'#WMLiberty'> ifAbsent: <aBlockClosure> 
+[] in CalldllCommand>>initializeCachedParams
+BasicProgram>>deviceAt: <'#WMLiberty'> ifAbsent: <aBlockClosure> 
+CalldllCommand>>initializeCachedParams
+CalldllCommand>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dwStyle = _WS_CHILD ...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 07/19/06 10:49:37 AM
+
+OS Warning: Cannot create a top-level child window.
+
+Error log timestamp Wednesday 07/19/06 10:49:47 AM
+
+OS Warning: Cannot create a top-level child window.
+
+Error log timestamp Wednesday 07/19/06 10:50:12 AM
+
+OS Warning: Cannot create a top-level child window.
+
+Error log timestamp Wednesday 07/19/06 10:50:33 AM
+
+OS Warning: Cannot create a top-level child window.
+
+Error log timestamp Wednesday 07/19/06 10:52:44 AM
+
+OS Warning: Cannot create a top-level child window.

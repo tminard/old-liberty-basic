@@ -1,0 +1,3 @@
+text(^Tyler's Liberty BASIC page^)
+link(^Back to Public Home^d.public.home^)
+run(^Liberty BASIC^c.program files\Liberty BASIC v402.liberty.exe^)

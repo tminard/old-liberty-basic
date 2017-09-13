@@ -1,0 +1,253 @@
+	// generic blitz rules
+
+// random pads throughout the map for all sarges to resurrect to
+PAD res0 20
+PAD res1 21
+PAD res2 22
+PAD res3 23
+PAD res4 24
+PAD res5 25
+PAD res6 26
+PAD res7 27
+PAD res8 28
+PAD res9 29
+PAD res10 30
+PAD res11 31
+PAD res12 32
+PAD res13 33
+PAD res14 34
+PAD res15 35
+
+// flags and flagstands should not be strategic.
+// but sarges should be
+IF startup THEN
+	MAKENONSTRATEGIC grflagbase,   
+	MAKENONSTRATEGIC tflagbase,   
+	MAKENONSTRATEGIC gflagbase,   
+	MAKENONSTRATEGIC bflagbase,
+	MAKENONSTRATEGIC greenflag1,
+	MAKENONSTRATEGIC tanflag1,
+	MAKENONSTRATEGIC blueflag1,
+	MAKENONSTRATEGIC grayflag1,
+	MAKESTRATEGIC GreenSarge,
+	MAKESTRATEGIC TanSarge,
+	MAKESTRATEGIC BlueSarge,
+	MAKESTRATEGIC GraySarge
+
+// resurrect any dead sarges randomly throughout map
+IF killed_GreenSarge THEN TRIGGERDELAY 3 res
+IF killed_TanSarge THEN TRIGGERDELAY 3 res
+IF killed_BlueSarge THEN TRIGGERDELAY 3 res
+IF killed_GraySarge THEN TRIGGERDELAY 3 res
+
+// resurrect any dead men!
+IF killed_GreenTank1 THEN TRIGGER res
+IF killed_GreenGrenadier1 THEN TRIGGER res
+IF killed_GreenGrenadier2 THEN TRIGGER res
+IF killed_GreenBazooka1 THEN TRIGGER res
+IF killed_GreenBazooka2 THEN TRIGGER res
+IF killed_GreenBazooka3 THEN TRIGGER res
+IF killed_GreenMortar1 THEN TRIGGER res
+IF killed_GreenMortar2 THEN TRIGGER res
+IF killed_GreenRifle1 THEN TRIGGER res
+//--
+IF killed_TanTank1 THEN TRIGGER res
+IF killed_TanGrenadier1 THEN TRIGGER res
+IF killed_TanGrenadier2 THEN TRIGGER res
+IF killed_TanBazooka1 THEN TRIGGER res
+IF killed_TanBazooka2 THEN TRIGGER res
+IF killed_TanBazooka3 THEN TRIGGER res
+IF killed_TanMortar1 THEN TRIGGER res
+IF killed_TanMortar2 THEN TRIGGER res
+IF killed_TanRifle1 THEN TRIGGER res
+//--
+IF killed_BlueTank1 THEN TRIGGER res
+IF killed_BlueGrenadier1 THEN TRIGGER res
+IF killed_BlueGrenadier2 THEN TRIGGER res
+IF killed_BlueBazooka1 THEN TRIGGER res
+IF killed_BlueBazooka2 THEN TRIGGER res
+IF killed_BlueBazooka3 THEN TRIGGER res
+IF killed_BlueMortar1 THEN TRIGGER res
+IF killed_BlueMortar2 THEN TRIGGER res
+IF killed_BlueRifle1 THEN TRIGGER res
+//--
+IF killed_GrayTank1 THEN TRIGGER res
+IF killed_GrayGrenadier1 THEN TRIGGER res
+IF killed_GrayGrenadier2 THEN TRIGGER res
+IF killed_GrayBazooka1 THEN TRIGGER res
+IF killed_GrayBazooka2 THEN TRIGGER res
+IF killed_GrayBazooka3 THEN TRIGGER res
+IF killed_GrayMortar1 THEN TRIGGER res
+IF killed_GrayMortar2 THEN TRIGGER res
+IF killed_GrayRifle1 THEN TRIGGER res
+
+IF res THEN RANDOM
+	RESURRECT ME res0,
+	RESURRECT ME res1,
+	RESURRECT ME res2,
+	RESURRECT ME res3,
+	RESURRECT ME res4,
+	RESURRECT ME res5,
+	RESURRECT ME res6,
+	RESURRECT ME res7,
+	RESURRECT ME res8,
+	RESURRECT ME res9,
+	RESURRECT ME res10,
+	RESURRECT ME res11,
+	RESURRECT ME res12,
+	RESURRECT ME res13,
+	RESURRECT ME res14,
+	RESURRECT ME res15
+
+
+// credit kills for the win
+IF axed_GreenSarge_TAN THEN 
+		TRIGGER tankill	,
+		SHOWMESSAGE "Tan Kills Green Sarge"
+IF axed_GreenSarge_BLUE THEN 
+		TRIGGER bluekill  ,
+		SHOWMESSAGE "Blue Kills Green Sarge"
+IF axed_GreenSarge_GRAY THEN 
+		TRIGGER graykill ,
+		SHOWMESSAGE "Gray Kills Green Sarge"
+IF axed_TanSarge_GREEN THEN 
+		TRIGGER greenkill ,
+		SHOWMESSAGE "Green Kills Tan Sarge"
+IF axed_TanSarge_BLUE THEN 
+		TRIGGER bluekill  ,
+		SHOWMESSAGE "Blue Kills Tan Sarge"
+IF axed_TanSarge_GRAY THEN 
+		TRIGGER graykill  ,
+		SHOWMESSAGE "Gray Kills Tan Sarge"
+IF axed_BlueSarge_GREEN THEN 
+		TRIGGER greenkill ,
+		SHOWMESSAGE "Green Kills Blue Sarge"
+IF axed_BlueSarge_TAN THEN 
+		TRIGGER tankill	 ,
+		SHOWMESSAGE "Tan Kills Blue Sarge"
+IF axed_BlueSarge_GRAY THEN 
+		TRIGGER graykill ,
+		SHOWMESSAGE "Gray Kills Blue Sarge"
+IF axed_GraySarge_GREEN THEN 
+		TRIGGER greenkill ,
+		SHOWMESSAGE "Green Kills Gray Sarge"
+IF axed_GraySarge_TAN THEN 
+		TRIGGER tankill	 ,
+		SHOWMESSAGE "Tan Kills Gray Sarge"
+IF axed_GraySarge_BLUE THEN 
+		TRIGGER bluekill  ,
+		SHOWMESSAGE "Blue Kills Gray Sarge"
+
+// if there is ai in the game, launch attacks
+IF startup THEN TRIGGERDELAY 10 considerattack
+IF ALLOF considerattack keepai THEN TRIGGER attackrandom
+
+// keep em guessing when we attack next
+IF attackrandom THEN RANDOM
+	TRIGGERDELAY 0 attack,
+TRIGGERDELAY 1 attack
+
+
+// pick someone to attack. Only human attacks will go thru
+IF attack THEN RANDOM
+	TRIGGER attackgreen,
+	TRIGGER attacktan,
+	TRIGGER attackblue,
+	TRIGGER attackgray,
+	TRIGGERDELAY 0.1 attack
+
+
+// restart a new attack every minute
+IF attackgreen THEN 
+	TRIGGER attackrandom,
+	TRIGGER pickattackerall
+IF attacktan THEN 
+	TRIGGER attackrandom,
+	TRIGGER pickattackerall
+IF attackblue THEN 
+	TRIGGER attackrandom,
+	TRIGGER pickattackerall
+IF attackgray THEN 
+	TRIGGER attackrandom,
+	TRIGGER pickattackerall
+
+// random ai army goes after target sarge
+// if you pick a human army, try again after brief interval to avoid recursive loop if random bad
+IF pickattackerall THEN RANDOM
+	TRIGGER blue2green,
+	TRIGGER gray2green,
+	TRIGGER tan2green,
+	TRIGGER blue2tan,
+	TRIGGER gray2tan,
+	TRIGGER green2tan,
+	TRIGGER tan2blue,
+	TRIGGER gray2blue,
+	TRIGGER green2blue,
+TRIGGER tan2gray,
+	TRIGGER blue2gray,
+	TRIGGER green2gray
+
+IF gray2green THEN
+SHOWMESSAGE "Spy report: Gray is preparing to attack Green!",
+	SETTRIGGER grayai,
+	ORDER GraySarge GOTO GreenSarge INMODE ATTACK THEN ATMODE ATTACK, 
+	ORDER GRAY GOTO GreenSarge INMODE ATTACK THEN ATMODE ATTACK 
+IF blue2green THEN
+	SETTRIGGER blueai,
+SHOWMESSAGE "Spy report: Blue is preparing to attack Green!",
+	ORDER BlueSarge GOTO GreenSarge INMODE ATTACK THEN ATMODE ATTACK, 
+	ORDER BLUE GOTO GreenSarge INMODE ATTACK THEN ATMODE ATTACK 
+IF tan2green THEN
+	SETTRIGGER tanai,
+SHOWMESSAGE "Spy report: Tan is preparing to attack Green!",
+	ORDER TanSarge GOTO GreenSarge INMODE ATTACK THEN ATMODE ATTACK, 
+	ORDER TAN GOTO GreenSarge INMODE ATTACK THEN ATMODE ATTACK 
+
+
+IF grayai gray2tan THEN
+	SETTRIGGER grayai,
+SHOWMESSAGE "Spy report: Gray is preparing to attack Tan!",
+	ORDER GraySarge GOTO TanSarge INMODE ATTACK THEN ATMODE ATTACK, 
+	ORDER GRAY GOTO TanSarge INMODE ATTACK THEN ATMODE ATTACK 
+IF blueai blue2tan THEN
+	SETTRIGGER blueai,
+SHOWMESSAGE "Spy report: Blue is preparing to attack Tan!",
+	ORDER BlueSarge GOTO TanSarge INMODE ATTACK THEN ATMODE ATTACK, 
+	ORDER BLUE GOTO TanSarge INMODE ATTACK THEN ATMODE ATTACK 
+IF greenai green2tan THEN
+	SETTRIGGER greenai,
+SHOWMESSAGE "Spy report: Green is preparing to attack Tan!",
+	ORDER GreenSarge GOTO TanSarge INMODE ATTACK THEN ATMODE ATTACK, 
+	ORDER GREEN GOTO TanSarge INMODE ATTACK THEN ATMODE ATTACK 
+
+IF tan2blue THEN
+	SETTRIGGER tanai,
+SHOWMESSAGE "Spy report: Tan is preparing to attack Blue!",
+	ORDER TanSarge GOTO BlueSarge INMODE ATTACK THEN ATMODE ATTACK, 
+	ORDER TAN GOTO BlueSarge INMODE ATTACK THEN ATMODE ATTACK 
+IF gray2blue THEN
+	SETTRIGGER grayai,
+SHOWMESSAGE "Spy report: Gray is preparing to attack Blue!",
+	ORDER GraySarge GOTO BlueSarge INMODE ATTACK THEN ATMODE ATTACK, 
+	ORDER GRAY GOTO BlueSarge INMODE ATTACK THEN ATMODE ATTACK 
+IF green2blue THEN
+	SETTRIGGER greenai,
+SHOWMESSAGE "Spy report: Green is preparing to attack Blue!",
+	ORDER GreenSarge GOTO BlueSarge INMODE ATTACK THEN ATMODE ATTACK, 
+	ORDER GREEN GOTO BlueSarge INMODE ATTACK THEN ATMODE ATTACK 
+
+IF tan2gray THEN
+	SETTRIGGER tanai,
+SHOWMESSAGE "Spy report: Tan is preparing to attack Gray!",
+	ORDER TanSarge GOTO GraySarge INMODE ATTACK THEN ATMODE ATTACK, 
+	ORDER TAN GOTO GraySarge INMODE ATTACK THEN ATMODE ATTACK 
+IF blue2gray THEN
+	SETTRIGGER blueai,
+SHOWMESSAGE "Spy report: Blue is preparing to attack Gray!",
+	ORDER BlueSarge GOTO GraySarge INMODE ATTACK THEN ATMODE ATTACK, 
+	ORDER BLUE GOTO GraySarge INMODE ATTACK THEN ATMODE ATTACK 
+IF green2gray THEN
+	SETTRIGGER greenai,
+SHOWMESSAGE "Spy report: Green is preparing to attack Gray!",
+	ORDER GreenSarge GOTO GraySarge INMODE ATTACK THEN ATMODE ATTACK, 
+	ORDER GREEN GOTO GraySarge INMODE ATTACK THEN ATMODE ATTACK 

@@ -1,0 +1,387 @@
+
+
+Error log timestamp Wednesday 08/16/06 02:47:18 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+OrderedCollection(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+OrderedCollection>>size
+OrderedCollection(Collection)>>isEmpty
+OrderedCollection(IndexedCollection)>>last
+BasicProgram>>forNextStack
+BasicProgram>>topForNext
+BasicWendBehavior>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[inst.sel]'> 
+BasicProgram>>handlerName: <'[inst.sel]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[inst.sel]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[inst.sel]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicDialogBox(BasicWindow)>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <1704390> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <1704390> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <1704390> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 08/16/06 02:48:35 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+LinearHashTable(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+LinearHashTable>>lookUpKey: <21> for: <aDictionary> 
+Dictionary>>includesKey: <21> 
+BasicProgram>>existsStructNamed: <21> 
+CalldllCommand>>refreshCachedParams
+CalldllCommand>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[inst.sel]'> 
+BasicProgram>>handlerName: <'[inst.sel]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[inst.sel]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[inst.sel]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicDialogBox(BasicWindow)>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <1835462> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <1835462> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <1835462> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 08/16/06 04:56:38 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+KeyboardInterrupt(Exception)>>activateHandler: <anUndefinedObject> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+Array(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[inst.sel]'> 
+BasicProgram>>handlerName: <'[inst.sel]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[inst.sel]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[inst.sel]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicDialogBox(BasicWindow)>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <131604> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <131604> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <131604> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 08/16/06 04:56:43 PM
+
+Runtime error: The parameter is incorrect. ( OS error 16r57 )
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The parameter is inc...'> 
+BasicDialogTopPane(Object)>>osError: <87> 
+BasicDialogTopPane(Object)>>osError
+BasicDialogTopPane(Window)>>releaseDC: <aDeviceContext> 
+RecordingPen(GraphicsTool)>>release
+RecordingPen>>release
+RecordingPen(GraphicsTool)>>destroy
+BasicDialogTopPane(Window)>>close
+BasicDialogTopPane(ApplicationWindow)>>closeViewOverride
+BasicDialogTopPane(TopPane)>>closeOverride
+BasicDialogTopPane>>closeOverride
+BasicDialogBox>>close
+[] in BasicProgram>>closeAllSilently
+LinearHashTable>>elementsDo: <aBlockClosure> 
+Set(HashedCollection)>>do: <aBlockClosure> 
+BasicProgram>>closeAllSilently
+BasicProgram>>terminateApp
+[] in BasicProgram class>>killBasicPrograms
+Array(IndexedCollection)>>do: <aBlockClosure> 
+BasicProgram class>>killBasicPrograms
+Message>>perform
+MenuWindow>>performMenuItem: <258> 
+BasicSourceTopPane(ApplicationWindow)>>performMenuItem: <258> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 08/16/06 04:58:40 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+OrderedCollection>>includes: <'waitResult'> 
+BasicProgram>>isGlobal: <'waitResult'> 
+BasicProgram>>assignByName: <'waitResult'> toBe: <-1> 
+CalldllCommand>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[inst.sel]'> 
+BasicProgram>>handlerName: <'[inst.sel]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[inst.sel]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[inst.sel]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicDialogBox(BasicWindow)>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <262354> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <262354> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <262354> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 08/16/06 04:58:44 PM
+
+Runtime error: The parameter is incorrect. ( OS error 16r57 )
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The parameter is inc...'> 
+BasicDialogTopPane(Object)>>osError: <87> 
+BasicDialogTopPane(Object)>>osError
+BasicDialogTopPane(Window)>>releaseDC: <aDeviceContext> 
+RecordingPen(GraphicsTool)>>release
+RecordingPen>>release
+RecordingPen(GraphicsTool)>>destroy
+BasicDialogTopPane(Window)>>close
+BasicDialogTopPane(ApplicationWindow)>>closeViewOverride
+BasicDialogTopPane(TopPane)>>closeOverride
+BasicDialogTopPane>>closeOverride
+BasicDialogBox>>close
+[] in BasicProgram>>closeAllSilently
+LinearHashTable>>elementsDo: <aBlockClosure> 
+Set(HashedCollection)>>do: <aBlockClosure> 
+BasicProgram>>closeAllSilently
+BasicProgram>>terminateApp
+[] in BasicProgram class>>killBasicPrograms
+Array(IndexedCollection)>>do: <aBlockClosure> 
+BasicProgram class>>killBasicPrograms
+Message>>perform
+MenuWindow>>performMenuItem: <258> 
+BasicSourceTopPane(ApplicationWindow)>>performMenuItem: <258> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 08/16/06 05:02:10 PM
+
+Runtime error: The parameter is incorrect. ( OS error 16r57 )
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The parameter is inc...'> 
+BasicDialogTopPane(Object)>>osError: <87> 
+BasicDialogTopPane(Object)>>osError
+BasicDialogTopPane(Window)>>releaseDC: <aDeviceContext> 
+RecordingPen(GraphicsTool)>>release
+RecordingPen>>release
+RecordingPen(GraphicsTool)>>destroy
+BasicDialogTopPane(Window)>>close
+BasicDialogTopPane(ApplicationWindow)>>closeViewOverride
+BasicDialogTopPane(TopPane)>>closeOverride
+BasicDialogTopPane>>closeOverride
+BasicDialogBox>>close
+[] in BasicProgram>>closeAll
+LinearHashTable>>elementsDo: <aBlockClosure> 
+Set(HashedCollection)>>do: <aBlockClosure> 
+BasicProgram>>closeAll
+BasicProgram>>terminateRun: <aFileError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aFileError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aFileError> 
+ExceptionHandler>>findHandler: <aFileError> 
+FileError(Exception)>>activateHandler: <anExceptionHandler> 
+FileError(Exception)>>handle
+FileError(Exception)>>signal
+FileError class>>signal: <'OS Error: The system...'> hostErrorCode: <2> 
+HostFileSystemError>>defaultAction
+ExceptionHandler>>findHandler: <aHostFileSystemError> 
+HostFileSystemError(Exception)>>activateHandler: <anExceptionHandler> 
+HostFileSystemError(Exception)>>handle
+HostFileSystemError(Exception)>>signal
+HostFileSystemError class>>signalWith: <2> 
+File class(FileSystemEntity class)>>osError: <2> 
+File class(Object)>>osError
+File class>>rename: <'addon\Z_MetroWebMila...'> to: <'C:\program files\ea ...'> 
+[] in NameCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+
+
+Error log timestamp Friday 07/27/07 03:24:46 PM
+
+Runtime error: The parameter is incorrect. ( OS error 16r57 )
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The parameter is inc...'> 
+BasicDialogTopPane(Object)>>osError: <87> 
+BasicDialogTopPane(Object)>>osError
+BasicDialogTopPane(Window)>>releaseDC: <aDeviceContext> 
+RecordingPen(GraphicsTool)>>release
+RecordingPen>>release
+RecordingPen(GraphicsTool)>>destroy
+BasicDialogTopPane(Window)>>close
+BasicDialogTopPane(ApplicationWindow)>>closeViewOverride
+BasicDialogTopPane(TopPane)>>closeOverride
+BasicDialogTopPane>>closeOverride
+BasicDialogBox>>close
+[] in BasicProgram>>closeAll
+LinearHashTable>>elementsDo: <aBlockClosure> 
+Set(HashedCollection)>>do: <aBlockClosure> 
+BasicRunProgram(BasicProgram)>>closeAll
+BasicRunProgram(BasicProgram)>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The parameter is inc...'> 
+BasicDialogTopPane(Object)>>osError: <87> 
+BasicDialogTopPane(Object)>>osError
+BasicDialogTopPane(Window)>>releaseDC: <aDeviceContext> 
+RecordingPen(GraphicsTool)>>release
+RecordingPen>>release
+RecordingPen(GraphicsTool)>>destroy
+BasicDialogTopPane(Window)>>close
+BasicDialogTopPane(ApplicationWindow)>>closeViewOverride
+BasicDialogTopPane(TopPane)>>closeOverride
+BasicDialogTopPane>>closeOverride
+BasicDialogBox>>close
+[] in BasicProgram>>closeAll
+LinearHashTable>>elementsDo: <aBlockClosure> 
+Set(HashedCollection)>>do: <aBlockClosure> 
+BasicRunProgram(BasicProgram)>>closeAll
+BasicRunProgram(BasicProgram)>>end
+[] in EndCommand>>using:
+BasicSingleParameterContextHolder>>value

@@ -1,0 +1,319 @@
+
+
+Error log timestamp Tuesday 02/14/06 08:22:39 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+LargePositiveInteger(LargeInteger)>>*
+LargePositiveInteger(Number)>>squared
+SmallInteger(Number)>>raisedToInteger: <10000000000> 
+SmallInteger(Integer)>>smartRaisedTo: <10000000000> 
+[] in BasicExpression>>makeBlockOf:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'a = 10^10
+b = 10^a...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 02/14/06 08:25:55 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+LargePositiveInteger(LargeInteger)>>addWithCarry: <2004> startingAt: <35584> 
+LargePositiveInteger(LargeInteger)>>*
+LargePositiveInteger(Number)>>squared
+SmallInteger(Number)>>raisedToInteger: <10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000> 
+SmallInteger(Integer)>>smartRaisedTo: <10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000> 
+[] in BasicExpression>>makeBlockOf:
+BasicNumericContext(BasicContextWrapper)>>value
+[] in PrintCommand>>textCr:
+BasicDoubleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'a = 10^100
+print 10...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 02/14/06 08:28:42 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+LargePositiveInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+LargePositiveInteger(LargeInteger)>>borrowStartingAt: <2> 
+LargePositiveInteger(LargeInteger)>>subBytes: <88950> 
+LargePositiveInteger(LargeInteger)>>-
+BasicForNext>>next
+BasicNextBehavior>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'a = 10^100
+fin$ = "...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 02/14/06 08:32:36 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+ProcessScheduler(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+ProcessScheduler(Object)>>triggerEvent: <#codeCacheCleared> 
+ProcessScheduler>>codeCacheCleared
+Process class>>codeCacheClearedInterrupt
+Process class(Object)>>perform: <'codeCacheClearedInte...'> 
+BasicProgram(Object)>>vmInterrupt: <'codeCacheClearedInte...'> 
+BasicProgram>>assign: <2> toBe: <'10000000000000000000...'> 
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'a = 10^100
+fin$ = "...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 02/14/06 08:45:32 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+LargePositiveInteger(LargeInteger)>>*
+BasicForNext>>next
+BasicNextBehavior>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'a = 10^100
+fin$ = "...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 02/14/06 08:46:28 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+OrderedCollection(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+OrderedCollection>>size
+OrderedCollection(IndexedCollection)>>last
+BasicProgram>>forNextStack
+BasicProgram>>topForNext
+BasicNextBehavior>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'a = 10^100
+fin$ = "...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 02/14/06 08:52:33 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+LargePositiveInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+LargePositiveInteger(LargeInteger)>>addWithCarry: <67> startingAt: <18> 
+LargePositiveInteger(LargeInteger)>>*
+BasicForNext>>next
+BasicNextBehavior>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'a = 10^100
+fin$ = "...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 

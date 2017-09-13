@@ -1,0 +1,21 @@
+name=Unlimited Kills
+uptext=This update will add unlimited kills maps!
+version=1.61
+data=AMUnlimK.bin\
+required=[DATA]\[GAMES]\armymen.mgm,3DO's Army Men Game
+INSTALL
+mkdir=[DATA]\[GAMES]\Army Men\UnlimK
+cpfile=Alpine1_Blitz_un.rul,[DATA]\[GAMES]\Army Men\UnlimK\Alpine1_Blitz_un.rul
+cpfile=Alpine2_Blitz_un.rul,[DATA]\[GAMES]\Army Men\UnlimK\Alpine2_Blitz_un.rul
+cpfile=Bayou1_Blitz_un.rul,[DATA]\[GAMES]\Army Men\UnlimK\Bayou1_Blitz_un.rul
+cpfile=Desert1_Blitz_un.rul,[DATA]\[GAMES]\Army Men\UnlimK\Desert1_Blitz_un.rul
+cpfile=Desert2_Blitz_un.rul,[DATA]\[GAMES]\Army Men\UnlimK\Desert2_Blitz_un.rul
+cpfile=Blitzun.BMP,[DATA]\[GAMES]\Army Men\UnlimK\Blitzun.BMP
+cpfile=Amscreenie.BMP,[DATA]\[BITMAPS]\Amscreenie.BMP
+cpfile=blitzun_1.txt,[DATA]\[GAMES]\Army Men\UnlimK\blitzun_1.txt
+cpfile=Blitzu_1.txt,[DATA]\[GAMES]\Army Men\UnlimK\Blitzu_1.txt
+cpfile=mheaderun_1.txt, [DATA]\[GAMES]\Army Men\mheaderun_1.txt
+cpfile=AMunlimk.addon.mod,[DATA]\[GAMES]\Army Men\AMunlimK.addon.mod
+ENDINSTALL
+endnotice=Update and Script by Tyler Minard
+EOF

@@ -1,0 +1,1349 @@
+
+
+Error log timestamp Friday 07/13/07 04:59:31 PM
+
+Runtime error: Bad command for #main.graph, spritexp
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bad command for #mai...'> 
+BasicProgram(Object)>>error: <'Bad command for #mai...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bad command for #mai...'> 
+BasicProgram(Object)>>error: <'Bad command for #mai...'> 
+BasicProgram>>runError: <'Bad command for #mai...'> 
+BasicProgram>>badCommand: <'spritexp'> forHandle: <'#main.graph'> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'spritexp man 275 205'> 
+LibGraphPane>>writeItem: <'spritexp man 275 205'> 
+LibGraphPane(SubPane)>>writeItemCr: <'spritexp man 275 205'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(203,100)...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+
+
+Error log timestamp Friday 07/13/07 04:59:42 PM
+
+Runtime error: invalid branch label: [key]
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'invalid branch label...'> 
+BasicProgram(Object)>>error: <'invalid branch label...'> 
+BasicProgram>>goto: <'[key]'> 
+BasicProgram>>gotoAndIfStoppedBegin: <'[key]'> 
+BasicProgram>>handlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>characterInput: <aCharacter> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 07/13/07 04:59:43 PM
+
+Runtime error: invalid branch label: [key]
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'invalid branch label...'> 
+BasicProgram(Object)>>error: <'invalid branch label...'> 
+BasicProgram>>goto: <'[key]'> 
+BasicProgram>>gotoAndIfStoppedBegin: <'[key]'> 
+BasicProgram>>handlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>characterInput: <aCharacter> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 07/19/07 01:15:56 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+OrderedCollection>>do: <aBlockClosure> 
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'11dirt3099'> ifAbsent: <aBlockClosure> 
+LibGraphDevice(BasicGraphicDevice)>>addSprite: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'addsprite 11dirt3099...'> 
+LibGraphPane>>writeItem: <'addsprite 11dirt3099...'> 
+LibGraphPane(SubPane)>>writeItemCr: <'addsprite 11dirt3099...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(1000,100)...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 07/19/07 01:16:27 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+OrderedCollection>>do: <aBlockClosure> 
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'7dirt1738'> ifAbsent: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'7dirt1738'> 
+LibGraphDevice(BasicGraphicDevice)>>spriteXY: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'spritexy 7dirt1738 1...'> 
+LibGraphPane>>writeItem: <'spritexy 7dirt1738 1...'> 
+LibGraphPane(SubPane)>>writeItemCr: <'spritexy 7dirt1738 1...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(1000,100)...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 07/19/07 01:17:36 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+OrderedCollection>>do: <aBlockClosure> 
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'15dirt4263'> ifAbsent: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'15dirt4263'> 
+LibGraphDevice(BasicGraphicDevice)>>spriteXY: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'spritexy 15dirt4263 ...'> 
+LibGraphPane>>writeItem: <'spritexy 15dirt4263 ...'> 
+LibGraphPane(SubPane)>>writeItemCr: <'spritexy 15dirt4263 ...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(1000,100)...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 07/19/07 01:18:40 PM
+
+Runtime error: No sprite named: 11dirt1
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: 11d...'> 
+BasicProgram(Object)>>error: <'No sprite named: 11d...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: 11d...'> 
+BasicProgram(Object)>>error: <'No sprite named: 11d...'> 
+BasicProgram>>runError: <'No sprite named: 11d...'> 
+[] in BasicGraphPane>>spriteNamed:
+[] in BasicGraphPane>>spriteNamed:ifAbsent:
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'11dirt1'> ifAbsent: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'11dirt1'> 
+LibGraphDevice(BasicGraphicDevice)>>spriteVisible: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'spritevisible 11dirt...'> 
+LibGraphPane>>writeItem: <'spritevisible 11dirt...'> 
+LibGraphPane(SubPane)>>writeItemCr: <'spritevisible 11dirt...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(1000,100)...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+
+
+Error log timestamp Thursday 07/19/07 01:21:37 PM
+
+Runtime error: Branch label not found: [w]
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Branch label not fou...'> 
+BasicProgram(Object)>>error: <'Branch label not fou...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Branch label not fou...'> 
+BasicProgram(Object)>>error: <'Branch label not fou...'> 
+BasicProgram>>runError: <'Branch label not fou...'> 
+[] in BasicProgram>>init
+[] in BasicValueManager>>indexFromName:
+LinearHashTable>>lookUpValue: <'[w]'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'[w]'> ifAbsent: <aBlockClosure> 
+BasicValueManager>>indexFromName: <'[w]'> 
+BasicValueReference>>unused: <aBasicValueManager> 
+BasicValueReference>>for: <aBasicValueManager> 
+BasicValueManager>>atReference: <aBasicValueReference> 
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[key]'> 
+BasicProgram>>handlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>characterInput: <aCharacter> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 07/19/07 01:23:43 PM
+
+Runtime error: No sprite named: 11dirt1
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: 11d...'> 
+BasicProgram(Object)>>error: <'No sprite named: 11d...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: 11d...'> 
+BasicProgram(Object)>>error: <'No sprite named: 11d...'> 
+BasicProgram>>runError: <'No sprite named: 11d...'> 
+[] in BasicGraphPane>>spriteNamed:
+[] in BasicGraphPane>>spriteNamed:ifAbsent:
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'11dirt1'> ifAbsent: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'11dirt1'> 
+LibGraphDevice(BasicGraphicDevice)>>spriteVisible: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'spritevisible 11dirt...'> 
+LibGraphPane>>writeItem: <'spritevisible 11dirt...'> 
+LibGraphPane(SubPane)>>writeItemCr: <'spritevisible 11dirt...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[key]'> 
+BasicProgram>>handlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>characterInput: <aCharacter> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+
+
+Error log timestamp Thursday 07/19/07 01:31:00 PM
+
+Runtime error: newsprite spritename bmpname1 bmpname2 ...
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'newsprite spritename...'> 
+BasicProgram(Object)>>error: <'newsprite spritename...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'newsprite spritename...'> 
+BasicProgram(Object)>>error: <'newsprite spritename...'> 
+BasicProgram>>runError: <'newsprite spritename...'> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'addsprite 1dirt1 '> 
+LibGraphPane>>writeItem: <'addsprite 1dirt1 '> 
+LibGraphPane(SubPane)>>writeItemCr: <'addsprite 1dirt1 '> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(1000,100)...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 07/19/07 02:58:45 PM
+
+Runtime error: Subscript out of range: 1001, field$()
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Subscript out of ran...'> 
+BasicProgram(Object)>>error: <'Subscript out of ran...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Subscript out of ran...'> 
+BasicProgram(Object)>>error: <'Subscript out of ran...'> 
+BasicProgram>>runError: <'Subscript out of ran...'> 
+BasicStringArray(BasicArray)>>boundsError: <1001> 
+BasicStringArray(BasicArray)>>assignUsing: <anOrderedCollection> 
+BasicArrayAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(1000,100)...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 07/19/07 02:59:23 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+SmallInteger(Integer)>>gcd: <5> 
+SmallInteger(Integer)>>/
+Basic class>>random
+[] in BasicRnd class>>using:program:
+[] in BasicExpression>>makeBlockOf:
+BasicDoubleParameterContextHolder>>value
+BasicNumericContext(BasicContextWrapper)>>value
+[] in BasicInt class>>using:program:
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(10000,100...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 07/19/07 03:00:41 PM
+
+Runtime error: Subscript out of range: 4001, field$()
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Subscript out of ran...'> 
+BasicProgram(Object)>>error: <'Subscript out of ran...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Subscript out of ran...'> 
+BasicProgram(Object)>>error: <'Subscript out of ran...'> 
+BasicProgram>>runError: <'Subscript out of ran...'> 
+BasicStringArray(BasicArray)>>boundsError: <4001> 
+BasicStringArray(BasicArray)>>assignUsing: <anOrderedCollection> 
+BasicArrayAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(4000,100)...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 07/19/07 03:02:12 PM
+
+Runtime error: Subscript out of range: 8001, field$()
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Subscript out of ran...'> 
+BasicProgram(Object)>>error: <'Subscript out of ran...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Subscript out of ran...'> 
+BasicProgram(Object)>>error: <'Subscript out of ran...'> 
+BasicProgram>>runError: <'Subscript out of ran...'> 
+BasicStringArray(BasicArray)>>boundsError: <8001> 
+BasicStringArray(BasicArray)>>assignUsing: <anOrderedCollection> 
+BasicArrayAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(8000,100)...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 07/19/07 03:06:25 PM
+
+Runtime error: newsprite spritename bmpname1 bmpname2 ...
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'newsprite spritename...'> 
+BasicProgram(Object)>>error: <'newsprite spritename...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'newsprite spritename...'> 
+BasicProgram(Object)>>error: <'newsprite spritename...'> 
+BasicProgram>>runError: <'newsprite spritename...'> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'addsprite dirt1 '> 
+LibGraphPane>>writeItem: <'addsprite dirt1 '> 
+LibGraphPane(SubPane)>>writeItemCr: <'addsprite dirt1 '> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(8000,100)...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 07/19/07 03:12:34 PM
+
+Runtime error: newsprite spritename bmpname1 bmpname2 ...
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'newsprite spritename...'> 
+BasicProgram(Object)>>error: <'newsprite spritename...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'newsprite spritename...'> 
+BasicProgram(Object)>>error: <'newsprite spritename...'> 
+BasicProgram>>runError: <'newsprite spritename...'> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'addsprite dirt1 '> 
+LibGraphPane>>writeItem: <'addsprite dirt1 '> 
+LibGraphPane(SubPane)>>writeItemCr: <'addsprite dirt1 '> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(8000,100)...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 07/20/07 03:03:22 PM
+
+Runtime error: newsprite spritename bmpname1 bmpname2 ...
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'newsprite spritename...'> 
+BasicProgram(Object)>>error: <'newsprite spritename...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'newsprite spritename...'> 
+BasicProgram(Object)>>error: <'newsprite spritename...'> 
+BasicProgram>>runError: <'newsprite spritename...'> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'addsprite 1dirt1 '> 
+LibGraphPane>>writeItem: <'addsprite 1dirt1 '> 
+LibGraphPane(SubPane)>>writeItemCr: <'addsprite 1dirt1 '> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(1000,100)...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 07/20/07 03:03:57 PM
+
+Runtime error: No sprite named: 11dirt1
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: 11d...'> 
+BasicProgram(Object)>>error: <'No sprite named: 11d...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: 11d...'> 
+BasicProgram(Object)>>error: <'No sprite named: 11d...'> 
+BasicProgram>>runError: <'No sprite named: 11d...'> 
+[] in BasicGraphPane>>spriteNamed:
+[] in BasicGraphPane>>spriteNamed:ifAbsent:
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'11dirt1'> ifAbsent: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'11dirt1'> 
+LibGraphDevice(BasicGraphicDevice)>>spriteVisible: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'spritevisible 11dirt...'> 
+LibGraphPane>>writeItem: <'spritevisible 11dirt...'> 
+LibGraphPane(SubPane)>>writeItemCr: <'spritevisible 11dirt...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[key]'> 
+BasicProgram>>handlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>characterInput: <aCharacter> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+
+
+Error log timestamp Friday 07/20/07 03:10:06 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+OrderedCollection>>do: <aBlockClosure> 
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'33dirt231'> ifAbsent: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'33dirt231'> 
+LibGraphDevice(BasicGraphicDevice)>>spriteXY: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'spritexy 33dirt231 2...'> 
+LibGraphPane>>writeItem: <'spritexy 33dirt231 2...'> 
+LibGraphPane(SubPane)>>writeItemCr: <'spritexy 33dirt231 2...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(1000,100)...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 07/20/07 03:15:40 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+OrderedCollection>>do: <aBlockClosure> 
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'35dirt52'> ifAbsent: <aBlockClosure> 
+LibGraphDevice(BasicGraphicDevice)>>addSprite: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'addsprite 35dirt52 g...'> 
+LibGraphPane>>writeItem: <'addsprite 35dirt52 g...'> 
+LibGraphPane(SubPane)>>writeItemCr: <'addsprite 35dirt52 g...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(1000,100)...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 07/20/07 03:18:04 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+OrderedCollection>>do: <aBlockClosure> 
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>hasSpriteNamed: <'26dirt49'> 
+LibGraphPane(BasicGraphPane)>>addSprite: <aSprite> 
+LibGraphDevice(BasicGraphicDevice)>>addSprite: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'addsprite 26dirt49 w...'> 
+LibGraphPane>>writeItem: <'addsprite 26dirt49 w...'> 
+LibGraphPane(SubPane)>>writeItemCr: <'addsprite 26dirt49 w...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(1000,100)...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 07/20/07 03:20:28 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+OrderedCollection>>do: <aBlockClosure> 
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>hasSpriteNamed: <'32dirt19'> 
+LibGraphPane(BasicGraphPane)>>addSprite: <aSprite> 
+LibGraphDevice(BasicGraphicDevice)>>addSprite: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'addsprite 32dirt19 g...'> 
+LibGraphPane>>writeItem: <'addsprite 32dirt19 g...'> 
+LibGraphPane(SubPane)>>writeItemCr: <'addsprite 32dirt19 g...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'dim field$(1000,100)...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 07/20/07 03:34:43 PM
+
+Runtime error: No sprite named: dirt-1
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: dir...'> 
+BasicProgram(Object)>>error: <'No sprite named: dir...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: dir...'> 
+BasicProgram(Object)>>error: <'No sprite named: dir...'> 
+BasicProgram>>runError: <'No sprite named: dir...'> 
+[] in BasicGraphPane>>spriteNamed:
+[] in BasicGraphPane>>spriteNamed:ifAbsent:
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'dirt-1'> ifAbsent: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'dirt-1'> 
+LibGraphDevice(BasicGraphicDevice)>>getSpriteXY: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'spritexy? dirt-1 x y'> 
+LibGraphPane>>writeItem: <'spritexy? dirt-1 x y'> 
+LibGraphPane(SubPane)>>writeItemCr: <'spritexy? dirt-1 x y'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[key]'> 
+BasicProgram>>handlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>characterInput: <aCharacter> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+
+
+Error log timestamp Friday 07/20/07 03:39:44 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+BasicVariableManager(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+BasicVariableManager(BasicValueManager)>>var: <2> 
+BasicProgram>>var: <2> 
+[] in BasicExpression>>parseValues
+BasicDoubleParameterContextHolder>>value
+[] in BasicExpression>>makeBlockOf:
+BasicDoubleParameterContextHolder>>value
+[] in BasicExpression>>makeBlockOf:
+BasicDoubleParameterContextHolder>>value
+BasicNumericContext(BasicContextWrapper)>>value
+BasicWhileWend>>action
+BasicWhileBehavior>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[key]'> 
+BasicProgram>>handlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>characterInput: <aCharacter> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 07/20/07 03:48:26 PM
+
+Runtime error: No sprite named: mx
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: mx'> 
+BasicProgram(Object)>>error: <'No sprite named: mx'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: mx'> 
+BasicProgram(Object)>>error: <'No sprite named: mx'> 
+BasicProgram>>runError: <'No sprite named: mx'> 
+[] in BasicGraphPane>>spriteNamed:
+[] in BasicGraphPane>>spriteNamed:ifAbsent:
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'mx'> ifAbsent: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'mx'> 
+LibGraphDevice(BasicGraphicDevice)>>getSpriteXY: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'spritexy?  mx my'> 
+LibGraphPane>>writeItem: <'spritexy?  mx my'> 
+LibGraphPane(SubPane)>>writeItemCr: <'spritexy?  mx my'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.graph'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[leftm.cl]'> 
+BasicProgram>>handlerName: <'[leftm.cl]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[leftm.cl]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>button1Up: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+
+
+Error log timestamp Friday 07/20/07 03:56:49 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+OrderedCollection(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+OrderedCollection>>at: <10> 
+BasicVariableManager(BasicValueManager)>>var: <10> 
+BasicProgram>>var: <10> 
+[] in BasicExpression>>parseValues
+BasicDoubleParameterContextHolder>>value
+[] in BasicExpression>>makeBlockOf:
+BasicDoubleParameterContextHolder>>value
+BasicNumericContext(BasicContextWrapper)>>value
+BasicWhileWend>>action
+BasicWhileBehavior>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[key]'> 
+BasicProgram>>handlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>characterInput: <aCharacter> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 07/20/07 03:58:54 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+False(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[key]'> 
+BasicProgram>>handlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>characterInput: <aCharacter> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 

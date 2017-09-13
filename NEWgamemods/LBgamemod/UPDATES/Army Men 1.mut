@@ -1,0 +1,14 @@
+name=New game support file: 3DO Army Men 1
+type=game
+uptext=This update will install support for Army Men 1
+version=1.6
+data=3doarmymen.BIN\
+endnotice=Update by Tyler Minard.
+INSTALL
+mkdir=[DATA]\[GAMES]\Army Men\
+cpfile=Armymen.mgm,[DATA]\[GAMES]\Armymen.mgm
+mkdir=[DATA]\[SOUND]\Army Men\
+cpfile=refreshWin.wav,[DATA]\[SOUND]\Army Men\refreshWin.wav
+cpfile=openWin.wav,[DATA]\[SOUND]\Army Men\openWin.wav
+ENDINSTALL
+EOF

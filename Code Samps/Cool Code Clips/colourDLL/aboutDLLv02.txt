@@ -1,0 +1,68 @@
+"rmfDLLv02" is for use with Liberty BASIC v3
+********************************************
+It contains two functions:
+  InputBoxHEX()
+  InputBoxRGB()
+********************************************
+1:- "InputBoxHEX"
+	This function uses one internal function
+	to convert the colour parameters (which
+	are passed as strings from LB) to variables
+	of type DOUBLE, which are then cast as LONG
+	and used in the calls to SendMessage().
+	This will create a single line input box.
+        The background can be set to any colour.
+        The font can be set to any colour.
+        This version uses a HEX colour value as a parameter.
+        The position and size can be set.
+        The maximum number of chars entered can be set.
+
+	The calling syntax is:
+
+	open "rmfDLLv02.dll" for dll as #rmfdll
+
+	calldll #rmfdll, "InputBoxHEX", _
+	  handle    as long, _ ' handle of parent window
+          inkHex$   as ptr, _  ' ink colour
+          paperHex$ as ptr, _  ' paper colour
+	  x         as long, _ ' x co-ord
+	  y         as long, _ ' y co-ord
+	  w         as long, _ ' width
+	  h         as long, _ ' height
+	  max       as long, _ ' max chars
+	  hTB       as long    ' returns a handle to the new control
+
+	close #rmfdll
+********************************************
+2:- "InputBoxRGB"
+	This will create a single line input box.
+        The background can be set to any colour.
+        The font can be set to any colour.
+        This version uses RED/GREEN/BLUE as seperate parameters.
+        The position and size can be set.
+        The maximum number of chars entered can be set.
+
+	The calling syntax is:
+
+	open "rmfDLLv02.dll" for dll as #rmfdll
+
+	calldll #rmfdll, "InputBoxRGB", _
+	  h      as long, _ ' handle of parent window
+	  inkR   as long, _ ' ink red
+	  inkG   as long, _ ' ink green
+	  inkB   as long, _ ' ink blue
+	  paperR as long, _ ' paper red
+	  paperG as long, _ ' paper green
+	  paperB as long, _ ' paper blue
+	  x      as long, _ ' x co-ord
+	  y      as long, _ ' y co-ord
+	  w      as long, _ ' width
+	  h      as long, _ ' height
+	  max    as long, _ ' max chars
+	  hTB    as long    ' returns a handle to the new control
+
+	close #rmfdll
+
+	The ink and paper parameters can be any
+	value between 0 and 255.
+********************************************

@@ -1,0 +1,13 @@
+name=Allied Skull Man
+uptext=This is a cool skin for the allies side.
+version=1.6
+data=Allied_Congo'sSkull.bin\
+required=[DATA]\[GAMES]\MOHAA.mgm,Medal of Honor Allied Assault
+INSTALL
+mkdir=[DATA]\[GAMES]\MOHAA\skullman\
+cpfile=zzzzzz_Allied_Congo'sSkull.pk3,[DATA]\[GAMES]\MOHAA\skullman\zzzzzz_Allied_Congo'sSkull.pk3
+cpfile=skullman.skin.mod,[DATA]\[GAMES]\MOHAA\skullman.skin.mod
+cpfile=skull.bmp,[DATA]\[BITMAPS]\skull.bmp
+ENDINSTALL
+endnotice=Downloaded from www.filefront.com
+EOF

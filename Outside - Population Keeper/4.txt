@@ -1,0 +1,7 @@
+117 13
+Washington
+man=Conover,0
+man=Conover,2
+man=Adam,1
+man=Mex,2
+man=US,3

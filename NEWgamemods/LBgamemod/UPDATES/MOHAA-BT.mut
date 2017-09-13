@@ -1,0 +1,15 @@
+name=New game support file: MoHAA Breakthrough
+type=game
+uptext=This update will install support for MoHAA-BT
+version=1.74
+required=[DATA]\[GAMES]\MOHAA.mgm,Medal of Honor Allied Assault
+data=MoHBTgame.BIN\
+endnotice=Update by Tyler Minard.
+INSTALL
+mkdir=[DATA]\[GAMES]\MOHAA\BT\
+cpfile=MOHAABT.mgm,[DATA]\[GAMES]\MOHAABT.mgm
+mkdir=[DATA]\[SOUND]\MOHAA\BT\
+cpfile=refreshWin.wav,[DATA]\[SOUND]\MOHAA\BT\refreshWin.wav
+cpfile=openWin.wav,[DATA]\[SOUND]\MOHAA\BT\openWin.wav
+ENDINSTALL
+EOF

@@ -1,0 +1,452 @@
+
+
+Error log timestamp Thursday 07/06/06 03:21:31 PM
+
+Runtime error: The specified module could not be found. ( OS error 16r7E )
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The specified module...'> 
+BasicProgram(Object)>>error: <'The specified module...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The specified module...'> 
+DynamicLinkLibrary class(Object)>>osError: <126> 
+DynamicLinkLibrary class(Object)>>osError
+DynamicLinkLibrary class>>open: <'WMLiberty'> 
+BasicDLL>>from: <'WMLiberty'> mode: <'DLL'> handle: <'#wmlib'> 
+BasicDLL class(BasicFile class)>>from: <'WMLiberty'> mode: <'DLL'> handle: <'#wmlib'> owner: <aBasicProgram> length: <anUndefinedObject> 
+[] in OpenCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Telnet chat server...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 07/06/06 03:24:51 PM
+
+Runtime error: The specified module could not be found. ( OS error 16r7E )
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The specified module...'> 
+BasicProgram(Object)>>error: <'The specified module...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The specified module...'> 
+DynamicLinkLibrary class(Object)>>osError: <126> 
+DynamicLinkLibrary class(Object)>>osError
+DynamicLinkLibrary class>>open: <'WMLiberty'> 
+BasicDLL>>from: <'WMLiberty'> mode: <'DLL'> handle: <'#wmlib'> 
+BasicDLL class(BasicFile class)>>from: <'WMLiberty'> mode: <'DLL'> handle: <'#wmlib'> owner: <aBasicProgram> length: <anUndefinedObject> 
+[] in OpenCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Telnet chat server...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 07/06/06 03:29:44 PM
+
+Runtime error: The specified module could not be found. ( OS error 16r7E )
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The specified module...'> 
+BasicProgram(Object)>>error: <'The specified module...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The specified module...'> 
+DynamicLinkLibrary class(Object)>>osError: <126> 
+DynamicLinkLibrary class(Object)>>osError
+DynamicLinkLibrary class>>open: <'WMLiberty'> 
+BasicDLL>>from: <'WMLiberty'> mode: <'DLL'> handle: <'#wmlib'> 
+BasicDLL class(BasicFile class)>>from: <'WMLiberty'> mode: <'DLL'> handle: <'#wmlib'> owner: <aBasicProgram> length: <anUndefinedObject> 
+[] in OpenCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Telnet chat server...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp 7/7/2006 10:42:26
+ERROR.LOG
+GPF has occurred
+
+START
+API method: KernelDLL >> exitProcess:
+1 arguments.
+1: Smalltalk integer 0 (0x00000000)
+
+Stack frames:
+SessionModel (SessionModel) >> quit
+SessionModel (SessionModel) >> exitBase
+SessionModel (SessionModel) >> exitSession
+SystemDictionary (SystemDictionary) >> exit
+BasicSourceTopPane (BasicSourceTopPane) >> close
+Message (Message) >> perform
+NotificationManager (NotificationManager) >> empty
+NotificationManager (NotificationManager) >> runPendingEvents
+NotificationManager (NotificationManager) >> runEventLoop
+Message (Message) >> perform
+Message (Message) >> evaluate
+Process (Process) >> safelyEvaluate:
+Process (Process) >> evaluate:
+SystemDictionary (SystemDictionary) >> launch
+End of stack dump
+
+The registers were:
+EIP =  0x07451046
+ESP =  0x0012ea94
+EBP =  0x0012eabc
+EAX =  0x00000001
+EBX =  0x77d4b933
+ECX =  0x078c2e00
+EDX =  0x00000000
+EDI =  0x77d4d60d
+ESI =  0x00000000
+CS  =  0x0000001b
+DS  =  0x00000023
+ES  =  0x00000023
+SS  =  0x00000023
+End Registers 
+
+
+
+Error log timestamp Friday 07/07/06 10:42:26 AM
+
+Runtime error: Protection Violation
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Protection Violation'> 
+Process class(Object)>>error: <'Protection Violation'> 
+Process class>>protectionViolationInterrupt
+Process class(Object)>>perform: <'protectionViolationI...'> 
+KernelDLL(Object)>>vmInterrupt: <'protectionViolationI...'> 
+KernelDLL(DynamicLinkLibrary)>>invalidArgument
+KernelDLL>>exitProcess: <0> 
+SessionModel>>quit
+SessionModel>>exitBase
+SessionModel>>exitSession
+SystemDictionary>>exit
+BasicSourceTopPane>>close
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 07/07/06 10:43:04 AM
+
+Runtime error: No DLL for #wsock32
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No DLL for #wsock32'> 
+BasicProgram(Object)>>error: <'No DLL for #wsock32'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No DLL for #wsock32'> 
+BasicProgram(Object)>>error: <'No DLL for #wsock32'> 
+BasicProgram>>runError: <'No DLL for #wsock32'> 
+[] in CalldllCommand>>initializeCachedParams
+CalldllCommand>>deviceAt: <'#wsock32'> ifAbsent: <aBlockClosure> 
+[] in CalldllCommand>>initializeCachedParams
+BasicProgram>>deviceAt: <'#wsock32'> ifAbsent: <aBlockClosure> 
+CalldllCommand>>initializeCachedParams
+CalldllCommand>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'print GetHostName$()...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 07/07/06 10:44:42 AM
+
+Runtime error: "resetProgressDialog" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicOnDemandCompiler(BasicCompiler)>>error: <'Type Mismatch.  Arra...'> 
+[] in BasicExpression>>parseTop
+OrderedCollection>>do: <aBlockClosure> 
+BasicExpression>>parseTop
+BasicExpression>>parse
+BasicOnDemandCompiler(BasicCompiler)>>nextCompiledExpressionOrNil: <anOrderedCollection> 
+BasicOnDemandCompiler(BasicCompiler)>>nextCompiledExpression: <anOrderedCollection> 
+[] in CallfnCommand>>using:
+OrderedCollection>>do: <aBlockClosure> 
+CallfnCommand>>using: <anOrderedCollection> 
+BasicOnDemandCompiler>>parseOnDemand: <anOrderedCollection> 
+BasicOnDemandCompiler>>parseThis: <anOrderedCollection> 
+BasicExpression>>parseValues
+BasicOnDemandCompiler(BasicCompiler)>>nextCompiledExpressionOrNil: <anOrderedCollection> 
+BasicOnDemandCompiler(BasicCompiler)>>nextCompiledExpression: <anOrderedCollection> 
+IfCommand>>blockIfThen: <anOrderedCollection> 
+IfCommand>>using: <anOrderedCollection> 
+BasicOnDemandCompiler>>parseOnDemand: <anOrderedCollection> 
+BasicRunProgram>>compileFrame: <40> 
+[] in BasicOnDemandCompiler class>>readTknFile:callingProgram:commandLine:
+OrderedCollection>>do: <aBlockClosure> 
+BasicOnDemandCompiler class>>readTknFile: <aFileStream> callingProgram: <anUndefinedObject> commandLine: <''> 
+Basic class>>start
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp 7/7/2006 16:56:57
+ERROR.LOG
+GPF has occurred
+
+START
+API method: KernelDLL >> exitProcess:
+1 arguments.
+1: Smalltalk integer 0 (0x00000000)
+
+Stack frames:
+SessionModel (SessionModel) >> quit
+SessionModel (SessionModel) >> exitBase
+SessionModel (SessionModel) >> exitSession
+SystemDictionary (SystemDictionary) >> exit
+BasicSourceTopPane (BasicSourceTopPane) >> close
+Message (Message) >> perform
+NotificationManager (NotificationManager) >> empty
+NotificationManager (NotificationManager) >> runPendingEvents
+NotificationManager (NotificationManager) >> runEventLoop
+Message (Message) >> perform
+Message (Message) >> evaluate
+Process (Process) >> safelyEvaluate:
+Process (Process) >> evaluate:
+SystemDictionary (SystemDictionary) >> launch
+End of stack dump
+
+The registers were:
+EIP =  0x07451046
+ESP =  0x0012ea94
+EBP =  0x0012eabc
+EAX =  0x00000001
+EBX =  0x77d4b933
+ECX =  0x07842e00
+EDX =  0x00000000
+EDI =  0x77d4d60d
+ESI =  0x00000000
+CS  =  0x0000001b
+DS  =  0x00000023
+ES  =  0x00000023
+SS  =  0x00000023
+End Registers 
+
+
+
+Error log timestamp Friday 07/07/06 04:56:57 PM
+
+Runtime error: Protection Violation
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Protection Violation'> 
+Process class(Object)>>error: <'Protection Violation'> 
+Process class>>protectionViolationInterrupt
+Process class(Object)>>perform: <'protectionViolationI...'> 
+KernelDLL(Object)>>vmInterrupt: <'protectionViolationI...'> 
+KernelDLL(DynamicLinkLibrary)>>invalidArgument
+KernelDLL>>exitProcess: <0> 
+SessionModel>>quit
+SessionModel>>exitBase
+SessionModel>>exitSession
+SystemDictionary>>exit
+BasicSourceTopPane>>close
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 07/07/06 05:05:49 PM
+
+Runtime error: "resetProgressDialog" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicOnDemandCompiler(BasicCompiler)>>error: <'Type Mismatch.  Arra...'> 
+[] in BasicExpression>>parseTop
+OrderedCollection>>do: <aBlockClosure> 
+BasicExpression>>parseTop
+BasicExpression>>parse
+BasicOnDemandCompiler(BasicCompiler)>>nextCompiledExpressionOrNil: <anOrderedCollection> 
+BasicOnDemandCompiler(BasicCompiler)>>nextCompiledExpression: <anOrderedCollection> 
+[] in CallfnCommand>>using:
+OrderedCollection>>do: <aBlockClosure> 
+CallfnCommand>>using: <anOrderedCollection> 
+BasicOnDemandCompiler>>parseOnDemand: <anOrderedCollection> 
+BasicOnDemandCompiler>>parseThis: <anOrderedCollection> 
+BasicExpression>>parseValues
+BasicOnDemandCompiler(BasicCompiler)>>nextCompiledExpressionOrNil: <anOrderedCollection> 
+BasicOnDemandCompiler(BasicCompiler)>>nextCompiledExpression: <anOrderedCollection> 
+IfCommand>>blockIfThen: <anOrderedCollection> 
+IfCommand>>using: <anOrderedCollection> 
+BasicOnDemandCompiler>>parseOnDemand: <anOrderedCollection> 
+BasicRunProgram>>compileFrame: <40> 
+[] in BasicOnDemandCompiler class>>readTknFile:callingProgram:commandLine:
+OrderedCollection>>do: <aBlockClosure> 
+BasicOnDemandCompiler class>>readTknFile: <aFileStream> callingProgram: <anUndefinedObject> commandLine: <''> 
+Basic class>>start
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 

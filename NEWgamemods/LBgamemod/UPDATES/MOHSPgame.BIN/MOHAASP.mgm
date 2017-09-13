@@ -1,0 +1,14 @@
+gamename=Medal of Honor AA: Spearhead
+moddir=[DATA]\[GAMES]\MOHAASP\
+gameexe=moh_spearhead.exe
+sound=[DATA]\[SOUND]\MOHAA\
+TYPES
+type=.mod,All Files
+type=.skin.mod,Skins
+type=.map.mod,Map Files
+type=.wep.mod,Weapon Files
+type=.total.mod,Total Remakes
+type=.patch.mod,Game Patches
+type=.addon.mod,Other
+ENDTYPES
+EOF

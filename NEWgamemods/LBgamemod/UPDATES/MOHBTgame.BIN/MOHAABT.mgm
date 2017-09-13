@@ -1,0 +1,14 @@
+gamename=Medal of Honor AA: Breakthrough
+moddir=[DATA]\[GAMES]\MOHAA\BT\
+gameexe=moh_Breakthrough.exe
+sound=[DATA]\[SOUND]\MOHAA\BT\
+TYPES
+type=.mod,All Files
+type=.skin.mod,Skins
+type=.map.mod,Map Files
+type=.wep.mod,Weapon Files
+type=.total.mod,Total Remakes
+type=.patch.mod,Game Patches
+type=.addon.mod,Other
+ENDTYPES
+EOF

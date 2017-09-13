@@ -1,0 +1,12 @@
+gamename=Medal of Honor: Allied Assault
+gameexe=mohaa.exe
+moddir=[DATA]\[GAMES]\MOHAA\
+SOUND=[data]\[SOUND]\MOHAA\
+TYPES
+type=.map.mod, Map Files
+type=.mod, All Files
+type=.wep.mod, Weapon File
+type=.total.mod, Total Remake
+type=.patch.mod, Game Patch
+ENDTYPES
+EOF

@@ -1,0 +1,12 @@
+name=New game support file: MoHAA Spearhead
+type=game
+uptext=This update will install support for MoHAA-SP
+version=1.74
+required=[DATA]\[GAMES]\MOHAA.mgm,Medal of Honor Allied Assault
+data=MoHSPgame.BIN\
+endnotice=Update by Tyler Minard.
+INSTALL
+mkdir=[DATA]\[GAMES]\MOHAASP\
+cpfile=MOHAASP.mgm,[DATA]\[GAMES]\MOHAASP.mgm
+ENDINSTALL
+EOF

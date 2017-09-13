@@ -1,0 +1,13 @@
+name=Medevil Knight
+uptext=This is a cool skin for the axis side.
+version=1.8
+data=MOHmidknight.BIN\
+required=[DATA]\[GAMES]\MOHAA.game,Medal of Honor Allied Assault
+INSTALL
+mkdir=[DATA]\[GAMES]\MOHAA\medknight\
+cpfile=user-Medevil_Knight.pk3,[DATA]\[GAMES]\MOHAA\medknight\user-Medevil_Knight.pk3
+cpfile=medknight.skin.mod,[DATA]\[GAMES]\MOHAA\medknightskin.skin.mod
+cpfile=midkt.bmp,[DATA]\[BITMAPS]\midkt.bmp
+ENDINSTALL
+endnotice=Downloaded from www.filefront.com
+EOF

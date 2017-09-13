@@ -1,0 +1,14 @@
+Name of Program:        DEANSLIB.DLL
+Author of Program:      Dean Hodgson (with a contribution by Alyce Watson)
+Email:                  dhodgson@nexus.edu.au
+Release date:           24 June, 1998
+Description:
+
+DEANSLIB is a DLL that adds over 100 commands and functions to Liberty
+Basic via CALLDLLs. The functions range include: disk file & networking
+commands, font assignments (including italic, undelined & bold), printout
+functions, mouse support, date and time setting & reading, maths functions,
+simple PC speaker sound, special Windows functions, and a raft of functions
+to support editbox, listbox and comboboxes. This library replaces the
+earlier DEANSDLL.
+

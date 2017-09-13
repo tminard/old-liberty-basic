@@ -1,0 +1,10 @@
+name=Default Programs    'Name that will be displayed before install
+INSTALL
+mut=updates\Army Men 1.mut  'location of installation file
+mut=updates\MOHAA.mut       'location of installation file
+mut=updates\jv_mapMOH.MUT   'location of installation file
+mut=updates\AMunlimitedKills.mut    'location of installation file
+ENDINSTALL
+EOF
+
+'This file type is very basic right now

@@ -1,0 +1,8 @@
+name=Default Programs
+INSTALL
+mut=updates\Army Men 1.mut
+mut=updates\MOHAA.mut
+mut=updates\jv_mapMOH.MUT
+mut=updates\AMunlimitedKills.mut
+ENDINSTALL
+EOF

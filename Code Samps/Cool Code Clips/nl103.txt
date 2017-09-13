@@ -1,0 +1,850 @@
+---------------------------------------------------------
+The Liberty Basic Newsletter - Issue #103 - DEC 2002
+   © 2002, http://groups.yahoo.com/group/lbnews/
+             All Rights Reserved
+Individual authors retain copyrights to their works.
+---------------------------------------------------------
+"Patience and tenacity are worth more than twice their weight of cleverness."
+---Thomas Henry Huxley (1825-1895)
+
+---------------------------------------------------------
+NOT In this issue:
+        +  "JustAboutEqualTo" - the New Boolean Operation
+                 for the Math-Challenged
+        +  Dividing by Zero - Harnessing the Power of Infinity
+        +  Breaking News!  Bill Gates Makes Unsolicited
+                 offer for Liberty Basic!  Promises to make
+                 LB as Fun as FORTRAN for DOS!
+        +  Carl Reveals Secret Diet for Writing Excellent
+                 Development Environments: Sushi 'n Grits
+        +  Breaking News!  Nuclear Industry Writes LB
+                 Add-In to Control N-Plants.
+                 New Command: While Meltdown...Wend
+        +  Five...Next - The Cutting Edge Successor to the
+                 For...Next Loop
+        +  "Safe Six" - Using Protection When Converting 
+                 From Integers to Floating Point Numbers
+        +  Breaking News!  Alyce Pronounces NL103
+                 "Tepid and Unconvincing!"; Vows to Cut
+                 Nally's Pay; Warns against the Use
+                 of Any Pro-Wrestling Metaphors
+
+---------------------------------------------------------
+
+In this issue:
+	+  List of Files in the Zip Archive
+        +  The Ramblings of a Maniac - Editor's Notes by Tom Nally
+        +  Blast From the Past - Two Years Ago in LBNews
+        +  Effective GUI Design - by David Drake
+        +  Alternative to Graphics Printing - by Alyce Watson
+        +  Liberty Basic Simple Help - by Tom Nally
+        +  Announcement: New LB Programming Contest - by Brad Moore
+        +  Debugging by Simulating Breakpoints - by Kevin (maitrikaruna@yahoo.com)
+        +  Multi-Coloured Text Input Boxes
+           using a DLL (Revisited) - by Ray Fisher
+
+
+---------------------------------------------------------
+
+List of Files in the Zip Archive:
+
+        +  nl103.txt - this document
+        +  TipOfDay_Drake.zip - by David Drake
+        +  TipOfDay_KevinBruce.zip - by Kevin Bruce
+        +  TipOfDay_Mike.zip - y Mike Bradbury
+        +  TipOfDay_Ray.zip - by Ray Fisher
+        +  TipOfDay_Alyce.zip - by Alyce Watson
+        +  UsingDemo.bas - by Bill Jennings
+        +  LBSH.zip - by Tom Nally
+        +  colourDLL.zip - by Ray Fisher
+        +  sysTray.zip - by Ken Lewis, Sr.
+        +  BMPonCheckbox.zip - by Mike Bradbury
+
+-----------------------------------------------------------------------
+
+The Ramblings of a Maniac - Editor's Notes by Tom Nally
+ 
+I would like to start off by expressing my appreciation to Alyce for giving me the opportunity to publish the newsletter for December.  Despite Alyce's uncharacteristic lapse in judgement, this issue is stuffed to bursting with great information!
+ 
+For starters, the newsletter zip package includes five (count 'em, folks: five!) Tip-of-the-Day (TOTD) Applications.  Similar in function but differing in appearance, any one of these can be incorporated into your applications to give your apps a mature look.  In my view, these TOTD apps will provide your program with a professional appearance at minimal overhead.
+ 
+If you want to use one of these TOTD apps, you might be wondering how to create your own database of tips.  This isn't hard.  Read all the support material that comes with each TOTD app, and examine each author's file that serves as his database of tips.  For example, for David Drake's TOTD, the tips reside in Tips.dat.  In Mike Bradbury's application, his tips reside in TOTD.txt.  By studying the format of the tip database, creating your own tips should be a breeze.
+ 
+Alyce's TOTD database of tips is unique.  She stores her tips in data statements at the end of the *.bas source code file.  Nicely done.  Simple, and easy to implement.
+ 
+A huge "Thank You" to the TOTD authors: Mike Bradbury, Kevin Bruce, David Drake, Alyce Watson and Ray Fisher.  Well done, gentlepeople, and thank you for your generosity.
+ 
+Also in the zip package, you will find a demo program by Bill Jennings in which he shares an alternate to LB's USING function.  Pretty impressive.  Using Bill's method, the programmer can attach any string to the leading or trailing side of any formatted number.  For instance, if you want the dollar sign leading your number, you've got it.  Or how about "USD" in the front, or even "$" on the leading side, and "US" on the trailing side.  But I'm just focusing on currency here.  Bill's routines allow any string to be placed on the leading or trailing side of any number.  Very good job, Bill.
+ 
+My friends, keep drilling down into the zip archive until you've run out of fuel.  Drink Jolt Cola if you have to.  The motherload of Liberty Basic goodies is wide and deep!  
+ 
+Ken Lewis, Sr. provides a fascinating account of his efforts to enable access to his screenshot program via the "taskbar notification area", which we like to call the "tray".  Ken's account can be found in sysTray.doc, one of several files within ken's sysTray.zip archive.   What I like best about Ken's story is his tenacious research into the Windows API to identify all the various functions required to (1) load the icon, (2) get the version number of the OS, (3) intercept the mouseclick on the taskbar icon, and other tasks.  Ken's archive also provides an LB demo program, along with small support files needed for the demo.
+ 
+Before you've reached the bottom of the zip archive, you'll also find Mike Bradbury's second contribution: BMPonCheckbox.zip.  As the archive suggests, this ensemble of three bitmaps and one source file (BMPonCheckboxes.lba) shows Mike's method of adding bitmaps to a checkbox.  This latest effort by Mike ties in very nicely with his NL102 submission, "Images On Buttons and StaticText".  Mike has become the expert in marrying controls and images in ways that you wouldn't think Liberty Basic would allow.  Very resourceful, Mike.  Thanks a bunch!
+ 
+Before the feature articles of the newsletter begin, I'm providing a small section called "Blast From the Past", in which I take a look back at what was published two years ago in LBNews.
+ 
+The feature article section of the newsletter begins with "Effective GUI Design" by David Drake.  Wow, loaded with sound design advice.  David qualifies as a "Renaissance man": excellent on the technical side of programming, while also knowledgeable in the art of interface craftsmanship.  Consider this plan for the intermediate programmer: bundle David's article on GUI Design with Brad Moore's article on event-driven programming from NL102.  These two articles together will take you a long way.
+ 
+Once again, Alyce comes through with a clearly written article about graphics, with step-by-step examples included.  In this article, Alyce explains two ways to print the contents of a Graphics Window or a GraphicBox which go beyond LB's native method.  (Did you know that LB could call MSPaint to print a graphic, while MSPaint operates invisibly in the background?  I didn't.)  I often think about how Alyce's efforts have substantially increased the usability and value of Liberty Basic for all of us.  
+ 
+Clearly, Alyce has ascended to the rarefied air occupied by Madonna, Cher, Sting, Bono and Prince: known so well that one name is all she needs.  Am I right, or what?
+ 
+Keep readin'.  We ain't through yet.
+ 
+Down further in the newsletter, you will find "Liberty Basic Simple Help", or LBSH.  This is my attempt to provide a way for programmers to provide a Help system for their applications using only standard Liberty Basic Controls.  In the zip package, you will find a more throrough explanation of LBSH.  What program did I use to explain LBSH?  Why, LBSH, of course! 
+ 
+Next in the newsletter, we repeat Brad Moore's  announcement of the exciting new Liberty Basic Programming Contest: "The Liberty BASIC 10 Year Anniversary Challenge"!  We expect the participation to be as high as it was for the 2002 Liberty Basic Challenge.  Fire up those imaginations, everybody, and squirt an extra shot of WD40 in the ol' cranium!  (But please, see your doctor first if you're over 40.)
+ 
+You may have read in NL102 that LB4 will feature "breakpoints".  Until that time arrives, clever programmers are figuring out their own ways to slow down and halt execution of LB applications during development.  A simple method which does just this is described in the article below called "Debugging by Simulating Breakpoints", written by Kevin (maitrikaruna@yahoo.com).  Thanks, Kevin.
+ 
+By popular demand, Ray Fisher delivers an encore performance following his article appearing in NL102, "Multi-Coloured Text Input Boxes Using a DLL".  Ray has added a new function to his DLL which allows the user to pass RGB values to the function instead of hexadecimal values.  Easy to understand, and easy to use.  (The temptation to call Ray's new article "Son of Multi-Coloured Text boxes" was almost overpowering...)  
+ 
+But Ray provides more than that.  The zip archive included with this newsletter contains a nested zip file provided by Ray, colourDLL.zip.  This holds an ensemble of little programs which will help us use color effectively in our programs.  Take a look at 'em!  My favorite might be Colours.bas, wherein Ray provides a way to designate 140 colors by Windows name, rather than by RGB values.  Thank you Ray, the "King of Colour".
+ 
+Thanks to all the contributors!
+ 
+And to you readers, you will be happy to learn that I won't publish the newsletter again until the March 1st issue!  Brad Moore shoulders the mantle for January, while Alyce will body-slam the February issue.  (Doh!  There's that pro-wrestling metaphor that Alyce warned me about!)
+ 
+---------------------------------------------------------
+
+Blast From the Past - Two Years Ago in LBNews
+Items from the December 2000 Newsletter
+
+I thought it would be interesting to find out what was being discussed two years ago in the Liberty Basic world.
+
+The December 2000 Newsletter (NL0084) was edited by Cameron Arnott.  The programmer's spotlight featured an enthusiastic young programmer named...Brandon Watts.  Brandon contributed an article to that same issue on submitting your LB programs to the major shareware/freeware archives on the World Wide Web.  The other featured article was by Richard Miller, entitled "Binary Searches".  Richard discussed rapid ways to search for values in arrays that are already sorted.
+
+To me, the most interesting part of the issue was Cameron's "Letter from the Editor".  Cameron mentioned how three new beta releases of LB2 had been released in the month prior.  We take 32-bit LB for granted now, but the advent of LB2 must have been very exciting.
+
+Down further in his letter, Cameron provided a list of projects under development at that time:
+
+Visual Liberty BASIC - An editor / development system for programming in Liberty BASIC
+Liberty Basic Development Studio - An editor / development system for programming in Liberty BASIC
+Cheetah - A programming language written in Liberty Basic
+LB Web Browser - Written in Liberty Basic
+Sprite maskers - Written to do Batch processing
+FreeForms - GUI Window designers, painting programs and compactors
+Games - Lots of them.  Too many to mention here!
+
+I suspect "FreeForms" developed into what we now call "FreeForm".  I believe that Cheetah became a releasable product for Brandon.  Some of the other items may have become completed projects also, but perhaps under different names.  Others in the LB community will have to fill us in on how this little piece of history played out.  (I used Year 2000 to catch up on sleep...)
+
+The end of NL0084 gave readers valuable code snippets and attachments that had been posted in the LBNews group in November of 2000.  Coding examples from Carl Gundel, David Drake, Alyce Watson, Brandon Watts, and Mitchell Kotler were all featured.
+
+Wait!  If I'm not mistaken, some of those people might still be around somewhere!  Nah, must be my imagination...
+
+---------------------------------------------------------
+Effective GUI Design - by David Drake
+	by David Drake
+
+Think back to the last time that you used a text-based program. If 
+you are a power user, or you frequently dwell in the domains of UNIX 
+or Linux, you use text-based applications frequently. What about the 
+rest of us? We couldn't function without graphical user interfaces 
+(GUIs).
+
+What is a text-based program? Text-based programs require the user to 
+type in strings of commands to interact with the program. The computer 
+responds, typically, with text. What is a GUI? The graphical user 
+interface allows the user to run programs with "point-and-click" mouse 
+operations. The computer, in turn, communicates with the user with 
+text, images and even sound.
+
+While the origins of the GUI (pronounced gooey) are confusing, most 
+people attribute the first mass-marketed GUI-based operating system to 
+Steve Jobs and Apple Computer. Jobs did not create the GUI -- he made 
+it available. Of course, Microsoft came along a few years later and 
+created Windows. Voila! The modern user-friendly personal computer 
+was born.
+
+Why GUI?
+
+What does all of this mean for us as Liberty BASIC programmers? LB 
+allows us to create completely text-based programs. Try the following 
+example:
+
+'Start of code 
+print "Type in your name: "; 
+input a$ 
+print "Your name is ";a$ 
+end 
+'End of code
+
+This is a perfectly good text-based program. It asks the user for 
+input, the user types and response, and the computer delivers 
+information back to the user.
+
+Rather bland, however.
+
+Try this in you LB editor:
+
+'Start of code 
+nomainwin 
+WindowWidth = 145 
+WindowHeight = 280 
+statictext #main.statictext1, "Select your name:", 15, 17, 107, 20 
+button #main.button2, "Alyce", [button1], UL, 40, 42, 60, 25 
+button #main.button3, "Carl", [button2], UL, 40, 67, 60, 25 
+button #main.button4, "Richard", [button3], UL, 40, 92, 60, 25 
+button #main.button5, "John", [button4], UL, 40, 117, 60, 25 
+button #main.button6, "Other", [button5], UL, 40, 142, 60, 25 
+button #main.button7, "Quit", [quit], UL, 40, 197, 60, 25
+open "Name" for window as #main 
+print #main, "trapclose [quit]"
+wait
+[button1] 
+notice "Your name is Alyce." 
+wait
+[button2] 
+notice "Your name is Carl." 
+wait
+[button3] 
+notice "Your name is Richard." 
+wait
+[button4] 
+notice "Your name is John." 
+wait
+[button5] 
+notice "Your name is not listed." 
+wait
+[quit] 
+notice "Goodbye." 
+close #main 
+end 
+'End of code
+
+Much snazzier, eh? Okay, so it isn't the most useful program in the 
+world. It will do for demonstration purposes, however.
+
+Popular programs tend to have the following features: 
+
+* They do something that people want. 
+* They work all the time. 
+* They are easy to install and remove. 
+* They are intuitive and easy to use. 
+* They look clean and professional.
+
+It could be argued that someone could create a perfectly fine program 
+that meets only the first three characteristics. One could also argue 
+that even the world's greatest program will be made less appealing if 
+it's hard to use or looks bad (or bland). Hence the need for 
+graphical user interface. Really, who wants to use an MP3 player 
+that requires that you type "play c:\music\amygrant\agetoage.mp3 
+/stopatend" to hear your favorite songs?
+
+Basics of GUI Design
+
+Begin with the end in mind. When creating a GUI, one must consider 
+first what the program is supposed to do. Does the user edit an 
+image? Type in a term paper? Enter information into a database? 
+Play a game? Think about designing an interface suitable to the program.
+Look at what the professionals have already done. If you are creating 
+an image editing program, fire up Paint Shop Pro or MS Photo Editor. 
+See how the professionals have designed their GUIs. Businesses that 
+create and sell thousands of copies of a program must be doing 
+something right.
+
+Remember that the user is NOT the programmer. Sometimes programmers 
+will forget that those who use the program don't know everything that 
+the programmer does. Try to design the GUI from the novice user's 
+perspective.
+
+Avoid putting too many functions on the top level. In other words, 
+the menu or toolbar you create should contain only the minimum needed 
+to get to the more advanced commands. Consider the LB editor. The 
+menu contains File, Edit, Run, Setup and Help. Click on "Edit" and 
+the dropdown offer Undo, Cut, Copy, Paste, Clear, Select All, Restore, 
+Find/Replace and Find Again. Imaging having ALL of these editing 
+features as buttons on the toolbar! Users are used to drilling down 
+and finding the tools they need.
+
+Avoid hiding your functions beneath obscure menu headings. Don't put 
+editing commands under the "File" menu. Never hide your program help 
+commands under "Options."
+
+Avoid using common icons for tasks other than their conventional 
+actions. For example, using an icon commonly associated with "Open 
+File" for a task like "Search/Replace" will cause the user to 
+uninstall your program from the computer.
+
+Avoid using confusing titles in buttons. If you create a popup box 
+that asks "Are you sure you want to quit?" and the response buttons 
+read "Confirm" and "Exit," the user won't know what to do! It is best 
+to use conventionally accepted button texts like "Yes," "No", "Okay" 
+and "Cancel."
+
+Be consitant with your design. Use similar layouts in all windows 
+associated with a program. This lends a feeling of continuity and 
+comfort as the user moves from window to window.
+
+Be kind to the user. Make button text big enough to read. Use icons 
+with clear images. Avoid crowding buttons together. Make buttons big 
+enough to click.
+
+Use keyboard support. Some people are unable to use a mouse. Others 
+are faster with a keyboard. Make sure that you provide keyboard 
+shortcuts for as many important program functions as possible. For 
+other functions, ensure that the user can access then through a series 
+of menu keystrokes.
+
+Make it look good, but not too good. Balance, color and symmetry are 
+important factors. When the user starts the program, he expects a 
+pleasant and unsurprising window. If your user starts the program and 
+says "Wow! Look at this," or "Ugh!" the GUI is probably detracting 
+from its effectiveness. Here's the user response we really want: "". 
+That's right! We want the user to instantly look PAST the GUI and 
+into the program's functionality. Microsoft Word is an example of an 
+effectively understated GUI.
+
+Add some bells and whistles. Sound, used properly, can add to a 
+program's effectiveness. Internet Explorer can "click" when browsing 
+buttons are clicked. Subtle sounds that provide useful information to 
+the user can make the program more useful and fun. Don't overdo, however.
+Provide some tips. ToolTips, those cool little text bars that pop up 
+when you mouse over a button, will make your program more professional 
+and user friendly. Freeform allows you to put ToolTips easily into 
+your LB programs.
+
+Select the right window type. Liberty BASIC provides several type of 
+windows to the programmer. The following is taken from the Liberty 
+BASIC help file:
+
+graphics 
+open a graphics window 
+graphics_fs 
+open a graphics window full screen (size of the screen) 
+graphics_nsb 
+open a graphics window w/no scroll bars 
+graphics_fs_nsb 
+open a graphics window full screen, w/no scroll bars 
+graphics_nf_nsb 
+open a graphics window with no sizing frame or scroll bars 
+text 
+open a text window 
+text_fs 
+open a text window full screen 
+text_nsb 
+open a text window w/no scroll bars 
+text_nsb_ins 
+open a text window w/no scroll bars, with inset editor 
+window 
+open a basic window type 
+window_nf 
+open a basic window type without a sizing frame 
+window_popup 
+open a window without a titlebar 
+dialog 
+open a dialog box 
+dialog_modal 
+open a modal dialog box 
+dialog_nf 
+open a dialog box without a frame 
+dialog_nf_modal 
+open a modal dialog box without a frame 
+dialog_fs 
+open a dialog box the size of the screen 
+dialog_nf_fs 
+open a dialog box without a frame the size of the screen 
+dialog_popup 
+open a dialog box without a titlebar
+Style suffixes for window types (not all suffixes are supported for 
+each window type):
+_fs 
+window is sized to fill the screen 
+_nf 
+window has no frame and cannot be resized by user 
+_nsb 
+window doesn't contain scroll bars 
+_ins 
+contains inset texteditor 
+_popup 
+window contains no titlebar or sizing frame 
+_modal 
+window must be closed before another window can gain focus
+
+Select a window type appropriate for your application.
+
+There is help. For those who are stumped by GUIs, help is available. 
+
+Consider the following: 
+* The Liberty BASIC help file - The help file is well-written and will 
+answer most, if not all of you GUI programming questions. 
+* The Freeform help file - Contains some more details on forms and 
+form creation. Ships with LB. 
+* Mastering Liberty BASIC 3 - Excellent resource for all things LB, 
+including GUI programming. Purchase this at Alyce's Restaurant: 
+http://iquizme.0catch.com/lb/lbw3/master.html
+
+See what other LB developers have done: 
+The Liberty BASIC Open Source Editor 
+(http://iquizme.0catch.com/lb/lb3/open.html) created by the LB community 
+Birthday Keeper (http://www.eaglesoartech.com/) by Eldron Gill 
+From the Liberty BASIC Yahoo Group Files area: 
+Winsult (http://groups.yahoo.com/group/libertybasic/files/Winsult.zip) 
+by Billy Earl Software and Marilyn Productions 
+BillCalc 
+(http://groups.yahoo.com/group/libertybasic/files/BillCalc.zip) by Jay 
+Shrimplin 
+HumbleCAD 
+(http://groups.yahoo.com/group/libertybasic/files/HumbleCAD.zip) by 
+Tom Nally 
+PageFoundry 
+(http://groups.yahoo.com/group/libertybasic/files/pagefoundry.zip) 
+David Drake 
+RPN Calculator (http://www.foundrysearch.com/downloads/rpn.zip) 
+created by David Drake
+
+Additional cool tools and GUI resources for Liberty BASIC: 
+
+The Liberty Belle (http://libertybelle.0catch.com/lb3code.htm): 
+* Tab control 
+* Scrollable windows 
+* Easy ToolTips 
+* Easy toolbar 
+
+The LB-Connection (http://www1.freewebs.com/lb-connection/lb3.htm) 
+* Working with combo boxes and more 
+
+Freeform Developers' Forum (http://groups.yahoo.com/group/FreeForm3) 
+* Freeform 3 (ships with Liberty BASIC) - Build your own GUI windows 
+quickly and easily with Freeform 3. It ships with LB. Freeform is 
+under semi-constant development by the LB community.
+
+Good luck with you GUI, and happy coding.
+
+---------------------------------------------------------
+Alternative to Graphics Printing
+	by Alyce Watson
+
+Liberty BASIC allows us to print graphics from graphicboxes or graphics windows.  It does no translating between logical units, so a pixel on the screen is mapped to a dot on the printer.  While the screen width may be 800 or 1024 pixels, the printer may have thousands of dots across the width of a page.  A high resolution printer will then print the graphic very tiny; good if you are creating postage stamp images from your graphics, but not so good otherwise!  Also, the graphics printing capabilities native to Liberty BASIC do not allow you to designate the area to be printed.  The entire graphics area will be sent to the printer.  The syntax for hard-copy printing of graphics is as follows:
+
+    print #graphicwin, "print"
+
+There are add-on DLLs to print images.  It is also possible to print graphics directly via API calls to the Graphics Device Interface.  API calls for printing can get complicated pretty fast, so you might want to try these two very easy alternatives, both of which should give you a properly sized hard-copy printout.
+
+Both methods rely on using another application to print the graphics.  Although this may sound clumsy, in fact it is quite easy and the other application can run completely hidden in the background.  The first method is to use the ShellExecuteA API call.  The second method calls MSPaint directly.  The demo program included shows both methods.
+
+PRINTING GRAPHICS WITH THE DEFAULT BITMAP PROGRAM
+ShellExecuteA will allow you to print your graphics with the user's default bitmap application.  This may be MSPaint, or an application like PaintShopPro or PhotoShop.  You must first save your graphics to a disk file with BMPSAVE.  This requires you to use GETBMP to capture the part of the graphics desired and give it an LB name.  Use the LB name you have given to your bmp when using BMPSAVE.  This little example draws some graphics and saves them to disk.  It uses GETBMP to get a memory bitmap starting at point 0,0 and 300 pixels wide by 300 pixels high.  Be sure to UNLOADBMP for any bitmaps created with GETBMP.  The bmp in the example is given the name, "test".  BMPSAVE then saves "test" with the filename "atest.bmp"  Note that it is EXTREMELY IMPORTANT to give the disk file the extension "bmp":
+
+open "Graphics Print Test" for graphics_nsb as #1
+#1 "trapclose [quit]"
+#1 "down; fill yellow;color darkblue"
+#1 "backcolor pink;size 5;place 150 150"
+#1 "circlefilled 100;flush"
+#1 "getbmp test 0 0 300 300"
+
+bmpsave "test", "atest.bmp"
+
+The API function from Shell32.dll is called ShellExecuteA.  It will open or print the file specified in the filename argument.  It looks at the extension of the file to consult the Windows registry and determine the default application for this file type.  That is why it is very important that the filename of the saved bitmap has the extension "bmp".  The arguments for the function are set up before the function is called.  The filename argument should match the name you gave the bitmap file on disk.  The operation argument should be "print".  The directory argument and command line parameters argument are both null.  The final (show window) parameter defines the way the called application is displayed.  If _SW_HIDE is used, the called application will do its work invisibly in the background.  The return from this function will be a number greater than 32 if it is successful.
+
+    RunFile$=DefaultDir$+"\atest.bmp"
+    bmpsave "test",RunFile$
+    lpOperation$ = "print"
+    lpParameters$ = ""
+    lpDirectory$ = ""
+    nShowCmd = _SW_HIDE
+
+    calldll #shell32, "ShellExecuteA",_
+        hWin as long,_         'window handle
+        lpOperation$ as ptr,_  'open or print
+        RunFile$ as ptr,_      'name of file on disk
+        lpParameters$ as ptr,_ 'command line parameters
+        lpDirectory$ as ptr,_  'default directory, can be null
+        nShowCmd as ulong,_    'show window flag
+        result as long         'result>32=success
+
+PRINTING WITH MSPAINT
+It is probably best to use the ShellExecuteA function to call an external program to do hard-copy printing for us.  We can usually count on users having MSPaint available, though, since it has always been a part of 32-bit Windows.  We can run MSPaint directly and quite easily with Liberty BASIC's RUN command:
+
+    run "mspaint"
+
+We can run MSPaint with a file loaded if we include the name of the file in the parameter string for the run command.  The tricky bit happens because command line paramters may be parsed at empty spaces.  The easiest way to insure that the filename is interpreted properly is to use the function GetShortPathNameA.  This function takes a path and filename and returns the DOS short version of the filename.  We need to set up a string buffer that will be large enough to contain the returned path string, and we must be sure to end it with a null termination to tell Liberty BASIC to pass this value by reference, so that the API function may modify the contents of the string.  The return from this function gives us the length of the short path string returned by the function, so we can use it to truncate the returned string with LEFT$() to remove any junk characters.
+
+     lPath$=DefaultDir$+"\atest.bmp"  'filename of bmp file on disk
+     sPath$=Space$(256)    'create string buffer
+     lenPath=Len(sPath$)   'length of buffer
+     CallDLL #kernel32, "GetShortPathNameA",_
+         lPath$ As ptr,_    'long pathname
+         sPath$ As ptr,_    'buffer to receive short path name
+         lenPath As long,_  'length of buffer
+         r As long          'length of returned string
+     ShortPathName$=Left$(sPath$,r)
+
+We can easily wrap this API function in a Liberty BASIC function:
+
+Function GetShortPathName$(lPath$)
+     sPath$=Space$(256)    'create string buffer
+     lenPath=Len(sPath$)   'length of buffer
+     CallDLL #kernel32, "GetShortPathNameA",_
+         lPath$ As ptr,_    'long pathname
+         sPath$ As ptr,_    'buffer to receive short path name
+         lenPath As long,_  'length of buffer
+         r As long          'length of returned string
+     GetShortPathName$=Left$(sPath$,r)
+     End Function
+
+When we use Liberty BASIC's RUN command, we can use the "show window" flags as well.  After the command string, we place a comma, and then the desired mode for showing the window.  In this case, we'll use HIDE so that MSPaint will not display, but will print invisibly in the background.
+
+        RunFile$=GetShortPathName$(RunFile$)
+        run "mspaint.exe " + RunFile$, HIDE
+
+The code above won't actually print the bitmap.  It will run MSPaint with the bitmap loaded, but we won't see it because we have chosen to hide the application.  To cause MSPaint to print a hard-copy of the bitmap, we need to add the " /p" switch to the command line.  Here it is:
+
+        run "mspaint.exe " + RunFile$ + " /p", HIDE
+
+Be sure to include a space when adding the " /p" switch, or those characters will simply get tacked onto the end of the filename and the code won't work.
+
+DEMO
+The following small program creates a graphics window, draws some graphics, uses GETBMP to capture a bitmap from the graphics area, then saves it to disk.  It then calls on ShellExecuteA to print the bitmap using the default bitmap application on the user's system.  It checks the return from this function and if the function failed, it calls on MSPaint to print the bitmap.  The demo leaves the graphics window open for five seconds, then closes it, unloads the bitmap and ends.
+
+'demo of hard-copy graphics printing
+'with an external application
+nomainwin
+open "Graphics Print Test" for graphics_nsb as #1
+#1 "trapclose [quit]"
+#1 "down; fill yellow;color darkblue"
+#1 "backcolor pink;size 5;place 150 150"
+#1 "circlefilled 100;flush"
+#1 "getbmp test 0 0 300 300"
+
+    RunFile$=DefaultDir$+"\atest.bmp"
+    bmpsave "test",RunFile$
+    lpOperation$ = "print"
+    lpParameters$ = ""
+    lpDirectory$ = ""
+    nShowCmd = _SW_HIDE
+
+    calldll #shell32, "ShellExecuteA",_
+        hW as long,_           'window handle
+        lpOperation$ as ptr,_  'open or print
+        RunFile$ as ptr,_      'name of file on disk
+        lpParameters$ as ptr,_ 'command line parameters
+        lpDirectory$ as ptr,_  'default directory, can be null
+        nShowCmd as ulong,_    'show window flag
+        result as long         'result>32=success
+
+    'if ShellExecuteA didn't work then print with mspaint.exe
+    if result <= 32 then
+        RunFile$=GetShortPathName$(RunFile$)
+        run "mspaint.exe " + RunFile$ + " /p", HIDE
+    end if
+
+timer 5000, [quit]
+wait
+[quit]
+close #1:unloadbmp "test"
+notice "Graphics sent to printer."
+end
+
+
+Function GetShortPathName$(lPath$)
+     sPath$=Space$(256)    'create string buffer
+     lenPath=Len(sPath$)   'length of buffer
+     CallDLL #kernel32, "GetShortPathNameA",_
+         lPath$ As ptr,_    'long pathname
+         sPath$ As ptr,_    'buffer to receive short path name
+         lenPath As long,_  'length of buffer
+         r As long          'length of returned string
+     GetShortPathName$=Left$(sPath$,r)
+     End Function
+
+---------------------------------------------------------
+Liberty Basic Simple Help
+        by Tom Nally
+ 
+(** Special thanks to Alyce for LBSH interface assistance! **)
+
+Liberty Basic Simple Help, or LBSH, is a way to provide Help files within your Liberty Basic applications.  LBSH uses only native Liberty Basic Controls.  By "native" controls, we mean the familiar controls that make up Liberty Basic, such as Buttons and ComboBoxes.
+ 
+LBSH works by loading your help articles or documents into LBSH's TextEditor control.  But your Help system will likely consist of many Help articles, and LBSH allows the user to pick the one he wants by selecting the article's title from a ComboBox located just above the TextEditor control.   
+ 
+Below the TextEditor control are two command buttons, labeled "Previous" and "Next".  By pressing these buttons, your users can navigate through the various Help articles in sequence.  As expected, the "Previous" button calls up the Help article previous to the one currently being read.  The "Next" buttons calls up the Help article just after the one currently being read.
+ 
+Two significant features of LBSH:
+
+•  The font selection, left margin, and wrap length are easily customizable.  Word wrapping is done automatically by LBSH.
+•  The Help articles are merely text documents.  Therefore, they can be written with any application that's capable of saving a file in text format.
+ 
+There are two different ways to use LBSH in your own applications.  The first way is to import the code of LBSH into the code of your application.  This is done in three steps: (1) copy the initialization section to the top of your program; (2) copy the LBSH "engine" to whatever branch label is indicated by your Help command; and (3) copy the CharacterPosition() function to the end of your program, or wherever you keep your user-defined functions.  These three sections are easily identified in the code of the LBSH application.
+
+However, the second way to use LBSH appears to be much easier.  At the branch label which starts your own Help system, merely place a command like this: RUN "LBSH.tkn".  (Of course, you would need to use the actual name of your own Help tkn file.)  The advantage of this is that it allows you to develop your LBSH system as a separate, standalone application.  You no longer have to mix the code of LBSH with the code of your own application.
+
+This is just a brief overview of Liberty Basic Simple Help.  To read more about it, the zip archive contains a program which discusses LBSH in more depth.  In fact, I used LBSH to provide the detailed information about LBSH!
+
+If your Help system can do without hypertext and graphics, LBSH is a way for you to provide help for your users without having to learn Microsoft's HTML Help system.
+ 
+---------------------------------------------------------
+ 
+Liberty BASIC 10 Year Anniversary Challenge
+	By Brad Moore
+
+Win a registration for Liberty BASIC 3!
+Have YOUR program featured in the ABC archives!
+Be published in the Liberty BASIC Newsletter!
+Enjoy Fame and Glory where ever you go – well, probably not...
+
+...but the first three apply – and MORE!
+
+Contest Website:
+
+http://groups.yahoo.com/group/lbcontest
+
+
+Starting Date: November 20, 2002
+Ending Date: January 22, 2003
+Polls Open: January 24, 2003
+Polls Close: Feb 21, 2003
+
+
+BACKGROUND:
+
+Sometime during the year 1992 Carl Gundel, after working hard
+for many long months, released a fledgling little version of
+BASIC for the PC that allowed the user to easily create window
+based applications.  This early version, a beta release ran on both
+the Microsoft Windows based systems and the IBM OS/2 based
+systems.  It caught on with a few and soon the word spread.  As 
+more mature versions of the “Little BASIC that could” were 
+released, more and more people came to use and enjoy it.   Well
+that is the way it was told to me.  I wasn’t there – I didn’t discover
+Liberty BASIC until 1994.  – Brad Moore
+
+CONTEST CATEGORY:
+There is only one category for this contest: UTILITY SOFTWARE
+
+Do not let the limitation cause you grief.  This is a broad
+category which encompasses many things.  Here is a brief list
+of ideas that you could work on, but it is only a suggestion,
+you are welcome to create any program that fills the role
+of a utility.
+
+* Disk File Organizer
+* Disk File Cataloger
+* Multimedia Player
+* File Editor
+* File HexEditor
+* Code Formatter
+* Scheduled Events Manager for PC (Launches programs at x 
+   time or every y minutes, etc) 
+* Contact Manager
+* Image Editor
+* HelpFile Creator (Even if it is a proprietary helpfile 
+    format that you have invented)
+* Alarm Clock
+* File Synchronizer
+...You get the idea – choose something fun.
+
+This contest has been specifically limited to not include
+games.  Please do not be considered as any kind of a 
+reproach on games.  The goal is to try to push the boundary
+on applications which could find service in the business 
+or development world.  There will be a games based 
+contest in 2003.  If you are a skilled graphics manipulator,
+then apply your talent to creating a flashy and fun User
+Interface for your utility.
+
+RULES:
+
+This contest will last for nine weeks. 
+
+The category is: UTILITY SOFTWARE
+
+Contestants must follow the rules provided to be eligible to 
+enter. All code must be submitted in the form of source 
+code (bas files).  Supporting files (graphics and 
+dll’s must also accompany the entry).   Please include a TKN
+version of your program so that unregistered users can 
+later judge your work.  Please do not include any of the 
+runtime dll files or run.exe.
+
+Entries must be uploaded to the files area of lbcontest in
+the folder called Liberty BASIC 10 Year Contest. 
+The files area will be closed on January 23, 2003,
+so all entries must be uploaded by January 22nd.  The 
+URL to upload your files to is:
+
+http://groups.yahoo.com/group/lbcontest/files
+
+You must become a member of the lbcontest group to upload
+contest entries, download programs to be evaluated and to 
+vote in the contest.
+
+Goto: http://groups.yahoo.com/group/lbcontest/ or email the 
+following to join the group: lbcontest-subscribe@yahoogroups.com
+
+
+At the top of the code, include the following information:
+
+1) Your name
+2) Your email address
+3) The version of Liberty Basic
+4) The terms of use for your program
+ 
+Polls will open on January 24th, and remain open until February 21st. 
+During that time, vote here:
+
+http://groups.yahoo.com/group/lbnews/polls/
+
+
+PRIZES:
+
+Carl Gundel has graciously agreed to offer a registration to Liberty BASIC
+to the First and Second place winners.  Each of the winners (First, Second
+and Runner Up) will have their program featured as a part of the ABC
+archives (requires express permission).  Also we will be highlighting 
+the winning entries in the LBNewsletter.  
+
+
+ENTRY REQUIREMENTS:
+
+1) Write clear, well formatted code.
+
+2) Document your source code.
+
+3) Debug you code – all entries should be as bug free as possible.
+
+4) Structure your code so that it can be easily read.
+
+5) Write a short essay that relates to your program.  This is an
+     important part of the entry requirements – This should be a 
+     publishable essay on some aspect of your project.  Choose 
+     an overall description of your work, or your programming 
+     approach, or possible how you solved some tricky aspect of 
+     your project.  Target 300 to 600 words.  (This announcement 
+     is over 850 words.)  The goal is to publish this with you program
+     in an up coming newsletter.  The essay will not be judged during 
+     voting, but failure to submit an essay will disqualify your entry.
+
+6) The program must be generally original work.  You are not permitted
+     to download a mostly finished program, make a few changes and call
+     this your submission.
+
+7) Be sure to include the following at the top of the code:
+
+            1) Your name
+            2) Your email address
+            3) The version of Liberty Basic
+            4) The terms of use for your program
+
+8) Keep an eye on the Judging Criteria to guide your work.
+
+JUDGING CRITERIA
+
+1. Programs should meet all guidelines as set forth
+in this file.
+
+2. Programs should be as bug-free as possible.
+
+3. Programs should have lots of comments.
+
+4. Programs should be well-structured.
+
+5. User interfaces should be attractive and easy to use.
+
+6. Program should be easy to use without complicated
+    instructions.
+
+7. Programs should have unique and interesting elements
+    provided by the programmer.
+
+8. A sense of humor is important. This should be FUN!
+
+
+
+---------------------------------------------------------
+Debugging by Simulating Breakpoints
+        by Kevin (maitrikaruna@yahoo.com)
+
+If you are having problems with your code and need to debug it, in Qbasic or Visual Basic you could set a breakpoint in your code.  A breakpoint allowed you to start your program as normal, and when the code reached the line you have selected as a breakpoint, it would automatically stop.  At this point, you could print out variable names and\or step line by line through the execution path.
+ 
+LB does not yet provide a breakpoint option, but with its very useful Debug screen and a line of code, we can accomplish the same effect.  If the line of code you want to stop or break on is at the beginning of your program, then simply start the execution of your program with the "Run Debug" option from the menu. Then click on the "step" button to walk line by line through the program until you reach the line in question.  Note that the Debug window automatically updates and displays the variable values as you step through each line.
+ 
+For most code though, this process of stepping through each is too slow and would often take a long time to reach the line in question.  In that case, we need to insert a stopping point in the code.  So find the point in your program that you would like to start debugging at, and insert the following:
+ 
+Input breakhere$
+ 
+Now start the program with "Run Debug" again.  This time click the symbol in the debug window for the program to run, not walk or step.  When the code reaches the input statement, it will stop and wait for your input.  Before responding to the input request, make sure to click the "step" button in the debug window.  Now you can press the enter key in your application.  Next, return to the debug window begin stepping through the code line by line from this point forward. 
+ 
+Good luck!
+
+---------------------------------------------------------
+Multi-Coloured Text Input Boxes using a DLL (Revisited)
+        by Ray Fisher
+
+Following a short article in the November Newsletter,
+I have been asked if there was any other way to assign
+colours to the DLL, other than with HEX values. I have
+developed another function which will accept RED, GREEN
+and BLUE values. This function has been added to v02 of
+the DLL. The two functions are now called:
+
+	  InputBoxHEX()
+	  InputBoxRGB()
+
+The syntax is:
+
+open "rmfDLLv02.dll" for dll as #rmfdll
+
+calldll #rmfdll, "InputBoxHEX", _
+  handle    as long, _ ' handle of parent window
+  inkHex$   as ptr, _  ' ink colour
+  paperHex$ as ptr, _  ' paper colour
+  x         as long, _ ' x co-ord
+  y         as long, _ ' y co-ord
+  w         as long, _ ' width
+  h         as long, _ ' height
+  max       as long, _ ' max chars
+  hTB       as long    ' returns a handle to the new control
+
+
+calldll #rmfdll, "InputBoxRGB", _
+  h      as long, _ ' handle of parent window
+  inkR   as long, _ ' ink red
+  inkG   as long, _ ' ink green
+  inkB   as long, _ ' ink blue
+  paperR as long, _ ' paper red
+  paperG as long, _ ' paper green
+  paperB as long, _ ' paper blue
+  x      as long, _ ' x co-ord
+  y      as long, _ ' y co-ord
+  w      as long, _ ' width
+  h      as long, _ ' height
+  max    as long, _ ' max chars
+  hTB    as long    ' returns a handle to the new control
+
+close #rmfdll
+
+The HEX strings can be any valid HEX value
+as shown in the test programme.
+The ink and paper parameters can be any
+value between 0 and 255.
+
+I have also been asked if there is a list of hex numbers
+and corresponding color names. Liberty BASIC only recognises
+sixteen predefined colour names that can be used with the
+three COLOR commands. Most browsers recognise a total of
+140 predefined colour names. To help use these 140 colour
+names from within Liberty BASIC, I have developed a small
+LB utility that will display all thes colours. Any colours
+that are required in an LB programme can then be defined
+within that programme and used in the same way as RED,
+GREEN and BLUE numerical values are already be used.
+
+The files that I have included are:
+	rmfDLLv02.dll		- DLL
+	rmfDLLv02.c		- DLL source code
+	aboutrmfDLLv02.txt	- Explanation file
+	testDLLv02.bas		- Tests the DLL
+	colours.bas		- Utility to show all 140 colour
+				- names and their HEX and R/G/B values
+	colour_names_demo.bas	- Shows how to use the colour names
+	colour_data.txt		- Any colour name and its R/G/B value
+				- can easily be copied from here to
+				- an LB programme.
+
+These files can be copied and modified at will.
+
+rmfisher@talk21.com
+rmfisher@btinternet.com
+***********************

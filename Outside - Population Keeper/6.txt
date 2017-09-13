@@ -1,0 +1,12 @@
+126 375
+Russian Mines
+man=Conover,0
+man=Conover,12
+man=US,3
+man=Metal,5
+man=Conover,-2
+man=Conover,2
+man=Conover,1
+man=Metal,1
+man=Conover,-2
+man=Metal,-6

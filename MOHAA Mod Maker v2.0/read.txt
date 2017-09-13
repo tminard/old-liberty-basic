@@ -1,0 +1,183 @@
+
+:Glock
+{
+team=allies
+file=guns\glock.pk3
+type=pistol
+txt=This replaces the Colt with a cool Glock. Check out the sounds!
+}
+
+:Golden Colt
+{
+team=allies
+file=guns\goldcolt.pk3
+type=pistol
+txt=This mod changes the color of the Colt to gold. It also changes the sounds!
+}
+
+:Updated M1
+{
+team=allies
+file=guns\coolm1.pk3
+type=rifle
+txt=This file replaces the M1 with a new and improved M1. Cool skin, Amazing sounds!
+}
+
+
+:S.W.A.T. Flame Thrower
+{
+team=allies
+file=guns\flame1.pk3
+type=submach
+txt=Now this is a cool mod! It replaces the Thomson with a SWAT Machine Gun/Flame Thrower.
+}
+
+:Britsh SA80 assualt rifle
+{
+team=allies
+file=guns\sa80.pk3
+type=largmach
+txt=This replaces the BAR with the modern britsh SA80 assualt rifle!
+}
+
+
+:Maffia Mob Boss!!
+{
+team=all
+file=addon\zuser-tigermobboss.pk3
+type=addon
+txt=Take a look! Play as a Maffia boss in MP! (now we have to kill you...)
+}
+ 
+:1920's Cop!
+{
+team=all
+file=addon\1920 cop.pk3
+type=addon
+txt=Play as a 1920's cop!
+}
+
+:Free for All bot support
+{
+team=all
+file=addon\zzzzz_cheechbots.pk3
+type=addon
+txt=Enables bots in all the Free for All maps
+}
+
+:Bot objective maps
+{
+team=all
+file=addon\zzzzz_eaglear_aabot_dm.pk3
+type=addon
+txt=Here is a LOAD of objective maps with bot support.
+}
+
+
+:Bot support update
+{
+team=all
+file=addon\jv_bot01_update1.pk3
+type=addon
+txt=null
+}
+
+:Bot support
+{
+team=all
+file=addon\jv_bot01.pk3
+type=addon
+txt=null
+}
+
+:Body Hit Puff
+{
+team=all
+file=addon\zzzzz_User-BASIL_SPR_BodyhitPUFFv15.pk3
+type=addon
+txt=This addon adds more smoke when you shoot someone. No blood.
+}
+
+
+
+:Bullet Holes
+{
+team=all
+file=addon\Z_MetroWebMilano Real Bullet Holes.pk3
+type=addon
+txt=This simple mod adds more realistic bullet holes to windows/walls etc.
+}
+
+:Snow Ball fight!
+{
+team=all
+file=addon\ZZZZZZZZZZZZZ_Krunchs_Verschneit_Snowball_Fight_Mod.pk3
+type=addon
+txt=This may only work through Breakthrough. I am working on it!
+}
+
+:Updated Sniper Pack
+{
+team=all
+file=addon\zzzuser-Apoc-Custom_KAR98_Springfield.pk3
+type=addon
+txt=New KAR98 Rifle, Sniper Rifle, and Springfield made by Apocalypse
+}
+
+:The Lost Village MP Map
+{
+team=all
+file=addon\zzzz_thelostvillage_bot.pk3
+type=addon
+txt=The Lost village DM and OBJ map with bots!
+}
+
+:Russia MP map
+{
+team=all
+file=addon\zzzz_russia_stlo.pk3
+type=addon
+txt=A map based in Russia. Duh!
+}
+
+:Bastogne MP Map
+{
+team=all
+file=addon\zzzz_bastogne_bot.pk3
+type=addon
+txt=The map of Bastogne with Bots!
+}
+
+:Frag-n-rock map
+{
+team=all
+file=addon\zzzz_frag-n-rock_bot.pk3
+type=addon
+txt=I don't know much other then that it has bots!
+}
+
+:Heck in the Pacific
+{
+team=all
+file=games\aheck.pk3
+type=game
+txt=A whole new expansion pack for MOD! Pacific Theme!
+}
+
+:Modern War Fare
+{
+team=all
+file=games\amodern.pk3
+type=game
+txt=This expansion pack for MOH holds a whole new modern Theme!
+}
+
+:Civil War v1.0
+{
+team=all
+file=games\aciv.pk3
+type=game
+txt=This is an expansion for MOH. American Civil War! (slow weapon reloading, may crash with bots!)
+}
+
+

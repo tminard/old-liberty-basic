@@ -1,0 +1,13 @@
+name=Zm's M1 with Strap & Bayonett
+uptext=This update will install a cool new M1!
+version=1.75
+data=MOHm1ZM.BIN\
+required=[DATA]\[GAMES]\MOHAASp.mgm,Medal of Honor Allied Assault Spearhead
+INSTALL
+mkdir=[DATA]\[GAMES]\MOHAASP\ZM\
+mkdir=[DATA]\[GAMES]\MOHAASP\ZM\m1gun\
+cpfile=Zmsm1.mod,[DATA]\[GAMES]\MOHAASP\zmsm1.wep.mod
+cpfile=zzzuser-M1Garand.pk3,[DATA]\[GAMES]\MOHAASP\ZM\m1gun\zzzuser-M1Garand.pk3
+ENDINSTALL
+endnotice=Black Water Modifications: www.blackwatermods.com
+EOF

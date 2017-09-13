@@ -1,0 +1,14 @@
+name=New game support file: MoHAA
+type=game
+uptext=This update will install support for MoHAA
+version=1.6
+data=MoHgame.BIN\
+endnotice=Update by Tyler Minard.
+INSTALL
+mkdir=[DATA]\[GAMES]\MOHAA\
+cpfile=MOHAA.mgm,[DATA]\[GAMES]\MOHAA.mgm
+mkdir=[DATA]\[SOUND]\MOHAA\
+cpfile=refreshWin.wav,[DATA]\[SOUND]\MOHAA\refreshWin.wav
+cpfile=openWin.wav,[DATA]\[SOUND]\MOHAA\openWin.wav
+ENDINSTALL
+EOF

@@ -1,0 +1,36 @@
+(see .bas file for a more updated list)
+
+'// Rules of Version Changing \\
+ '1) Anytime a line of code is changed that effects loading of files the verison must go up by 0.02
+ '2) Anytime a line of code is edited the changes the way a loaded file is displayed version must go up by 0.1
+ '3) Anytime a section of code is added or removed then version goes up by 0.1
+ '4) If version is x.99 then version goes up by 1
+ '5) any changes in displayed text then version goes up by .01
+ '6) Bug fixes go up by .01
+'// END \\
+
+'// future plans
+' 1) DONE!!
+' 2) Add sounds 'Button clicks, etc.
+' 3) Enable .mgm file to change sounds and colors 'This will be cool!
+' 4) Add '{menu.Options}' 'Right now everything is hard coded
+' 5) Enable custom links in .mod files
+' 6) Better arrangment of GUI objects {it's good for now}
+'// END \\
+
+// List of Changes as of v1.52
+    - v1.7, Added types support FINALLY!!! WOOHOO!!!: Tyler-v1.7-Oct 7, 06
+    - v1.6, added support for .mlt files and changed main dirs ([data]\ not data\): Tyler M-v1.6-Oct 3, 06
+
+    - Added 'Installing now...' window improvement to the shell!:Tyler-v1.58-sept 30,06
+    
+    - Fixed small problem with detection of installed mods getting screwed up (by a single variable!): Tyler-v1.57-sept30,06
+
+    - added Update.bas program. will automatically install all .mut files that need the replace in use files (like backfire.tkn). Rename all .mut's to .replace in main dir for it to work: Tyler-v1.56-sept29,06
+
+    - Removed 'Blinking' caused by window closing then reopening, added [reload.win]:Tyler Minard-v1.55-sept 29, 06
+
+    - Added Detection of Blank Slection. Sometimes user would click a mod then load a new game. Then they would hit 'install' or 'uninstall': Tyler-v1.54-sep29,06
+
+    - Added 'lessnotices' to speed up installation of mods: by Tyler Minard-v1.53-sep 29, 06
+'// END \\
