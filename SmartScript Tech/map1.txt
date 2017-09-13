@@ -1,0 +1,7 @@
+//NOTE: After each command you MUST add the '*' symbol. If you dont,
+//the program wont be able to tell between two words in some commands.
+//
+openg*Game Test
+addsprite*man*man man2
+wait*5
+closeg

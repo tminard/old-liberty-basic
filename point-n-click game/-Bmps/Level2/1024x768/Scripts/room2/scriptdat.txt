@@ -1,0 +1,7 @@
+ADDSPRITE cover coverup.bmp
+PRINTSPRITE cover 15 50
+DRAWSPRITES
+wait 5000
+RMSPRITE cover
+DRAWSPRITES
+EndScript

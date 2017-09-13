@@ -1,0 +1,477 @@
+
+
+Error log timestamp Tuesday 09/26/06 12:33:54 PM
+
+Runtime error: File D:\TYLER\LibertyB\TylerM\WORMS\data\worms\walk1.bmp not found.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>runError: <'File D:\TYLER\Libert...'> 
+BasicProgram>>bmpFromFile: <'D:\TYLER\LibertyB\Ty...'> 
+BasicProgram>>bmpLoad: <aBasicStringContext> with: <aBasicStringContext> 
+[] in BmpLoadCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''// Some default com...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 09/26/06 12:36:40 PM
+
+Runtime error: File D:\TYLER\LibertyB\TylerM\WORMS\data\worms\walk1.bmp not found.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>runError: <'File D:\TYLER\Libert...'> 
+BasicProgram>>bmpFromFile: <'D:\TYLER\LibertyB\Ty...'> 
+BasicProgram>>bmpLoad: <aBasicStringContext> with: <aBasicStringContext> 
+[] in BmpLoadCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''// Some default com...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 09/26/06 12:37:35 PM
+
+Runtime error: File D:\TYLER\LibertyB\TylerM\WORMS\data\worms\walk1.bmp not found.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>runError: <'File D:\TYLER\Libert...'> 
+BasicProgram>>bmpFromFile: <'D:\TYLER\LibertyB\Ty...'> 
+BasicProgram>>bmpLoad: <aBasicStringContext> with: <aBasicStringContext> 
+[] in BmpLoadCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''// Some default com...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 09/26/06 12:37:52 PM
+
+Runtime error: File D:\TYLER\LibertyB\TylerM\WORMS\data\worms\walk1.bmp not found.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>runError: <'File D:\TYLER\Libert...'> 
+BasicProgram>>bmpFromFile: <'D:\TYLER\LibertyB\Ty...'> 
+BasicProgram>>bmpLoad: <aBasicStringContext> with: <aBasicStringContext> 
+[] in BmpLoadCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''// Some default com...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 09/26/06 12:38:06 PM
+
+Runtime error: File D:\TYLER\LibertyB\TylerM\WORMS\data\worms\walk1.bmp not found.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>runError: <'File D:\TYLER\Libert...'> 
+BasicProgram>>bmpFromFile: <'D:\TYLER\LibertyB\Ty...'> 
+BasicProgram>>bmpLoad: <aBasicStringContext> with: <aBasicStringContext> 
+[] in BmpLoadCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''// Some default com...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 09/26/06 12:38:30 PM
+
+Runtime error: File D:\TYLER\LibertyB\TylerM\WORMS\data\worms\walk1.bmp not found.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>runError: <'File D:\TYLER\Libert...'> 
+BasicProgram>>bmpFromFile: <'D:\TYLER\LibertyB\Ty...'> 
+BasicProgram>>bmpLoad: <aBasicStringContext> with: <aBasicStringContext> 
+[] in BmpLoadCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''// Some default com...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 09/26/06 12:56:39 PM
+
+Runtime error: File D:\TYLER\LibertyB\TylerM\WORMS\data\worms\walk1.bmp not found.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>runError: <'File D:\TYLER\Libert...'> 
+BasicProgram>>bmpFromFile: <'D:\TYLER\LibertyB\Ty...'> 
+BasicProgram>>bmpLoad: <aBasicStringContext> with: <aBasicStringContext> 
+[] in BmpLoadCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''// Some default com...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 09/26/06 12:57:01 PM
+
+Runtime error: File D:\TYLER\LibertyB\TylerM\WORMS\data\worms\walk1.bmp not found.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>runError: <'File D:\TYLER\Libert...'> 
+BasicProgram>>bmpFromFile: <'D:\TYLER\LibertyB\Ty...'> 
+BasicProgram>>bmpLoad: <aBasicStringContext> with: <aBasicStringContext> 
+[] in BmpLoadCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''// Some default com...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 09/26/06 12:57:48 PM
+
+Runtime error: File D:\TYLER\LibertyB\TylerM\WORMS\data\worms\walk1.bmp not found.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TYLER\Libert...'> 
+BasicProgram(Object)>>error: <'File D:\TYLER\Libert...'> 
+BasicProgram>>runError: <'File D:\TYLER\Libert...'> 
+BasicProgram>>bmpFromFile: <'D:\TYLER\LibertyB\Ty...'> 
+BasicProgram>>bmpLoad: <aBasicStringContext> with: <aBasicStringContext> 
+[] in BmpLoadCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''// Some default com...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 

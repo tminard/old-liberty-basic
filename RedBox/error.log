@@ -1,0 +1,107 @@
+
+
+Error log timestamp Monday 12/04/06 04:33:10 PM
+
+Runtime error: Invalid  handle: #g.main
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid  handle: #g....'> 
+BasicProgram(Object)>>error: <'Invalid  handle: #g....'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid  handle: #g....'> 
+BasicProgram(Object)>>error: <'Invalid  handle: #g....'> 
+BasicProgram>>runError: <'Invalid  handle: #g....'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#g.main'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[mouse.down]'> 
+BasicProgram>>handlerName: <'[mouse.down]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+Message>>perform
+Message>>evaluate
+BasicProgram>>processEvent
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Monday 12/04/06 04:38:22 PM
+
+Runtime error: Attempted to kill non-existant file operation.op
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Attempted to kill no...'> 
+BasicProgram(Object)>>error: <'Attempted to kill no...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Attempted to kill no...'> 
+BasicProgram(Object)>>error: <'Attempted to kill no...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Attempted to kill no...'> 
+BasicProgram(Object)>>error: <'Attempted to kill no...'> 
+[] in KillCommand>>using:
+File class>>remove: <'operation.op'> ifAbsent: <aBlockClosure> 
+[] in KillCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[con]'> 
+BasicProgram>>handlerName: <'[con]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[con]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[con]'> callParameters: <anOrderedCollection> 
+TimerTopPane>>wmTimer: <4915752> with: <0> 
+NotificationManager>>notify: <aWinMessage> 

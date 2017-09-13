@@ -1,0 +1,24 @@
+$images
+back=yard.bmp
+city=city.bmp
+camp=camp.bmp
+oldc=nocamp.bmp
+rock=rock.bmp
+ENDBLOCK
+
+$nowalk
+rock=Information: Rocky Ground. You can't build anything on this ground
+water=Information: This land contains lots of water. You can't build anything here
+ENDBLOCK
+
+$players
+player1=America=450 50=1280
+player2=Elcity=40 169=1280
+ENDBLOCK
+
+$sprites
+addsprite*Rocks=3*rock
+spritexy*Rocks=3*0 0
+ENDBLOCK
+EOF
+

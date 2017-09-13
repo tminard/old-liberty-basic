@@ -1,0 +1,162 @@
+
+
+Error log timestamp Wednesday 03/22/06 11:58:05 AM
+
+Runtime error: File C:\Documents and Settings\Tyler Minard\Desktop\room1.bmp not found.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File C:\Documents an...'> 
+BasicProgram(Object)>>error: <'File C:\Documents an...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File C:\Documents an...'> 
+BasicProgram(Object)>>error: <'File C:\Documents an...'> 
+BasicProgram>>runError: <'File C:\Documents an...'> 
+BasicProgram>>bmpFromFile: <'C:\Documents and Set...'> 
+BasicProgram>>bmpLoad: <aBasicStringContext> with: <aBasicStringContext> 
+[] in BmpLoadCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'loadbmp "room", "roo...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 03/22/06 11:59:23 AM
+
+Runtime error: No sprite named: room
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: roo...'> 
+BasicProgram(Object)>>error: <'No sprite named: roo...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: roo...'> 
+BasicProgram(Object)>>error: <'No sprite named: roo...'> 
+BasicProgram>>runError: <'No sprite named: roo...'> 
+[] in BasicGraphPane>>spriteNamed:
+[] in BasicGraphPane>>spriteNamed:ifAbsent:
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+BasicGraphPane>>spriteNamed: <'room'> ifAbsent: <aBlockClosure> 
+BasicGraphPane>>spriteNamed: <'room'> 
+BasicGraphicDevice>>spriteXY: <anOrderedCollection> 
+BasicGraphicDevice(Object)>>perform: <#spriteXY:> with: <anOrderedCollection> 
+BasicGraphicDevice>>writeItem: <'spritexy room 0 0'> 
+BasicGraphicDevice(BasicFile)>>writeItemCr: <'spritexy room 0 0'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#1'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'loadbmp "room", "roo...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+
+
+Error log timestamp Wednesday 03/22/06 12:49:40 PM
+
+Runtime error: Invalid file handle: #w.g
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid file handle:...'> 
+BasicProgram(Object)>>error: <'Invalid file handle:...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid file handle:...'> 
+BasicProgram(Object)>>error: <'Invalid file handle:...'> 
+[] in BasicProgram>>deviceAt:
+LinearHashTable>>lookUpValue: <'#w.g'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'#w.g'> ifAbsent: <aBlockClosure> 
+BasicProgram>>deviceAt: <'#w.g'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#w.g'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[key]'> 
+BasicProgram>>handlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[key]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicGraphPane>>characterInput: <aCharacter> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 

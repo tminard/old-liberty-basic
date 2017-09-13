@@ -1,0 +1,8 @@
+wait 3000 GOOD
+SOUND grass_face.wav
+wait 500 GOOD
+SOUND grass_face.wav
+wait 1000 END
+runme 1000 652 130 face1.bmp
+'Run the line above ONLY if the user does not move for 3 seconds
+EndScript

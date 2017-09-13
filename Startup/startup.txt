@@ -1,0 +1,3 @@
+C:\Program Files\Yahoo!\Yahoo! Widget Engine\YahooWidgetEngine.exe
+C:\Program Files\PC Tools Firewall Plus\PCTFW.exe
+C:\Program Files\RocketDock\RocketDock.exe

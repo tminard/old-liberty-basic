@@ -1,0 +1,3067 @@
+
+
+Error log timestamp Tuesday 05/30/06 10:54:23 AM
+
+Runtime error: No sprite named: Klineshon=1
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: Kli...'> 
+BasicProgram(Object)>>error: <'No sprite named: Kli...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: Kli...'> 
+BasicProgram(Object)>>error: <'No sprite named: Kli...'> 
+BasicProgram>>runError: <'No sprite named: Kli...'> 
+[] in BasicGraphPane>>spriteNamed:
+[] in BasicGraphPane>>spriteNamed:ifAbsent:
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'Klineshon=1'> ifAbsent: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'Klineshon=1'> 
+LibGraphDevice(BasicGraphicDevice)>>spriteXY: <anOrderedCollection> 
+LibGraphDevice(Object)>>perform: <#spriteXY:> with: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'spritexy Klineshon=1...'> 
+LibGraphPane>>writeItem: <'spritexy Klineshon=1...'> 
+LibGraphPane(SubPane)>>writeItemCr: <'spritexy Klineshon=1...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.g'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+
+
+Error log timestamp Tuesday 05/30/06 12:56:45 PM
+
+Runtime error: Subscript out of range: 3, area$()
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Subscript out of ran...'> 
+BasicProgram(Object)>>error: <'Subscript out of ran...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Subscript out of ran...'> 
+BasicProgram(Object)>>error: <'Subscript out of ran...'> 
+BasicProgram>>runError: <'Subscript out of ran...'> 
+BasicStringArray(BasicArray)>>boundsError: <3> 
+BasicStringArray(BasicArray)>>assignUsing: <anOrderedCollection> 
+BasicArrayAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[click]'> 
+BasicProgram>>handlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>button1Up: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 05/30/06 01:22:45 PM
+
+Runtime error: index: 216 is outside of collection bounds
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'index: 216 is outsid...'> 
+BasicProgram(Object)>>error: <'index: 216 is outsid...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'index: 216 is outsid...'> 
+OrderedCollection(Object)>>error: <'index: 216 is outsid...'> 
+OrderedCollection(IndexedCollection)>>errorInBounds: <216> 
+OrderedCollection>>at: <216> 
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[click]'> 
+BasicProgram>>handlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>button1Up: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 05/30/06 01:44:54 PM
+
+Runtime error: No sprite named: tmpx2
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: tmp...'> 
+BasicProgram(Object)>>error: <'No sprite named: tmp...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: tmp...'> 
+BasicProgram(Object)>>error: <'No sprite named: tmp...'> 
+BasicProgram>>runError: <'No sprite named: tmp...'> 
+[] in BasicGraphPane>>spriteNamed:
+[] in BasicGraphPane>>spriteNamed:ifAbsent:
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'tmpx2'> ifAbsent: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'tmpx2'> 
+LibGraphDevice(BasicGraphicDevice)>>getSpriteXY: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'spritexy?  tmpx2 tmp...'> 
+LibGraphPane>>writeItem: <'spritexy?  tmpx2 tmp...'> 
+LibGraphPane(SubPane)>>writeItemCr: <'spritexy?  tmpx2 tmp...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.g'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[click]'> 
+BasicProgram>>handlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>button1Up: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+
+
+Error log timestamp Tuesday 05/30/06 04:58:11 PM
+
+Runtime error: No sprite named: tmpx
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: tmp...'> 
+BasicProgram(Object)>>error: <'No sprite named: tmp...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: tmp...'> 
+BasicProgram(Object)>>error: <'No sprite named: tmp...'> 
+BasicProgram>>runError: <'No sprite named: tmp...'> 
+[] in BasicGraphPane>>spriteNamed:
+[] in BasicGraphPane>>spriteNamed:ifAbsent:
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'tmpx'> ifAbsent: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'tmpx'> 
+LibGraphDevice(BasicGraphicDevice)>>getSpriteXY: <anOrderedCollection> 
+LibGraphDevice(Object)>>perform: <#getSpriteXY:> with: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'spritexy?  tmpx tmpy'> 
+LibGraphPane>>writeItem: <'spritexy?  tmpx tmpy'> 
+LibGraphPane(SubPane)>>writeItemCr: <'spritexy?  tmpx tmpy'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.g'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[mouse]'> 
+BasicProgram>>handlerName: <'[mouse]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[mouse]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>mouseMove: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+
+
+Error log timestamp Tuesday 05/30/06 05:49:42 PM
+
+Runtime error: Branch label not found: [EndTurn]
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Branch label not fou...'> 
+BasicProgram(Object)>>error: <'Branch label not fou...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Branch label not fou...'> 
+BasicProgram(Object)>>error: <'Branch label not fou...'> 
+BasicProgram>>runError: <'Branch label not fou...'> 
+[] in BasicProgram>>init
+[] in BasicValueManager>>indexFromName:
+LinearHashTable>>lookUpValue: <'[EndTurn]'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'[EndTurn]'> ifAbsent: <aBlockClosure> 
+BasicValueManager>>indexFromName: <'[EndTurn]'> 
+BasicValueReference>>unused: <aBasicValueManager> 
+BasicValueReference>>for: <aBasicValueManager> 
+BasicValueManager>>atReference: <aBasicValueReference> 
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[click]'> 
+BasicProgram>>handlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>button1Up: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 05/30/06 08:15:37 PM
+
+Runtime error: Sprite DLL already in use
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Sprite DLL already i...'> 
+BasicProgram(Object)>>error: <'Sprite DLL already i...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Sprite DLL already i...'> 
+BasicProgram(Object)>>error: <'Sprite DLL already i...'> 
+BasicProgram>>runError: <'Sprite DLL already i...'> 
+LibGraphPane(BasicGraphPane)>>spriteDLL
+LibGraphPane(BasicGraphPane)>>background: <'back'> 
+LibGraphDevice(BasicGraphicDevice)>>background: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'background back'> 
+LibGraphPane>>writeItem: <'background back'> 
+LibGraphPane(SubPane)>>writeItemCr: <'background back'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.g'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+
+
+Error log timestamp Tuesday 05/30/06 08:23:48 PM
+
+Runtime error: No sprite named: Shoneland=1
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: Sho...'> 
+BasicProgram(Object)>>error: <'No sprite named: Sho...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: Sho...'> 
+BasicProgram(Object)>>error: <'No sprite named: Sho...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: Sho...'> 
+BasicProgram(Object)>>error: <'No sprite named: Sho...'> 
+BasicProgram>>runError: <'No sprite named: Sho...'> 
+[] in BasicGraphPane>>spriteNamed:
+[] in BasicGraphPane>>spriteNamed:ifAbsent:
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'Shoneland=1'> ifAbsent: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'Shoneland=1'> 
+LibGraphDevice(BasicGraphicDevice)>>getSpriteXY: <anOrderedCollection> 
+LibGraphDevice(Object)>>perform: <#getSpriteXY:> with: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'spritexy? Shoneland=...'> 
+LibGraphPane>>writeItem: <'spritexy? Shoneland=...'> 
+LibGraphPane(SubPane)>>writeItemCr: <'spritexy? Shoneland=...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.g'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+
+
+Error log timestamp Tuesday 05/30/06 08:43:51 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+LargePositiveInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+LargePositiveInteger(LargeInteger)>>absoluteLessThan: <209778> 
+LargePositiveInteger(LargeInteger)>>-
+BasicForNext>>next
+BasicNextBehavior>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[click]'> 
+BasicProgram>>handlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>button1Up: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 05/30/06 08:45:00 PM
+
+Runtime error: Sprite DLL already in use
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Sprite DLL already i...'> 
+BasicProgram(Object)>>error: <'Sprite DLL already i...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Sprite DLL already i...'> 
+BasicProgram(Object)>>error: <'Sprite DLL already i...'> 
+BasicProgram>>runError: <'Sprite DLL already i...'> 
+LibGraphPane(BasicGraphPane)>>spriteDLL
+LibGraphPane(BasicGraphPane)>>background: <'back'> 
+LibGraphDevice(BasicGraphicDevice)>>background: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'background back'> 
+LibGraphPane>>writeItem: <'background back'> 
+LibGraphPane(SubPane)>>writeItemCr: <'background back'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.g'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+
+
+Error log timestamp Tuesday 05/30/06 08:47:12 PM
+
+Runtime error: Sprite DLL already in use
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Sprite DLL already i...'> 
+BasicProgram(Object)>>error: <'Sprite DLL already i...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Sprite DLL already i...'> 
+BasicProgram(Object)>>error: <'Sprite DLL already i...'> 
+BasicProgram>>runError: <'Sprite DLL already i...'> 
+LibGraphPane(BasicGraphPane)>>spriteDLL
+LibGraphPane(BasicGraphPane)>>background: <'back'> 
+LibGraphDevice(BasicGraphicDevice)>>background: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'background back'> 
+LibGraphPane>>writeItem: <'background back'> 
+LibGraphPane(SubPane)>>writeItemCr: <'background back'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.g'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+
+
+Error log timestamp Tuesday 05/30/06 08:51:28 PM
+
+Runtime error: File C:\WIN98\Desktop\risk\shoneland.bmp not found.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File C:\WIN98\Deskto...'> 
+BasicProgram(Object)>>error: <'File C:\WIN98\Deskto...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File C:\WIN98\Deskto...'> 
+BasicProgram(Object)>>error: <'File C:\WIN98\Deskto...'> 
+BasicProgram>>runError: <'File C:\WIN98\Deskto...'> 
+BasicProgram>>bmpFromFile: <'C:\WIN98\Desktop\ris...'> 
+BasicProgram>>bmpLoad: <aBasicStringContext> with: <aBasicStringContext> 
+[] in BmpLoadCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 05/31/06 07:51:22 AM
+
+Runtime error: invalid branch label: [trace.stop]
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'invalid branch label...'> 
+BasicProgram(Object)>>error: <'invalid branch label...'> 
+BasicProgram>>goto: <'[trace.stop]'> 
+BasicProgram>>gotoAndIfStoppedBegin: <'[trace.stop]'> 
+BasicProgram>>handlerName: <'[trace.stop]'> evaluate: <aBlockClosure> callParameters: <anArray> 
+Message>>perform
+Message>>evaluate
+BasicProgram>>processEvent
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 05/31/06 08:04:54 AM
+
+Runtime error: newsprite spritename bmpname1 bmpname2 ...
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'newsprite spritename...'> 
+BasicProgram(Object)>>error: <'newsprite spritename...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'newsprite spritename...'> 
+BasicProgram(Object)>>error: <'newsprite spritename...'> 
+BasicProgram>>runError: <'newsprite spritename...'> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'addsprite rock=3'> 
+LibGraphPane>>writeItem: <'addsprite rock=3'> 
+LibGraphPane(SubPane)>>writeItemCr: <'addsprite rock=3'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.g'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 05/31/06 09:59:46 AM
+
+Runtime error: Bitmap named city not found!
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bitmap named city no...'> 
+BasicProgram(Object)>>error: <'Bitmap named city no...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bitmap named city no...'> 
+BasicProgram(Object)>>error: <'Bitmap named city no...'> 
+BasicProgram>>runError: <'Bitmap named city no...'> 
+[] in BasicProgram>>bmpNamed:
+LinearHashTable>>lookUpValue: <'city'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'city'> ifAbsent: <aBlockClosure> 
+BasicProgram>>bmpNamed: <'city'> 
+[] in BasicGraphicDevice>>addSprite:
+OrderedCollection>>do: <aBlockClosure> 
+LibGraphDevice(BasicGraphicDevice)>>addSprite: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'addsprite America=1 ...'> 
+LibGraphPane>>writeItem: <'addsprite America=1 ...'> 
+LibGraphPane(SubPane)>>writeItemCr: <'addsprite America=1 ...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.g'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[info]'> 
+BasicProgram>>handlerName: <'[info]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[info]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>button2Up: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+
+
+Error log timestamp Wednesday 05/31/06 10:13:57 AM
+
+Runtime error: Bitmap named America=2 not found!
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bitmap named America...'> 
+BasicProgram(Object)>>error: <'Bitmap named America...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bitmap named America...'> 
+BasicProgram(Object)>>error: <'Bitmap named America...'> 
+BasicProgram>>runError: <'Bitmap named America...'> 
+[] in BasicProgram>>bmpNamed:
+LinearHashTable>>lookUpValue: <'America=2'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'America=2'> ifAbsent: <aBlockClosure> 
+BasicProgram>>bmpNamed: <'America=2'> 
+[] in BasicGraphicDevice>>addSprite:
+OrderedCollection>>do: <aBlockClosure> 
+LibGraphDevice(BasicGraphicDevice)>>addSprite: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'addsprite South Amer...'> 
+LibGraphPane>>writeItem: <'addsprite South Amer...'> 
+LibGraphPane(SubPane)>>writeItemCr: <'addsprite South Amer...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.g'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[info]'> 
+BasicProgram>>handlerName: <'[info]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[info]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>button2Up: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+
+
+Error log timestamp Wednesday 05/31/06 10:14:38 AM
+
+Runtime error: Bitmap named l=1 not found!
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bitmap named l=1 not...'> 
+BasicProgram(Object)>>error: <'Bitmap named l=1 not...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bitmap named l=1 not...'> 
+BasicProgram(Object)>>error: <'Bitmap named l=1 not...'> 
+BasicProgram>>runError: <'Bitmap named l=1 not...'> 
+[] in BasicProgram>>bmpNamed:
+LinearHashTable>>lookUpValue: <'l=1'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'l=1'> ifAbsent: <aBlockClosure> 
+BasicProgram>>bmpNamed: <'l=1'> 
+[] in BasicGraphicDevice>>addSprite:
+OrderedCollection>>do: <aBlockClosure> 
+LibGraphDevice(BasicGraphicDevice)>>addSprite: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'addsprite t l=1 city'> 
+LibGraphPane>>writeItem: <'addsprite t l=1 city'> 
+LibGraphPane(SubPane)>>writeItemCr: <'addsprite t l=1 city'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.g'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[info]'> 
+BasicProgram>>handlerName: <'[info]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[info]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>button2Up: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+
+
+Error log timestamp Wednesday 05/31/06 11:18:43 AM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+BasicVariableManager(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+BasicVariableManager(BasicValueManager)>>var: <4> 
+BasicProgram>>var: <4> 
+BasicForNext>>next
+BasicNextBehavior>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[click]'> 
+BasicProgram>>handlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>button1Up: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 05/31/06 01:20:20 PM
+
+Runtime error: [setup.main.Window] - label has multiple definitions
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'[setup.main.Window] ...'> 
+BasicProgram(Object)>>error: <'[setup.main.Window] ...'> 
+BasicProgram>>labelNextFrameWith: <'[setup.main.Window]'> 
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>parseNext
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> 
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 05/31/06 01:20:43 PM
+
+Runtime error: [main.inputLoop] - label has multiple definitions
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'[main.inputLoop] - l...'> 
+BasicProgram(Object)>>error: <'[main.inputLoop] - l...'> 
+BasicProgram>>labelNextFrameWith: <'[main.inputLoop]'> 
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>parseNext
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> 
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 05/31/06 01:20:49 PM
+
+Runtime error: [quit.main] - label has multiple definitions
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'[quit.main] - label ...'> 
+BasicProgram(Object)>>error: <'[quit.main] - label ...'> 
+BasicProgram>>labelNextFrameWith: <'[quit.main]'> 
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>parseNext
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> 
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 05/31/06 01:20:56 PM
+
+Runtime error: [build.city] - label has multiple definitions
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'[build.city] - label...'> 
+BasicProgram(Object)>>error: <'[build.city] - label...'> 
+BasicProgram>>labelNextFrameWith: <'[build.city]'> 
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>parseNext
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> 
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 05/31/06 01:21:02 PM
+
+Runtime error: [Endturn] - label has multiple definitions
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'[Endturn] - label ha...'> 
+BasicProgram(Object)>>error: <'[Endturn] - label ha...'> 
+BasicProgram>>labelNextFrameWith: <'[Endturn]'> 
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>parseNext
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> 
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 05/31/06 01:21:07 PM
+
+Runtime error: [quit.main] - label has multiple definitions
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'[quit.main] - label ...'> 
+BasicProgram(Object)>>error: <'[quit.main] - label ...'> 
+BasicProgram>>labelNextFrameWith: <'[quit.main]'> 
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>nextTokens
+BasicCompiler>>parseNext
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> 
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 05/31/06 01:22:02 PM
+
+Runtime error: Invalid file handle: #main.g
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid file handle:...'> 
+BasicProgram(Object)>>error: <'Invalid file handle:...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid file handle:...'> 
+BasicProgram(Object)>>error: <'Invalid file handle:...'> 
+[] in BasicProgram>>deviceAt:
+LinearHashTable>>lookUpValue: <'#main.g'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'#main.g'> ifAbsent: <aBlockClosure> 
+BasicProgram>>deviceAt: <'#main.g'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.g'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 05/31/06 01:22:18 PM
+
+Runtime error: Invalid file handle: #main.s1
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid file handle:...'> 
+BasicProgram(Object)>>error: <'Invalid file handle:...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid file handle:...'> 
+BasicProgram(Object)>>error: <'Invalid file handle:...'> 
+[] in BasicProgram>>deviceAt:
+LinearHashTable>>lookUpValue: <'#main.s1'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'#main.s1'> ifAbsent: <aBlockClosure> 
+BasicProgram>>deviceAt: <'#main.s1'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.s1'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[click]'> 
+BasicProgram>>handlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>button1Up: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 05/31/06 01:24:20 PM
+
+Runtime error: Invalid file handle: #main.s1
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid file handle:...'> 
+BasicProgram(Object)>>error: <'Invalid file handle:...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid file handle:...'> 
+BasicProgram(Object)>>error: <'Invalid file handle:...'> 
+[] in BasicProgram>>deviceAt:
+LinearHashTable>>lookUpValue: <'#main.s1'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'#main.s1'> ifAbsent: <aBlockClosure> 
+BasicProgram>>deviceAt: <'#main.s1'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.s1'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[click]'> 
+BasicProgram>>handlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>button1Up: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Wednesday 05/31/06 01:30:27 PM
+
+Runtime error: No sprite named: tmx
+
+Error(Exception)>>defaultAction
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: tmx'> 
+BasicProgram(Object)>>error: <'No sprite named: tmx'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: tmx'> 
+BasicProgram(Object)>>error: <'No sprite named: tmx'> 
+BasicProgram>>runError: <'No sprite named: tmx'> 
+[] in BasicGraphPane>>spriteNamed:
+[] in BasicGraphPane>>spriteNamed:ifAbsent:
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'tmx'> ifAbsent: <aBlockClosure> 
+LibGraphPane(BasicGraphPane)>>spriteNamed: <'tmx'> 
+LibGraphDevice(BasicGraphicDevice)>>getSpriteXY: <anOrderedCollection> 
+LibGraphDevice(Object)>>perform: <#getSpriteXY:> with: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'spritexy?  tmx tmy'> 
+LibGraphPane>>writeItem: <'spritexy?  tmx tmy'> 
+LibGraphPane(SubPane)>>writeItemCr: <'spritexy?  tmx tmy'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.g'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[build.city]'> 
+BasicProgram>>handlerName: <'[build.city]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[build.city]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[build.city]'> callParameters: <anOrderedCollection> 
+BasicMenuWrapper>>perform: <'[build.city]'> 
+BasicMenuWrapper>>evaluateString: <'[build.city]'> 
+String>>evaluateFor: <aBasicMenuWrapper> 
+
+
+Error log timestamp Wednesday 05/31/06 05:11:13 PM
+
+Runtime error: "isEmpty" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicRunProgram(BasicProgram)>>terminateRun: <aMessageNotUnderstood> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aMessageNotUnderstood> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aMessageNotUnderstood> 
+ExceptionHandler>>findHandler: <aMessageNotUnderstood> 
+MessageNotUnderstood(Exception)>>activateHandler: <anExceptionHandler> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicOnDemandCompiler(BasicCompiler)>>error: <'Syntax error'> 
+BasicOnDemandCompiler(BasicCompiler)>>syntaxError
+LetCommand>>using: <anOrderedCollection> 
+BasicOnDemandCompiler>>parseOnDemand: <anOrderedCollection> 
+BasicRunProgram>>compileFrame
+[] in BasicRunProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicRunProgram>>begin
+BasicRunProgram(BasicProgram)>>run
+BasicOnDemandCompiler class>>readTknFile: <aFileStream> callingProgram: <anUndefinedObject> commandLine: <''> 
+Basic class>>start
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 10:29:44 AM
+
+Runtime error: Bad command for #people.listbox1, SELECTED?
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bad command for #peo...'> 
+BasicProgram(Object)>>error: <'Bad command for #peo...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bad command for #peo...'> 
+BasicProgram(Object)>>error: <'Bad command for #peo...'> 
+BasicProgram>>runError: <'Bad command for #peo...'> 
+BasicProgram>>badCommand: <'SELECTED?'> forHandle: <'#people.listbox1'> 
+LibListBox>>writeItem: <'selected? sel$'> 
+LibListBox(SubPane)>>writeItemCr: <'selected? sel$'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#people.listbox1'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[confirm.play]'> 
+BasicProgram>>handlerName: <'[confirm.play]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[confirm.play]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[confirm.play]'> callParameters: <anOrderedCollection> 
+LibListBox>>doubleClickSelect
+LinkMessage>>evaluateWithArguments: <anArray> 
+LibListBox(Object)>>triggerEvent: <#doubleClicked:> withArguments: <anArray> 
+LibListBox(Object)>>triggerEvent: <#doubleClicked:> with: <'Tyler'> 
+LibListBox(ListBox)>>notifyDoubleClicked: <3768> 
+LibListBox(Object)>>perform: <#notifyDoubleClicked:> with: <3768> 
+LibListBox(ControlPane)>>asyncControlEvent: <2> with: <3768> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+
+
+Error log timestamp Thursday 06/01/06 01:48:58 PM
+
+Runtime error: index: 2 is outside of collection bounds
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'index: 2 is outside ...'> 
+OrderedCollection(Object)>>error: <'index: 2 is outside ...'> 
+OrderedCollection(IndexedCollection)>>errorInBounds: <2> 
+OrderedCollection>>at: <2> 
+BasicStringArray(BasicArray)>>setContainer
+BasicStringArray(BasicArray)>>xLimit: <1000> 
+DimCommand>>using: <anOrderedCollection> 
+BasicCompiler>>parseNext
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> 
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 01:49:04 PM
+
+Runtime error: index: 2 is outside of collection bounds
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'index: 2 is outside ...'> 
+OrderedCollection(Object)>>error: <'index: 2 is outside ...'> 
+OrderedCollection(IndexedCollection)>>errorInBounds: <2> 
+OrderedCollection>>at: <2> 
+BasicStringArrayDebug(BasicArray)>>setContainer
+BasicStringArrayDebug(BasicArray)>>xLimit: <1000> 
+DimCommand>>using: <anOrderedCollection> 
+BasicCompilerDebug>>parseNext
+BasicCompilerDebug class(BasicCompiler class)>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> 
+BasicCompilerDebug class(BasicCompiler class)>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>optionalDebug
+BasicSourceWindow>>optionalDebug
+BasicSourceWindow(Object)>>perform: <#optionalDebug> 
+MenuWindow>>performMenuItem: <1283> 
+BasicSourceTopPane(ApplicationWindow)>>performMenuItem: <1283> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 01:49:18 PM
+
+Runtime error: index: 2 is outside of collection bounds
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'index: 2 is outside ...'> 
+OrderedCollection(Object)>>error: <'index: 2 is outside ...'> 
+OrderedCollection(IndexedCollection)>>errorInBounds: <2> 
+OrderedCollection>>at: <2> 
+BasicStringArray(BasicArray)>>setContainer
+BasicStringArray(BasicArray)>>xLimit: <1000> 
+DimCommand>>using: <anOrderedCollection> 
+BasicCompiler>>parseNext
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> 
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 01:49:47 PM
+
+Runtime error: index: 2 is outside of collection bounds
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'index: 2 is outside ...'> 
+OrderedCollection(Object)>>error: <'index: 2 is outside ...'> 
+OrderedCollection(IndexedCollection)>>errorInBounds: <2> 
+OrderedCollection>>at: <2> 
+BasicStringArray(BasicArray)>>setContainer
+BasicStringArray(BasicArray)>>xLimit: <1000> 
+DimCommand>>using: <anOrderedCollection> 
+BasicCompiler>>parseNext
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> 
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 01:51:08 PM
+
+Runtime error: index: 2 is outside of collection bounds
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'index: 2 is outside ...'> 
+OrderedCollection(Object)>>error: <'index: 2 is outside ...'> 
+OrderedCollection(IndexedCollection)>>errorInBounds: <2> 
+OrderedCollection>>at: <2> 
+BasicStringArray(BasicArray)>>setContainer
+BasicStringArray(BasicArray)>>xLimit: <1000> 
+DimCommand>>using: <anOrderedCollection> 
+BasicCompiler>>parseNext
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> 
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 02:40:23 PM
+
+Runtime error: index: 2 is outside of collection bounds
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'index: 2 is outside ...'> 
+OrderedCollection(Object)>>error: <'index: 2 is outside ...'> 
+OrderedCollection(IndexedCollection)>>errorInBounds: <2> 
+OrderedCollection>>at: <2> 
+BasicStringArray(BasicArray)>>setContainer
+BasicStringArray(BasicArray)>>xLimit: <1000> 
+DimCommand>>using: <anOrderedCollection> 
+BasicCompiler>>parseNext
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> 
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 02:41:19 PM
+
+Runtime error: index: 2 is outside of collection bounds
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'index: 2 is outside ...'> 
+OrderedCollection(Object)>>error: <'index: 2 is outside ...'> 
+OrderedCollection(IndexedCollection)>>errorInBounds: <2> 
+OrderedCollection>>at: <2> 
+BasicStringArray(BasicArray)>>setContainer
+BasicStringArray(BasicArray)>>xLimit: <1000> 
+DimCommand>>using: <anOrderedCollection> 
+BasicCompiler>>parseNext
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> 
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 02:43:01 PM
+
+Runtime error: index: 2 is outside of collection bounds
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'index: 2 is outside ...'> 
+OrderedCollection(Object)>>error: <'index: 2 is outside ...'> 
+OrderedCollection(IndexedCollection)>>errorInBounds: <2> 
+OrderedCollection>>at: <2> 
+BasicStringArray(BasicArray)>>setContainer
+BasicStringArray(BasicArray)>>xLimit: <1000> 
+DimCommand>>using: <anOrderedCollection> 
+BasicCompiler>>parseNext
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> 
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 02:43:30 PM
+
+Runtime error: OS Error: The system cannot find the file specified.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'OS Error: The system...'> 
+BasicProgram(Object)>>error: <'OS Error: The system...'> 
+BasicProgram>>terminateRun: <aFileError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aFileError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aFileError> 
+ExceptionHandler>>findHandler: <aFileError> 
+FileError(Exception)>>activateHandler: <anExceptionHandler> 
+FileError(Exception)>>handle
+FileError(Exception)>>signal
+FileError class>>signal: <'OS Error: The system...'> hostErrorCode: <2> 
+HostFileSystemError>>defaultAction
+ExceptionHandler>>findHandler: <aHostFileSystemError> 
+HostFileSystemError(Exception)>>activateHandler: <anExceptionHandler> 
+HostFileSystemError(Exception)>>handle
+HostFileSystemError(Exception)>>signal
+HostFileSystemError class>>signalWith: <2> 
+FileHandle class>>osError: <2> 
+FileHandle class(Object)>>osError
+[] in FileHandle class>>open:access:share:create:attributes:
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anExceptionSet> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anExceptionSet> do: <aBlockClosure> 
+FileHandle class>>open: <'C:\WIN98\Desktop\ris...'> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>open: <'data.txt.cfg'> in: <aDirectory> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>openReadOnly: <'data.txt.cfg'> in: <aDirectory> 
+File>>openReadOnly
+File>>readStream
+File class>>pathNameReadOnly: <'data.txt.cfg'> in: <aDirectory> 
+Directory>>fileReadOnly: <'data.txt.cfg'> 
+BasicFile>>from: <'data.txt.cfg'> mode: <'INPUT'> handle: <'#1'> 
+BasicFile class>>from: <'data.txt.cfg'> mode: <'INPUT'> handle: <'#1'> owner: <aBasicProgram> length: <anUndefinedObject> 
+[] in OpenCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+
+
+Error log timestamp Thursday 06/01/06 02:43:38 PM
+
+Runtime error: OS Error: The system cannot find the file specified.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'OS Error: The system...'> 
+BasicProgram(Object)>>error: <'OS Error: The system...'> 
+BasicProgram>>terminateRun: <aFileError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aFileError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aFileError> 
+ExceptionHandler>>findHandler: <aFileError> 
+FileError(Exception)>>activateHandler: <anExceptionHandler> 
+FileError(Exception)>>handle
+FileError(Exception)>>signal
+FileError class>>signal: <'OS Error: The system...'> hostErrorCode: <2> 
+HostFileSystemError>>defaultAction
+ExceptionHandler>>findHandler: <aHostFileSystemError> 
+HostFileSystemError(Exception)>>activateHandler: <anExceptionHandler> 
+HostFileSystemError(Exception)>>handle
+HostFileSystemError(Exception)>>signal
+HostFileSystemError class>>signalWith: <2> 
+FileHandle class>>osError: <2> 
+FileHandle class(Object)>>osError
+[] in FileHandle class>>open:access:share:create:attributes:
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anExceptionSet> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anExceptionSet> do: <aBlockClosure> 
+FileHandle class>>open: <'C:\WIN98\Desktop\ris...'> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>open: <'data.txt.cfg'> in: <aDirectory> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>openReadOnly: <'data.txt.cfg'> in: <aDirectory> 
+File>>openReadOnly
+File>>readStream
+File class>>pathNameReadOnly: <'data.txt.cfg'> in: <aDirectory> 
+Directory>>fileReadOnly: <'data.txt.cfg'> 
+BasicFile>>from: <'data.txt.cfg'> mode: <'INPUT'> handle: <'#1'> 
+BasicFile class>>from: <'data.txt.cfg'> mode: <'INPUT'> handle: <'#1'> owner: <aBasicProgram> length: <anUndefinedObject> 
+[] in OpenCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+
+
+Error log timestamp Thursday 06/01/06 02:44:05 PM
+
+Runtime error: index: 2 is outside of collection bounds
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'index: 2 is outside ...'> 
+OrderedCollection(Object)>>error: <'index: 2 is outside ...'> 
+OrderedCollection(IndexedCollection)>>errorInBounds: <2> 
+OrderedCollection>>at: <2> 
+BasicStringArray(BasicArray)>>setContainer
+BasicStringArray(BasicArray)>>xLimit: <1000> 
+DimCommand>>using: <anOrderedCollection> 
+BasicCompiler>>parseNext
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> 
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 02:44:15 PM
+
+Runtime error: OS Error: The system cannot find the file specified.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'OS Error: The system...'> 
+BasicProgram(Object)>>error: <'OS Error: The system...'> 
+BasicProgram>>terminateRun: <aFileError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aFileError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aFileError> 
+ExceptionHandler>>findHandler: <aFileError> 
+FileError(Exception)>>activateHandler: <anExceptionHandler> 
+FileError(Exception)>>handle
+FileError(Exception)>>signal
+FileError class>>signal: <'OS Error: The system...'> hostErrorCode: <2> 
+HostFileSystemError>>defaultAction
+ExceptionHandler>>findHandler: <aHostFileSystemError> 
+HostFileSystemError(Exception)>>activateHandler: <anExceptionHandler> 
+HostFileSystemError(Exception)>>handle
+HostFileSystemError(Exception)>>signal
+HostFileSystemError class>>signalWith: <2> 
+FileHandle class>>osError: <2> 
+FileHandle class(Object)>>osError
+[] in FileHandle class>>open:access:share:create:attributes:
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anExceptionSet> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anExceptionSet> do: <aBlockClosure> 
+FileHandle class>>open: <'C:\WIN98\Desktop\ris...'> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>open: <'data.txt.cfg'> in: <aDirectory> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>openReadOnly: <'data.txt.cfg'> in: <aDirectory> 
+File>>openReadOnly
+File>>readStream
+File class>>pathNameReadOnly: <'data.txt.cfg'> in: <aDirectory> 
+Directory>>fileReadOnly: <'data.txt.cfg'> 
+BasicFile>>from: <'data.txt.cfg'> mode: <'INPUT'> handle: <'#1'> 
+BasicFile class>>from: <'data.txt.cfg'> mode: <'INPUT'> handle: <'#1'> owner: <aBasicProgram> length: <anUndefinedObject> 
+[] in OpenCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+
+
+Error log timestamp Thursday 06/01/06 02:45:04 PM
+
+Runtime error: Array nowalk$() is 'one' dimensional
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Array nowalk$() is ''...'> 
+BasicProgram(Object)>>error: <'Array nowalk$() is ''...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Array nowalk$() is ''...'> 
+BasicProgram(Object)>>error: <'Array nowalk$() is ''...'> 
+BasicStringArray(BasicArray)>>assignUsing: <anOrderedCollection> 
+BasicArrayAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 03:35:01 PM
+
+Runtime error: OS Error: The system cannot find the file specified.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'OS Error: The system...'> 
+BasicProgram(Object)>>error: <'OS Error: The system...'> 
+BasicProgram>>terminateRun: <aFileError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aFileError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aFileError> 
+ExceptionHandler>>findHandler: <aFileError> 
+FileError(Exception)>>activateHandler: <anExceptionHandler> 
+FileError(Exception)>>handle
+FileError(Exception)>>signal
+FileError class>>signal: <'OS Error: The system...'> hostErrorCode: <2> 
+HostFileSystemError>>defaultAction
+ExceptionHandler>>findHandler: <aHostFileSystemError> 
+HostFileSystemError(Exception)>>activateHandler: <anExceptionHandler> 
+HostFileSystemError(Exception)>>handle
+HostFileSystemError(Exception)>>signal
+HostFileSystemError class>>signalWith: <2> 
+FileHandle class>>osError: <2> 
+FileHandle class(Object)>>osError
+[] in FileHandle class>>open:access:share:create:attributes:
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anExceptionSet> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anExceptionSet> do: <aBlockClosure> 
+FileHandle class>>open: <'C:\WIN98\Desktop\ris...'> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>open: <'data.txt'> in: <aDirectory> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>openReadOnly: <'data.txt'> in: <aDirectory> 
+File>>openReadOnly
+File>>readStream
+File class>>pathNameReadOnly: <'data.txt'> in: <aDirectory> 
+Directory>>fileReadOnly: <'data.txt'> 
+BasicFile>>from: <'data.txt'> mode: <'INPUT'> handle: <'#1'> 
+BasicFile class>>from: <'data.txt'> mode: <'INPUT'> handle: <'#1'> owner: <aBasicProgram> length: <anUndefinedObject> 
+[] in OpenCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+
+
+Error log timestamp Thursday 06/01/06 03:48:45 PM
+
+Runtime error: OS Error: The system cannot find the file specified.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'OS Error: The system...'> 
+BasicRunProgram(Object)>>error: <'OS Error: The system...'> 
+BasicRunProgram(BasicProgram)>>terminateRun: <aFileError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aFileError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aFileError> 
+ExceptionHandler>>findHandler: <aFileError> 
+FileError(Exception)>>activateHandler: <anExceptionHandler> 
+FileError(Exception)>>handle
+FileError(Exception)>>signal
+FileError class>>signal: <'OS Error: The system...'> hostErrorCode: <2> 
+HostFileSystemError>>defaultAction
+ExceptionHandler>>findHandler: <aHostFileSystemError> 
+HostFileSystemError(Exception)>>activateHandler: <anExceptionHandler> 
+HostFileSystemError(Exception)>>handle
+HostFileSystemError(Exception)>>signal
+HostFileSystemError class>>signalWith: <2> 
+FileHandle class>>osError: <2> 
+FileHandle class(Object)>>osError
+[] in FileHandle class>>open:access:share:create:attributes:
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anExceptionSet> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anExceptionSet> do: <aBlockClosure> 
+FileHandle class>>open: <'D:\My Liberty BASIC ...'> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>open: <'data.txt'> in: <aDirectory> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>openReadOnly: <'data.txt'> in: <aDirectory> 
+File>>openReadOnly
+File>>readStream
+File class>>pathNameReadOnly: <'data.txt'> in: <aDirectory> 
+Directory>>fileReadOnly: <'data.txt'> 
+BasicFile>>from: <'data.txt'> mode: <'INPUT'> handle: <'#1'> 
+BasicFile class>>from: <'data.txt'> mode: <'INPUT'> handle: <'#1'> owner: <aBasicRunProgram> length: <anUndefinedObject> 
+[] in OpenCommand>>using:
+[] in BasicRunProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+
+
+Error log timestamp Thursday 06/01/06 03:49:10 PM
+
+Runtime error: OS Error: The system cannot find the file specified.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'OS Error: The system...'> 
+BasicRunProgram(Object)>>error: <'OS Error: The system...'> 
+BasicRunProgram(BasicProgram)>>terminateRun: <aFileError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aFileError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aFileError> 
+ExceptionHandler>>findHandler: <aFileError> 
+FileError(Exception)>>activateHandler: <anExceptionHandler> 
+FileError(Exception)>>handle
+FileError(Exception)>>signal
+FileError class>>signal: <'OS Error: The system...'> hostErrorCode: <2> 
+HostFileSystemError>>defaultAction
+ExceptionHandler>>findHandler: <aHostFileSystemError> 
+HostFileSystemError(Exception)>>activateHandler: <anExceptionHandler> 
+HostFileSystemError(Exception)>>handle
+HostFileSystemError(Exception)>>signal
+HostFileSystemError class>>signalWith: <2> 
+FileHandle class>>osError: <2> 
+FileHandle class(Object)>>osError
+[] in FileHandle class>>open:access:share:create:attributes:
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anExceptionSet> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anExceptionSet> do: <aBlockClosure> 
+FileHandle class>>open: <'D:\My Liberty BASIC ...'> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>open: <'data.txt'> in: <aDirectory> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>openReadOnly: <'data.txt'> in: <aDirectory> 
+File>>openReadOnly
+File>>readStream
+File class>>pathNameReadOnly: <'data.txt'> in: <aDirectory> 
+Directory>>fileReadOnly: <'data.txt'> 
+BasicFile>>from: <'data.txt'> mode: <'INPUT'> handle: <'#1'> 
+BasicFile class>>from: <'data.txt'> mode: <'INPUT'> handle: <'#1'> owner: <aBasicRunProgram> length: <anUndefinedObject> 
+[] in OpenCommand>>using:
+[] in BasicRunProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+
+
+Error log timestamp Thursday 06/01/06 03:51:10 PM
+
+Runtime error: OS Error: The system cannot find the file specified.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'OS Error: The system...'> 
+BasicProgram(Object)>>error: <'OS Error: The system...'> 
+BasicProgram>>terminateRun: <aFileError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aFileError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aFileError> 
+ExceptionHandler>>findHandler: <aFileError> 
+FileError(Exception)>>activateHandler: <anExceptionHandler> 
+FileError(Exception)>>handle
+FileError(Exception)>>signal
+FileError class>>signal: <'OS Error: The system...'> hostErrorCode: <2> 
+HostFileSystemError>>defaultAction
+ExceptionHandler>>findHandler: <aHostFileSystemError> 
+HostFileSystemError(Exception)>>activateHandler: <anExceptionHandler> 
+HostFileSystemError(Exception)>>handle
+HostFileSystemError(Exception)>>signal
+HostFileSystemError class>>signalWith: <2> 
+FileHandle class>>osError: <2> 
+FileHandle class(Object)>>osError
+[] in FileHandle class>>open:access:share:create:attributes:
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anExceptionSet> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anExceptionSet> do: <aBlockClosure> 
+FileHandle class>>open: <'D:\My Liberty BASIC ...'> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>open: <'data.txt'> in: <aDirectory> access: <2147483648> share: <3> create: <3> attributes: <128> 
+FileHandle class>>openReadOnly: <'data.txt'> in: <aDirectory> 
+File>>openReadOnly
+File>>readStream
+File class>>pathNameReadOnly: <'data.txt'> in: <aDirectory> 
+Directory>>fileReadOnly: <'data.txt'> 
+BasicFile>>from: <'data.txt'> mode: <'INPUT'> handle: <'#1'> 
+BasicFile class>>from: <'data.txt'> mode: <'INPUT'> handle: <'#1'> owner: <aBasicProgram> length: <anUndefinedObject> 
+[] in OpenCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+
+
+Error log timestamp Thursday 06/01/06 03:51:34 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+String(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+String(IndexedCollection)>>last
+FileSearchResults>>isInteresting
+[] in Directory>>searchResultsDo:onPattern:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+Directory>>searchResultsDo: <aBlockClosure> onPattern: <'*.*'> 
+Directory>>searchResultsDo: <aBlockClosure> 
+Directory>>directoriesDo: <aBlockClosure> 
+Directory>>directories
+Directory>>filesAndDirectoriesFrom: <'data.txt'> 
+[] in FilesCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 03:52:36 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+BasicProgram(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+BasicProgram>>forNextStack
+BasicProgram>>topForNext
+BasicWendBehavior>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 03:54:06 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+Array(IndexedCollection)>>replaceFrom: <5> to: <5> with: <anArray> startingAt: <1> 
+Array(IndexedCollection)>>,
+FileSystemPath>>,
+Directory>>findFirst: <'*.*'> 
+Directory>>searchResultsDo: <aBlockClosure> onPattern: <'*.*'> 
+Directory>>searchResultsDo: <aBlockClosure> 
+Directory>>directoriesDo: <aBlockClosure> 
+Directory>>directories
+Directory>>filesAndDirectoriesFrom: <'data.txt'> 
+[] in FilesCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 03:55:08 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+String(IndexedCollection)>>indexOf: <aCharacter> ifAbsent: <aBlockClosure> 
+String(IndexedCollection)>>indexOf: <aCharacter> 
+String>>trimNullTerminator
+Win32FindData>>cFileName
+FileSearchResults>>entityName
+FileSearchResults>>entity
+[] in Directory>>directoriesDo:
+[] in Directory>>searchResultsDo:onPattern:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+Directory>>searchResultsDo: <aBlockClosure> onPattern: <'*.*'> 
+Directory>>searchResultsDo: <aBlockClosure> 
+Directory>>directoriesDo: <aBlockClosure> 
+Directory>>directories
+Directory>>filesAndDirectoriesFrom: <'data.txt'> 
+[] in FilesCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 03:55:23 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+Array class(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+Array class(FixedSizeCollection class)>>with: <'EDITOR- Files'> 
+FileSystemPath class>>fromString: <'EDITOR- Files'> startingAt: <1> volume: <anUndefinedObject> 
+FileSystemPath class>>fromString: <'EDITOR- Files'> 
+String>>asFileSystemPath
+FileSystemPath>>,
+FileSearchResults>>entity
+[] in Directory>>directoriesDo:
+[] in Directory>>searchResultsDo:onPattern:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+Directory>>searchResultsDo: <aBlockClosure> onPattern: <'*.*'> 
+Directory>>searchResultsDo: <aBlockClosure> 
+Directory>>directoriesDo: <aBlockClosure> 
+Directory>>directories
+Directory>>filesAndDirectoriesFrom: <'data.txt'> 
+[] in FilesCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 03:56:05 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+OrderedCollection(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+OrderedCollection>>initialSize: <12> 
+OrderedCollection class>>new: <12> 
+OrderedCollection class>>new
+Directory>>formatted: <'data.txt'> 
+Directory>>filesAndDirectoriesFrom: <'data.txt'> 
+[] in FilesCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 05:05:57 PM
+
+Runtime error: file past end, handle: #1
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'file past end, handl...'> 
+BasicProgram(Object)>>error: <'file past end, handl...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'file past end, handl...'> 
+BasicProgram(Object)>>error: <'file past end, handl...'> 
+[] in LineInputCommand>>using:
+BlockClosure>>value: <aBasicProgram> value: <'#1'> value: <'txtline$'> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 05:06:13 PM
+
+Runtime error: file past end, handle: #1
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'file past end, handl...'> 
+BasicProgram(Object)>>error: <'file past end, handl...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'file past end, handl...'> 
+BasicProgram(Object)>>error: <'file past end, handl...'> 
+[] in LineInputCommand>>using:
+BlockClosure>>value: <aBasicProgram> value: <'#1'> value: <'txtline$'> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 05:07:06 PM
+
+Runtime error: "isEmpty" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicProgramDebug(BasicProgram)>>terminateRun: <aMessageNotUnderstood> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aMessageNotUnderstood> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aMessageNotUnderstood> 
+ExceptionHandler>>findHandler: <aMessageNotUnderstood> 
+MessageNotUnderstood(Exception)>>activateHandler: <anExceptionHandler> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicProgramDebug>>end
+[] in EndCommand>>using:
+BasicSingleParameterContextHolder>>value
+[] in BasicProgramDebug>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgramDebug>>begin
+BasicProgramDebug>>pauseIfAppropriate
+BasicProgramDebug>>gotoAndIfStoppedBegin: <'[end]'> 
+BasicProgramDebug(BasicProgram)>>handlerName: <'[end]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgramDebug(BasicProgram)>>submitHandlerName: <'[end]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgramDebug(BasicProgram)>>submitHandlerName: <'[end]'> callParameters: <anOrderedCollection> 
+TimerTopPane>>wmTimer: <1638816> with: <0> 
+NotificationManager>>notify: <aWinMessage> 
+NotificationManager>>notifyRecursive
+NotificationManager>>recursiveMessage
+SystemDictionary>>recursiveMessage
+SystemDictionary>>launch
+NotificationManager>>readWinQueue
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 05:11:11 PM
+
+Runtime error: file past end, handle: #1
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'file past end, handl...'> 
+BasicProgram(Object)>>error: <'file past end, handl...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'file past end, handl...'> 
+BasicProgram(Object)>>error: <'file past end, handl...'> 
+[] in LineInputCommand>>using:
+BlockClosure>>value: <aBasicProgram> value: <'#1'> value: <'txtline$'> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 05:32:53 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+SmallInteger(Integer)>>asFloat
+Float>>-
+Basic class>>random
+[] in BasicRnd class>>using:program:
+[] in BasicExpression>>makeBlockOf:
+BasicDoubleParameterContextHolder>>value
+BasicNumericContext(BasicContextWrapper)>>value
+[] in BasicInt class>>using:program:
+[] in BasicExpression>>makeBlockOf:
+BasicDoubleParameterContextHolder>>value
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[click]'> 
+BasicProgram>>handlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>button1Up: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 05:57:22 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+BasicVariableManager(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+BasicVariableManager(BasicValueManager)>>var: <83> 
+BasicProgram>>var: <83> 
+[] in BasicExpression>>parseValues
+BasicDoubleParameterContextHolder>>value
+[] in BasicExpression>>makeBlockOf:
+BasicDoubleParameterContextHolder>>value
+[] in BasicExpression>>makeBlockOf:
+BasicDoubleParameterContextHolder>>value
+BasicNumericContext(BasicContextWrapper)>>value
+[] in IfCommand>>block:label:
+BasicDoubleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[click]'> 
+BasicProgram>>handlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>button1Up: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 06/01/06 05:58:57 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+BasicDoubleParameterContextHolder(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+BasicDoubleParameterContextHolder>>value
+BasicNumericContext(BasicContextWrapper)>>value
+[] in BasicArray>>using:
+BasicSingleParameterContextHolder>>value
+[] in BasicExpression>>makeBlockOf:
+BasicDoubleParameterContextHolder>>value
+[] in BasicExpression>>makeBlockOf:
+BasicDoubleParameterContextHolder>>value
+BasicNumericContext(BasicContextWrapper)>>value
+[] in IfCommand>>block:label:
+BasicDoubleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[click]'> 
+BasicProgram>>handlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+LibGraphPane(BasicGraphPane)>>button1Up: <aPoint> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 06/27/06 03:39:36 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+String(IndexedCollection)>>indexOf: <aCharacter> ifAbsent: <aBlockClosure> 
+String(IndexedCollection)>>indexOf: <aCharacter> 
+String>>trimNullTerminator
+Win32FindData>>cFileName
+FileSearchResults>>entityName
+FileSearchResults>>isInteresting
+[] in Directory>>searchResultsDo:onPattern:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+Directory>>searchResultsDo: <aBlockClosure> onPattern: <'*.*'> 
+Directory>>searchResultsDo: <aBlockClosure> 
+Directory>>directoriesDo: <aBlockClosure> 
+Directory>>directories
+Directory>>filesAndDirectoriesFrom: <'data.txt'> 
+[] in FilesCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 06/27/06 03:39:42 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+SmallInteger(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+OrderedCollection>>includes: <'fNgEn6'> 
+BasicProgram>>isGlobal: <'fNgEn6'> 
+BasicProgram>>assignByName: <'fNgEn6'> toBe: <0> 
+[] in EndCommand>>withParms:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''Form created with t...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Saturday 07/01/06 02:58:02 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+ExceptionHandler>>findHandler: <aKeyboardInterrupt> 
+KeyboardInterrupt(Exception)>>activateHandler: <anExceptionHandler> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+Character(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+Character>>=
+String>>indexOfString: <'\'> startingAt: <1> 
+FileSystemPath class>>fromString: <'EDITOR- Files'> startingAt: <1> volume: <anUndefinedObject> 
+FileSystemPath class>>fromString: <'EDITOR- Files'> 
+String>>asFileSystemPath
+FileSystemPath>>,
+FileSearchResults>>entity
+[] in Directory>>directoriesDo:
+[] in Directory>>searchResultsDo:onPattern:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+Directory>>searchResultsDo: <aBlockClosure> onPattern: <'*.*'> 
+Directory>>searchResultsDo: <aBlockClosure> 
+Directory>>directoriesDo: <aBlockClosure> 
+Directory>>directories
+Directory>>filesAndDirectoriesFrom: <'data.txt'> 
+[] in FilesCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''///////////////////...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 08/08/06 09:28:34 AM
+
+Runtime error: file past end, handle: #1
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'file past end, handl...'> 
+BasicRunProgram(Object)>>error: <'file past end, handl...'> 
+BasicRunProgram(BasicProgram)>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'file past end, handl...'> 
+BasicRunProgram(Object)>>error: <'file past end, handl...'> 
+[] in LineInputCommand>>using:
+BlockClosure>>value: <aBasicRunProgram> value: <'#1'> value: <'txtline$'> 
+BasicTripleParameterContextHolder>>value
+[] in BasicRunProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicRunProgram>>begin
+BasicRunProgram(BasicProgram)>>run
+BasicOnDemandCompiler class>>readTknFile: <aFileStream> callingProgram: <anUndefinedObject> commandLine: <''> 
+Basic class>>start
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 08/08/06 09:30:13 AM
+
+Runtime error: file past end, handle: #1
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'file past end, handl...'> 
+BasicRunProgram(Object)>>error: <'file past end, handl...'> 
+BasicRunProgram(BasicProgram)>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'file past end, handl...'> 
+BasicRunProgram(Object)>>error: <'file past end, handl...'> 
+[] in LineInputCommand>>using:
+BlockClosure>>value: <aBasicRunProgram> value: <'#1'> value: <'txtline$'> 
+BasicTripleParameterContextHolder>>value
+[] in BasicRunProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicRunProgram>>begin
+BasicRunProgram(BasicProgram)>>run
+BasicOnDemandCompiler class>>readTknFile: <aFileStream> callingProgram: <anUndefinedObject> commandLine: <''> 
+Basic class>>start
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 

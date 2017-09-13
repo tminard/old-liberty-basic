@@ -1,0 +1,56 @@
+
+
+Error log timestamp Wednesday 02/22/06 10:36:05 AM
+
+Runtime error: The parameter is incorrect. ( OS error 16r57 )
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The parameter is inc...'> 
+BasicRunProgram(Object)>>error: <'The parameter is inc...'> 
+BasicRunProgram(BasicProgram)>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'The parameter is inc...'> 
+OperatingSystemInformation(Object)>>osError: <87> 
+OperatingSystemInformation(Object)>>osError
+OperatingSystemInformation>>getErrorMessage: <317> 
+OperatingSystemInformation(Object)>>osErrorMessage: <317> 
+OperatingSystemInformation(Object)>>osError: <317> 
+OperatingSystemInformation(Object)>>osError
+OperatingSystemInformation>>getErrorMessage: <12291> 
+BasicFileDialog(Object)>>osErrorMessage: <12291> 
+BasicFileDialog(Object)>>osError: <12291> 
+BasicFileDialog(FileDialog)>>open
+BasicFileDialog>>openTitle: <'Open game file'> path: <'C:\Documents and Set...'> fileName: <'*.game'> showFileInButton: <aFalse> 
+[] in FileDialogCommand>>using:
+[] in BasicRunProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicRunProgram>>begin
+BasicRunProgram(BasicProgram)>>run
+BasicOnDemandCompiler class>>readTknFile: <aFileStream> callingProgram: <anUndefinedObject> commandLine: <''> 
+Basic class>>start
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 

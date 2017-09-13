@@ -1,0 +1,16 @@
+wormwalk1=data\worms\walk1.bmp
+wormwalk2=data\worms\walk2.bmp
+wormwalk3=data\worms\walk3.bmp
+wormjump1=data\worms\jump1.bmp
+wormjump2=data\worms\jump2.bmp
+wormland1=data\worms\land1.bmp
+wormland2=data\worms\land2.bmp
+wormland3=data\worms\land3.bmp
+wormplain1=data\worms\plain1.bmp
+wormdie1=data\worms\die1.bmp
+wormdie2=data\worms\die2.bmp
+wormdie3=data\worms\die3.bmp
+wormdie4=data\worms\die4.bmp
+wormgrave1=data\worms\grave1.bmp
+wormstill1=data\worms\still1.bmp
+EOF

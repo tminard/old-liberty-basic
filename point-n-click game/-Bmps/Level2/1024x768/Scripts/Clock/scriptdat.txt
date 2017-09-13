@@ -1,0 +1,22 @@
+MUSICMIDI tick.mid
+runme 1000 349 152 clock2.bmp clock1.bmp clock2.bmp clock3.bmp clock4.bmp clock5.bmp clock6.bmp clock7.bmp clock8.bmp clock9.bmp
+MUSICMIDI tick.mid
+runme 1000 349 152 clock2.bmp clock1.bmp clock2.bmp clock3.bmp clock4.bmp clock5.bmp clock6.bmp clock7.bmp clock8.bmp clock9.bmp
+MUSICMIDI tick.mid
+runme 1000 349 152 clock2.bmp clock1.bmp clock2.bmp clock3.bmp clock4.bmp clock5.bmp clock6.bmp clock7.bmp clock8.bmp clock9.bmp
+MUSICMIDI tick.mid
+runme 1000 349 152 clock2.bmp clock1.bmp clock2.bmp clock3.bmp clock4.bmp clock5.bmp clock6.bmp clock7.bmp clock8.bmp clock9.bmp
+MUSICMIDI tick.mid
+runme 1000 349 152 clock2.bmp clock1.bmp clock2.bmp clock3.bmp clock4.bmp clock5.bmp clock6.bmp clock7.bmp clock8.bmp clock9.bmp
+MUSICMIDI tick.mid
+runme 1000 349 152 clock2.bmp clock1.bmp clock2.bmp clock3.bmp clock4.bmp clock5.bmp clock6.bmp clock7.bmp clock8.bmp clock9.bmp
+MUSICMIDI tick.mid
+runme 1000 349 152 clock2.bmp clock1.bmp clock2.bmp clock3.bmp clock4.bmp clock5.bmp clock6.bmp clock7.bmp clock8.bmp clock9.bmp
+MUSICMIDI tick.mid
+runme 1000 349 152 clock2.bmp clock1.bmp clock2.bmp clock3.bmp clock4.bmp clock5.bmp clock6.bmp clock7.bmp clock8.bmp clock9.bmp
+MUSICMIDI tick.mid
+runme 1000 349 152 clock2.bmp clock1.bmp clock2.bmp clock3.bmp clock4.bmp clock5.bmp clock6.bmp clock7.bmp clock8.bmp clock9.bmp
+STOPMIDI
+wait 5000 END
+runme 5000 417 224 lion1.bmp
+EndScript

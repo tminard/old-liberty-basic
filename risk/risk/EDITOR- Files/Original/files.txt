@@ -1,0 +1,10 @@
+army.bmp
+camp.bmp
+city.bmp
+cursor.bmp
+data.txt
+main.cur
+man.cur
+nocamp.bmp
+rock.bmp
+yard.bmp

@@ -1,0 +1,277 @@
+
+
+Error log timestamp Friday 04/07/06 08:23:25 AM
+
+Runtime error: Attempted to kill non-existant file mo.bmp.log
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Attempted to kill no...'> 
+BasicProgram(Object)>>error: <'Attempted to kill no...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Attempted to kill no...'> 
+BasicProgram(Object)>>error: <'Attempted to kill no...'> 
+[] in KillCommand>>using:
+File class>>remove: <'mo.bmp.log'> ifAbsent: <aBlockClosure> 
+[] in KillCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[button2Click]'> 
+BasicProgram>>handlerName: <'[button2Click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[button2Click]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[button2Click]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <918030> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <918030> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <918030> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+
+
+Error log timestamp Friday 04/07/06 08:30:23 AM
+
+Runtime error: OS Error: Cannot create a file when that file already exists.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'OS Error: Cannot cre...'> 
+BasicProgram(Object)>>error: <'OS Error: Cannot cre...'> 
+BasicProgram>>terminateRun: <aFileError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aFileError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aFileError> 
+ExceptionHandler>>findHandler: <aFileError> 
+FileError(Exception)>>activateHandler: <anExceptionHandler> 
+FileError(Exception)>>handle
+FileError(Exception)>>signal
+FileError class>>signal: <'OS Error: Cannot cre...'> hostErrorCode: <183> 
+HostFileSystemError>>defaultAction
+ExceptionHandler>>findHandler: <aHostFileSystemError> 
+HostFileSystemError(Exception)>>activateHandler: <anExceptionHandler> 
+HostFileSystemError(Exception)>>handle
+HostFileSystemError(Exception)>>signal
+HostFileSystemError class>>signalWith: <183> 
+File class(FileSystemEntity class)>>osError: <183> 
+File class(Object)>>osError
+File class>>rename: <'load.dat'> to: <'load.dat.tmp'> 
+[] in NameCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'''// Redbox by Tyler ...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+
+
+Error log timestamp Friday 04/07/06 08:32:19 AM
+
+Runtime error: "isEmpty" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicProgramDebug(BasicProgram)>>terminateRun: <aMessageNotUnderstood> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aMessageNotUnderstood> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aMessageNotUnderstood> 
+ExceptionHandler>>findHandler: <aMessageNotUnderstood> 
+MessageNotUnderstood(Exception)>>activateHandler: <anExceptionHandler> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicProgramDebug>>end
+[] in EndCommand>>using:
+BasicSingleParameterContextHolder>>value
+[] in BasicProgramDebug>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgramDebug>>begin
+BasicProgramDebug>>runHidden
+[] in BasicSourcePane>>optionalDebug
+BasicCompilerDebug class(BasicCompiler class)>>compileFromString: <'''// Redbox by Tyler ...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>optionalDebug
+BasicSourceWindow>>optionalDebug
+BasicSourceWindow(Object)>>perform: <#optionalDebug> 
+MenuWindow>>performMenuItem: <1283> 
+BasicSourceTopPane(ApplicationWindow)>>performMenuItem: <1283> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 04/07/06 08:36:32 AM
+
+Runtime error: OS Error: Cannot create a file when that file already exists.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'OS Error: Cannot cre...'> 
+BasicProgram(Object)>>error: <'OS Error: Cannot cre...'> 
+BasicProgram>>terminateRun: <aFileError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aFileError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aFileError> 
+ExceptionHandler>>findHandler: <aFileError> 
+FileError(Exception)>>activateHandler: <anExceptionHandler> 
+FileError(Exception)>>handle
+FileError(Exception)>>signal
+FileError class>>signal: <'OS Error: Cannot cre...'> hostErrorCode: <183> 
+HostFileSystemError>>defaultAction
+ExceptionHandler>>findHandler: <aHostFileSystemError> 
+HostFileSystemError(Exception)>>activateHandler: <anExceptionHandler> 
+HostFileSystemError(Exception)>>handle
+HostFileSystemError(Exception)>>signal
+HostFileSystemError class>>signalWith: <183> 
+File class(FileSystemEntity class)>>osError: <183> 
+File class(Object)>>osError
+File class>>rename: <'load.dat'> to: <'load.dat.tmp'> 
+[] in NameCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[draw]'> 
+BasicProgram>>handlerName: <'[draw]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[draw]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[draw]'> callParameters: <anOrderedCollection> 
+TimerTopPane>>wmTimer: <3473908> with: <0> 
+NotificationManager>>notify: <aWinMessage> 
+NotificationManager>>notifyRecursive
+NotificationManager>>recursiveMessage
+SystemDictionary>>recursiveMessage
+SystemDictionary>>launch
+NotificationManager>>readWinQueue
+NotificationManager>>runEventLoop
+Message>>perform
+
+
+Error log timestamp Friday 04/07/06 08:37:55 AM
+
+Runtime error: OS Error: Cannot create a file when that file already exists.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'OS Error: Cannot cre...'> 
+BasicProgram(Object)>>error: <'OS Error: Cannot cre...'> 
+BasicProgram>>terminateRun: <aFileError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aFileError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aFileError> 
+ExceptionHandler>>findHandler: <aFileError> 
+FileError(Exception)>>activateHandler: <anExceptionHandler> 
+FileError(Exception)>>handle
+FileError(Exception)>>signal
+FileError class>>signal: <'OS Error: Cannot cre...'> hostErrorCode: <183> 
+HostFileSystemError>>defaultAction
+ExceptionHandler>>findHandler: <aHostFileSystemError> 
+HostFileSystemError(Exception)>>activateHandler: <anExceptionHandler> 
+HostFileSystemError(Exception)>>handle
+HostFileSystemError(Exception)>>signal
+HostFileSystemError class>>signalWith: <183> 
+File class(FileSystemEntity class)>>osError: <183> 
+File class(Object)>>osError
+File class>>rename: <'load.dat'> to: <'load.dat.tmp'> 
+[] in NameCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[draw]'> 
+BasicProgram>>handlerName: <'[draw]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[draw]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[draw]'> callParameters: <anOrderedCollection> 
+TimerTopPane>>wmTimer: <2556384> with: <0> 
+NotificationManager>>notify: <aWinMessage> 
+NotificationManager>>notifyRecursive
+NotificationManager>>recursiveMessage
+SystemDictionary>>recursiveMessage
+SystemDictionary>>launch
+NotificationManager>>readWinQueue
+NotificationManager>>runEventLoop
+Message>>perform

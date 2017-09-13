@@ -1,0 +1,5 @@
+:FRAME
+DATA\WORMS\{FRAME}worm.wcf
+:LOAD
+DATA\global\{LOAD}global.wcf
+DATA\WORMS\{LOAD}worm.wcf

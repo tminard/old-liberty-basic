@@ -1,0 +1,163 @@
+
+
+Error log timestamp Friday 09/08/06 05:16:27 PM
+
+Runtime error: file not found: c:\program files\Liberty BASIC v402\liberty.exe
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'file not found: c:\p...'> 
+BasicRunProgram(Object)>>error: <'file not found: c:\p...'> 
+BasicRunProgram(BasicProgram)>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'file not found: c:\p...'> 
+BasicRunProgram(Object)>>error: <'file not found: c:\p...'> 
+[] in RunCommand>>using:
+[] in BasicRunProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicRunProgram>>begin
+BasicRunProgram(BasicProgram)>>acceptInput: <'link 2'> varName: <'fNgEnInPuT$'> 
+BasicTextPane>>return
+BasicTextPane>>keyboardInput: <aKeyboardInputEvent> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Friday 10/20/06 06:18:11 PM
+
+Runtime error: file not found: c:\program files\Liberty BASIC v402\liberty.exe
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'file not found: c:\p...'> 
+BasicProgram(Object)>>error: <'file not found: c:\p...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'file not found: c:\p...'> 
+BasicProgram(Object)>>error: <'file not found: c:\p...'> 
+[] in RunCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>acceptInput: <'link 2'> varName: <'fNgEnInPuT$'> 
+BasicTextPane>>return
+BasicTextPane>>keyboardInput: <aKeyboardInputEvent> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 10/26/06 12:41:22 PM
+
+Runtime error: Subscript out of range: -1, links$()
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Subscript out of ran...'> 
+BasicProgram(Object)>>error: <'Subscript out of ran...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Subscript out of ran...'> 
+BasicProgram(Object)>>error: <'Subscript out of ran...'> 
+BasicProgram>>runError: <'Subscript out of ran...'> 
+BasicStringArray(BasicArray)>>boundsError: <-1> 
+BasicStringArray>>at: <-1> at: <1> 
+[] in BasicArray>>using:
+BasicDoubleParameterContextHolder>>value
+BasicVariableAssigner>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>acceptInput: <'link -1'> varName: <'fNgEnInPuT$'> 
+BasicTextPane>>return
+BasicTextPane>>keyboardInput: <aKeyboardInputEvent> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Thursday 10/26/06 12:41:30 PM
+
+Runtime error: Keyboard Interrupt
+
+KeyboardInterrupt>>defaultAction
+KeyboardInterrupt(Exception)>>activateHandler: <anUndefinedObject> 
+KeyboardInterrupt(Exception)>>handle
+KeyboardInterrupt(Exception)>>signal
+KeyboardInterrupt class(Exception class)>>signal
+Process class>>controlBreakInterrupt
+Process class(Object)>>perform: <'controlBreakInterrup...'> 
+Array(Object)>>vmInterrupt: <'controlBreakInterrup...'> 
+InputEvent>>nullEventWin
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 

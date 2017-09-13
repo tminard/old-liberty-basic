@@ -1,0 +1,291 @@
+
+
+Error log timestamp Friday 10/13/06 07:50:09 PM
+
+Runtime error: Bitmap named blank not found!
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bitmap named blank n...'> 
+BasicProgram(Object)>>error: <'Bitmap named blank n...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bitmap named blank n...'> 
+BasicProgram(Object)>>error: <'Bitmap named blank n...'> 
+BasicProgram>>runError: <'Bitmap named blank n...'> 
+[] in BasicProgram>>bmpNamed:
+LinearHashTable>>lookUpValue: <'blank'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'blank'> ifAbsent: <aBlockClosure> 
+BasicProgram>>bmpNamed: <'blank'> 
+LibGraphPane(BasicGraphPane)>>background: <'blank'> 
+LibGraphDevice(BasicGraphicDevice)>>background: <anOrderedCollection> 
+LibGraphDevice(Object)>>perform: <#background:> with: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'background blank'> 
+LibGraphPane>>writeItem: <'background blank'> 
+LibGraphPane(SubPane)>>writeItemCr: <'background blank'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.bitmap'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <''' File decoded with ...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+
+
+Error log timestamp Thursday 01/11/07 09:49:09 AM
+
+Runtime error: Bitmap named blank not found!
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bitmap named blank n...'> 
+BasicProgram(Object)>>error: <'Bitmap named blank n...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bitmap named blank n...'> 
+BasicProgram(Object)>>error: <'Bitmap named blank n...'> 
+BasicProgram>>runError: <'Bitmap named blank n...'> 
+[] in BasicProgram>>bmpNamed:
+LinearHashTable>>lookUpValue: <'blank'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'blank'> ifAbsent: <aBlockClosure> 
+BasicProgram>>bmpNamed: <'blank'> 
+LibGraphPane(BasicGraphPane)>>background: <'blank'> 
+LibGraphDevice(BasicGraphicDevice)>>background: <anOrderedCollection> 
+LibGraphDevice(Object)>>perform: <#background:> with: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'background blank'> 
+LibGraphPane>>writeItem: <'background blank'> 
+LibGraphPane(SubPane)>>writeItemCr: <'background blank'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.bitmap'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'
+
+
+version = 1.7...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+
+
+Error log timestamp Thursday 01/11/07 09:49:17 AM
+
+Runtime error: Bitmap named blank not found!
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bitmap named blank n...'> 
+BasicProgram(Object)>>error: <'Bitmap named blank n...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bitmap named blank n...'> 
+BasicProgram(Object)>>error: <'Bitmap named blank n...'> 
+BasicProgram>>runError: <'Bitmap named blank n...'> 
+[] in BasicProgram>>bmpNamed:
+LinearHashTable>>lookUpValue: <'blank'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'blank'> ifAbsent: <aBlockClosure> 
+BasicProgram>>bmpNamed: <'blank'> 
+LibGraphPane(BasicGraphPane)>>background: <'blank'> 
+LibGraphDevice(BasicGraphicDevice)>>background: <anOrderedCollection> 
+LibGraphDevice(Object)>>perform: <#background:> with: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'background blank'> 
+LibGraphPane>>writeItem: <'background blank'> 
+LibGraphPane(SubPane)>>writeItemCr: <'background blank'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.bitmap'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'
+
+
+version = 1.7...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+
+
+Error log timestamp Wednesday 02/21/07 11:06:20 AM
+
+Runtime error: Bitmap named blank not found!
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bitmap named blank n...'> 
+BasicProgram(Object)>>error: <'Bitmap named blank n...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bitmap named blank n...'> 
+BasicProgram(Object)>>error: <'Bitmap named blank n...'> 
+BasicProgram>>runError: <'Bitmap named blank n...'> 
+[] in BasicProgram>>bmpNamed:
+LinearHashTable>>lookUpValue: <'blank'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'blank'> ifAbsent: <aBlockClosure> 
+BasicProgram>>bmpNamed: <'blank'> 
+LibGraphPane(BasicGraphPane)>>background: <'blank'> 
+LibGraphDevice(BasicGraphicDevice)>>background: <anOrderedCollection> 
+LibGraphDevice(Object)>>perform: <#background:> with: <anOrderedCollection> 
+LibGraphDevice(BasicGraphicDevice)>>writeItem: <'background blank'> 
+LibGraphPane>>writeItem: <'background blank'> 
+LibGraphPane(SubPane)>>writeItemCr: <'background blank'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#main.bitmap'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'
+
+
+version=2.0
+d...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+
+
+Error log timestamp Thursday 07/09/09 11:34:24 PM
+
+OS Warning: Invalid menu handle.
+
+Error log timestamp Thursday 07/09/09 11:34:26 PM
+
+Runtime error: File F:\[Files]\Liberty BASIC\TylerM\Tkn DECODE!\images\1.bmp not found.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File F:\[Files]\Libe...'> 
+BasicProgram(Object)>>error: <'File F:\[Files]\Libe...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File F:\[Files]\Libe...'> 
+BasicProgram(Object)>>error: <'File F:\[Files]\Libe...'> 
+BasicProgram>>runError: <'File F:\[Files]\Libe...'> 
+BasicProgram>>bmpFromFile: <'F:\[Files]\Liberty B...'> 
+BasicProgram>>bmpLoad: <aBasicStringContext> with: <aBasicStringContext> 
+[] in BmpLoadCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <''' File decoded with ...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 

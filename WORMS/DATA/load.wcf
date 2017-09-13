@@ -1,0 +1,15 @@
+:show
+DATA\GLOBAL\loading.bmp
+
+:load
+DATA\global\{LOAD}global.wcf
+DATA\WORMS\{LOAD}worm.wcf
+
+:frame
+DATA\WORMS\{FRAME}worm.wcf
+
+
+:NOTICEs TO READER
+You must load the global.wcf file FIRST. All '{load}s' must be loaded BEFORE any frames are loaded.
+
+EOF

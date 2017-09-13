@@ -1,0 +1,889 @@
+
+
+Error log timestamp Sunday 04/23/06 08:45:09 PM
+
+Runtime error: Bad command for #game, drawpsprites
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bad command for #gam...'> 
+BasicProgram(Object)>>error: <'Bad command for #gam...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Bad command for #gam...'> 
+BasicProgram(Object)>>error: <'Bad command for #gam...'> 
+BasicProgram>>runError: <'Bad command for #gam...'> 
+BasicProgram>>badCommand: <'drawpsprites'> forHandle: <'#game'> 
+BasicGraphicDevice>>writeItem: <'drawpsprites'> 
+BasicGraphicDevice(BasicFile)>>writeItemCr: <'drawpsprites'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#game'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[keys]'> 
+BasicProgram>>handlerName: <'[keys]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[keys]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicGraphPane>>characterInput: <aCharacter> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Sunday 04/23/06 08:52:29 PM
+
+Runtime error: Branch label not found: [walkA]
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Branch label not fou...'> 
+BasicProgram(Object)>>error: <'Branch label not fou...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Branch label not fou...'> 
+BasicProgram(Object)>>error: <'Branch label not fou...'> 
+BasicProgram>>runError: <'Branch label not fou...'> 
+[] in BasicProgram>>init
+[] in BasicValueManager>>indexFromName:
+LinearHashTable>>lookUpValue: <'[walkA]'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'[walkA]'> ifAbsent: <aBlockClosure> 
+BasicValueManager>>indexFromName: <'[walkA]'> 
+BasicValueReference>>unused: <aBasicValueManager> 
+BasicValueReference>>for: <aBasicValueManager> 
+BasicValueManager>>atReference: <aBasicValueReference> 
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[keys]'> 
+BasicProgram>>handlerName: <'[keys]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[keys]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicGraphPane>>characterInput: <aCharacter> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Monday 04/24/06 08:08:05 AM
+
+Runtime error: [dsjump] - label has multiple definitions
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'[dsjump] - label has...'> 
+BasicProgram(Object)>>error: <'[dsjump] - label has...'> 
+BasicProgram>>labelNextFrameWith: <'[dsjump]'> 
+BasicCompiler>>nextTokens
+BasicCompiler>>parseNext
+BasicCompiler class>>compileFromString: <'nomainwin
+loadbmp "...'> notify: <aBasicSourcePane> 
+BasicCompiler class>>compileFromString: <'nomainwin
+loadbmp "...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Monday 04/24/06 08:08:24 AM
+
+Runtime error: "isEmpty" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicProgram>>terminateRun: <aMessageNotUnderstood> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aMessageNotUnderstood> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aMessageNotUnderstood> 
+ExceptionHandler>>findHandler: <aMessageNotUnderstood> 
+MessageNotUnderstood(Exception)>>activateHandler: <anExceptionHandler> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicNextBehavior>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[dsjump2]'> 
+BasicProgram>>handlerName: <'[dsjump2]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[dsjump2]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[dsjump2]'> callParameters: <anOrderedCollection> 
+TimerTopPane>>wmTimer: <8192294> with: <0> 
+NotificationManager>>notify: <aWinMessage> 
+NotificationManager>>notifyRecursive
+NotificationManager>>recursiveMessage
+SystemDictionary>>recursiveMessage
+SystemDictionary>>launch
+NotificationManager>>readWinQueue
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Monday 04/24/06 08:08:37 AM
+
+Runtime error: "isEmpty" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicProgramDebug(BasicProgram)>>terminateRun: <aMessageNotUnderstood> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aMessageNotUnderstood> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aMessageNotUnderstood> 
+ExceptionHandler>>findHandler: <aMessageNotUnderstood> 
+MessageNotUnderstood(Exception)>>activateHandler: <anExceptionHandler> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicNextBehavior>>value
+[] in BasicProgramDebug>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgramDebug>>begin
+BasicProgramDebug>>pauseIfAppropriate
+BasicProgramDebug>>gotoAndIfStoppedBegin: <'[dsjump2]'> 
+BasicProgramDebug(BasicProgram)>>handlerName: <'[dsjump2]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgramDebug(BasicProgram)>>submitHandlerName: <'[dsjump2]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgramDebug(BasicProgram)>>submitHandlerName: <'[dsjump2]'> callParameters: <anOrderedCollection> 
+TimerTopPane>>wmTimer: <4719020> with: <0> 
+NotificationManager>>notify: <aWinMessage> 
+NotificationManager>>notifyRecursive
+NotificationManager>>recursiveMessage
+SystemDictionary>>recursiveMessage
+SystemDictionary>>launch
+NotificationManager>>readWinQueue
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Monday 04/24/06 08:24:02 AM
+
+OS Warning: Invalid menu handle.
+
+Error log timestamp Monday 04/24/06 08:45:27 AM
+
+Runtime error: File D:\TEST\images\grass1.bmp not found.
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TEST\images\...'> 
+BasicProgram(Object)>>error: <'File D:\TEST\images\...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'File D:\TEST\images\...'> 
+BasicProgram(Object)>>error: <'File D:\TEST\images\...'> 
+BasicProgram>>runError: <'File D:\TEST\images\...'> 
+BasicProgram>>bmpFromFile: <'D:\TEST\images\grass...'> 
+BasicProgram>>bmpLoad: <aBasicStringContext> with: <aBasicStringContext> 
+[] in BmpLoadCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'nomainwin
+loadbmp "...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Monday 04/24/06 08:54:43 AM
+
+Runtime error: spritexy spritename x y
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'spritexy spritename ...'> 
+BasicProgram(Object)>>error: <'spritexy spritename ...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'spritexy spritename ...'> 
+BasicProgram(Object)>>error: <'spritexy spritename ...'> 
+BasicProgram>>runError: <'spritexy spritename ...'> 
+BasicGraphicDevice>>writeItem: <'spritexy  -5 0'> 
+BasicGraphicDevice(BasicFile)>>writeItemCr: <'spritexy  -5 0'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#game'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[keys]'> 
+BasicProgram>>handlerName: <'[keys]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[keys]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicGraphPane>>characterInput: <aCharacter> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 04/25/06 10:00:28 AM
+
+Runtime error: "isEmpty" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicProgram>>terminateRun: <aMessageNotUnderstood> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aMessageNotUnderstood> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aMessageNotUnderstood> 
+ExceptionHandler>>findHandler: <aMessageNotUnderstood> 
+MessageNotUnderstood(Exception)>>activateHandler: <anExceptionHandler> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicNextBehavior>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[drawsprites]'> 
+BasicProgram>>handlerName: <'[drawsprites]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+Message>>perform
+Message>>evaluate
+BasicProgram>>processEvent
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 04/25/06 02:04:11 PM
+
+Runtime error: "isEmpty" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicProgram>>terminateRun: <aMessageNotUnderstood> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aMessageNotUnderstood> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aMessageNotUnderstood> 
+ExceptionHandler>>findHandler: <aMessageNotUnderstood> 
+MessageNotUnderstood(Exception)>>activateHandler: <anExceptionHandler> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicNextBehavior>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[dsjump]'> 
+BasicProgram>>handlerName: <'[dsjump]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+Message>>perform
+Message>>evaluate
+BasicProgram>>processEvent
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 04/25/06 05:06:36 PM
+
+Runtime error: "isEmpty" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicProgram>>terminateRun: <aMessageNotUnderstood> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <aMessageNotUnderstood> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <aMessageNotUnderstood> 
+ExceptionHandler>>findHandler: <aMessageNotUnderstood> 
+MessageNotUnderstood(Exception)>>activateHandler: <anExceptionHandler> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+UndefinedObject(Object)>>doesNotUnderstand: <aMessage> 
+BasicNextBehavior>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[drawsprites]'> 
+BasicProgram>>handlerName: <'[drawsprites]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+Message>>perform
+Message>>evaluate
+BasicProgram>>processEvent
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Tuesday 04/25/06 06:01:51 PM
+
+Runtime error: No sprite named: helth
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: hel...'> 
+BasicProgram(Object)>>error: <'No sprite named: hel...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'No sprite named: hel...'> 
+BasicProgram(Object)>>error: <'No sprite named: hel...'> 
+BasicProgram>>runError: <'No sprite named: hel...'> 
+[] in BasicGraphPane>>spriteNamed:
+[] in BasicGraphPane>>spriteNamed:ifAbsent:
+OrderedCollection(Collection)>>detect: <aBlockClosure> ifNone: <aBlockClosure> 
+BasicGraphPane>>spriteNamed: <'helth'> ifAbsent: <aBlockClosure> 
+BasicGraphPane>>spriteNamed: <'helth'> 
+BasicGraphicDevice>>spriteXY: <anOrderedCollection> 
+BasicGraphicDevice>>writeItem: <'spritexy helth 0 0'> 
+BasicGraphicDevice(BasicFile)>>writeItemCr: <'spritexy helth 0 0'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#game'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>run
+[] in BasicSourcePane>>run
+BasicCompiler class>>compileFromString: <'nomainwin
+loadbmp "...'> notify: <aBasicSourcePane> ifSuccess: <aBlockClosure> 
+BasicSourcePane>>run
+BasicSourceWindow>>run
+BasicEditorModel>>run: <aToolbarButton> 
+BasicEditorModel(Object)>>perform: <#run:> with: <aToolbarButton> 
+ToolbarButton>>triggerClickedEvent
+Message>>perform
+NotificationManager>>runPendingEvents
+
+
+Error log timestamp Tuesday 04/25/06 08:37:50 PM
+
+Runtime error: Invalid  handle: #game.win
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid  handle: #ga...'> 
+BasicProgram(Object)>>error: <'Invalid  handle: #ga...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid  handle: #ga...'> 
+BasicProgram(Object)>>error: <'Invalid  handle: #ga...'> 
+BasicProgram>>runError: <'Invalid  handle: #ga...'> 
+[] in PrintCommand>>device:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#game.win'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[dsfall]'> 
+BasicProgram>>handlerName: <'[dsfall]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[dsfall]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[dsfall]'> callParameters: <anOrderedCollection> 
+TimerTopPane>>wmTimer: <3342656> with: <0> 
+NotificationManager>>notify: <aWinMessage> 
+NotificationManager>>notifyRecursive
+NotificationManager>>recursiveMessage
+SystemDictionary>>recursiveMessage
+SystemDictionary>>launch
+NotificationManager>>readWinQueue
+Process class>>osEventInterruptGui
+Process class>>osEventInterrupt
+OrderedCollection(Object)>>vmInterrupt: <#osEventInterrupt> 
+OrderedCollection(Collection)>>isEmpty
+InputEvent>>nullEventWin
+NotificationManager>>runEventLoop
+Message>>perform
+
+
+Error log timestamp Tuesday 04/25/06 08:38:14 PM
+
+Runtime error: Invalid  handle: #game.win
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid  handle: #ga...'> 
+BasicProgram(Object)>>error: <'Invalid  handle: #ga...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid  handle: #ga...'> 
+BasicProgram(Object)>>error: <'Invalid  handle: #ga...'> 
+BasicProgram>>runError: <'Invalid  handle: #ga...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#game.win'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[drawsprites]'> 
+BasicProgram>>handlerName: <'[drawsprites]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[drawsprites]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[drawsprites]'> callParameters: <anOrderedCollection> 
+TimerTopPane>>wmTimer: <5898548> with: <0> 
+NotificationManager>>notify: <aWinMessage> 
+NotificationManager>>notifyRecursive
+NotificationManager>>recursiveMessage
+SystemDictionary>>recursiveMessage
+SystemDictionary>>launch
+NotificationManager>>readWinQueue
+Process class>>osEventInterruptGui
+Process class>>osEventInterrupt
+OrderedCollection(Object)>>vmInterrupt: <#osEventInterrupt> 
+OrderedCollection(Collection)>>isEmpty
+InputEvent>>nullEventWin
+NotificationManager>>runEventLoop
+Message>>perform
+
+
+Error log timestamp Tuesday 04/25/06 08:38:37 PM
+
+Runtime error: Invalid  handle: #game.win
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid  handle: #ga...'> 
+BasicProgram(Object)>>error: <'Invalid  handle: #ga...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid  handle: #ga...'> 
+BasicProgram(Object)>>error: <'Invalid  handle: #ga...'> 
+BasicProgram>>runError: <'Invalid  handle: #ga...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#game.win'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[drawsprites]'> 
+BasicProgram>>handlerName: <'[drawsprites]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[drawsprites]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[drawsprites]'> callParameters: <anOrderedCollection> 
+TimerTopPane>>wmTimer: <4915510> with: <0> 
+NotificationManager>>notify: <aWinMessage> 
+NotificationManager>>notifyRecursive
+NotificationManager>>recursiveMessage
+SystemDictionary>>recursiveMessage
+SystemDictionary>>launch
+NotificationManager>>readWinQueue
+Process class>>osEventInterruptGui
+Process class>>osEventInterrupt
+OrderedCollection(Object)>>vmInterrupt: <#osEventInterrupt> 
+OrderedCollection(Collection)>>isEmpty
+InputEvent>>nullEventWin
+NotificationManager>>runEventLoop
+Message>>perform
+
+
+Error log timestamp Tuesday 04/25/06 08:39:11 PM
+
+Runtime error: Invalid  handle: #game.win
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid  handle: #ga...'> 
+BasicProgram(Object)>>error: <'Invalid  handle: #ga...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid  handle: #ga...'> 
+BasicProgram(Object)>>error: <'Invalid  handle: #ga...'> 
+BasicProgram>>runError: <'Invalid  handle: #ga...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#game.win'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[drawsprites]'> 
+BasicProgram>>handlerName: <'[drawsprites]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[drawsprites]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[drawsprites]'> callParameters: <anOrderedCollection> 
+TimerTopPane>>wmTimer: <5308726> with: <0> 
+NotificationManager>>notify: <aWinMessage> 
+NotificationManager>>notifyRecursive
+NotificationManager>>recursiveMessage
+SystemDictionary>>recursiveMessage
+SystemDictionary>>launch
+NotificationManager>>readWinQueue
+Process class>>osEventInterruptGui
+Process class>>osEventInterrupt
+TextSelection class(Object)>>vmInterrupt: <#osEventInterrupt> 
+TextSelection class>>origin: <aPoint> corner: <aPoint> 
+BasicSourcePane>>setChangedAreaToCurrentLine
+BasicSourcePane>>characterInput: <aCharacter> 
+Message>>perform
+
+
+Error log timestamp Tuesday 04/25/06 08:40:16 PM
+
+Runtime error: Invalid  handle: #game.win
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid  handle: #ga...'> 
+BasicProgram(Object)>>error: <'Invalid  handle: #ga...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid  handle: #ga...'> 
+BasicProgram(Object)>>error: <'Invalid  handle: #ga...'> 
+BasicProgram>>runError: <'Invalid  handle: #ga...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#game.win'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[drawsprites]'> 
+BasicProgram>>handlerName: <'[drawsprites]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[drawsprites]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[drawsprites]'> callParameters: <anOrderedCollection> 
+TimerTopPane>>wmTimer: <8782082> with: <0> 
+NotificationManager>>notify: <aWinMessage> 
+NotificationManager>>notifyRecursive
+NotificationManager>>recursiveMessage
+SystemDictionary>>recursiveMessage
+SystemDictionary>>launch
+NotificationManager>>readWinQueue
+Process class>>osEventInterruptGui
+Process class>>osEventInterrupt
+OrderedCollection(Object)>>vmInterrupt: <#osEventInterrupt> 
+OrderedCollection(Collection)>>isEmpty
+InputEvent>>nullEventWin
+NotificationManager>>runEventLoop
+Message>>perform
+
+
+Error log timestamp Tuesday 04/25/06 08:41:13 PM
+
+Runtime error: Invalid  handle: #game.win
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid  handle: #ga...'> 
+BasicProgram(Object)>>error: <'Invalid  handle: #ga...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Invalid  handle: #ga...'> 
+BasicProgram(Object)>>error: <'Invalid  handle: #ga...'> 
+BasicProgram>>runError: <'Invalid  handle: #ga...'> 
+[] in PrintCommand>>deviceCr:handle:
+BlockClosure>>value: <aBasicProgram> value: <'#game.win'> value: <aBasicStringContext> 
+BasicTripleParameterContextHolder>>value
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[drawsprites]'> 
+BasicProgram>>handlerName: <'[drawsprites]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[drawsprites]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[drawsprites]'> callParameters: <anOrderedCollection> 
+TimerTopPane>>wmTimer: <6488374> with: <0> 
+NotificationManager>>notify: <aWinMessage> 
+NotificationManager>>notifyRecursive
+NotificationManager>>recursiveMessage
+SystemDictionary>>recursiveMessage
+SystemDictionary>>launch
+NotificationManager>>readWinQueue
+Process class>>osEventInterruptGui
+Process class>>osEventInterrupt
+OrderedCollection(Object)>>vmInterrupt: <#osEventInterrupt> 
+OrderedCollection(Collection)>>isEmpty
+InputEvent>>nullEventWin
+NotificationManager>>runEventLoop
+Message>>perform

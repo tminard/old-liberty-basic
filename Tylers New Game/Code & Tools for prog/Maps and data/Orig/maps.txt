@@ -1,0 +1,17 @@
+5
+1
+#1 - Your Home Town
+map1.map
+2
+#2 - Hill-Billy Mixup
+map2.map
+3
+#3 - Oh no! I'm Lost!
+map3.map
+4
+#4 - The Cave - The Door Way
+map4.map
+5
+#5 - Getting into the Cave...
+map5.map
+endr

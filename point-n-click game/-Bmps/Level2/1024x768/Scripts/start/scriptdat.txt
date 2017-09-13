@@ -1,0 +1,3 @@
+runme 10000 0 0 start1.bmp
+runme 10000 0 0 start2.bmp
+EndScript
